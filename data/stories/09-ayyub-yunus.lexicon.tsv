@@ -1,0 +1,102 @@
+# id|pos|root|singular/madi|plural/mudari|masdar|English|Urdu|extra forms
+ay-pattern|noun|ن م ط|نَمَطٌ|أَنْمَاطٌ|-|pattern; kind|طرز؛ قسم|
+ay-jaw|noun|ش د ق|شِدْقٌ|أَشْدَاقٌ|-|side of the mouth; jaw|جبڑے؛ منہ کے کنارے|
+ay-multiples|noun|ض ع ف|ضِعْفٌ|أَضْعَافٌ|-|multiple; fold; double|گنا؛ دوگنا|
+ay-hope|noun|أ م ل|أَمَلٌ|آمَالٌ|-|hope|امید|
+ay-confirmation|noun|ث ب ت|إِثْبَاتٌ|-|-|affirmation; demonstration|ثابت کرنا؛ اثبات|
+ay-trial|noun|ب ل و|ابْتِلَاءٌ|ابْتِلَاءَاتٌ|-|trial; test|آزمائش|
+ay-try|verb|ب ل و|ابْتَلَى|يَبْتَلِي|ابْتِلَاءٌ|to test; put to trial|آزمانا|ابتلي
+ay-companion|noun|ج ل س|جَلِيسٌ|جُلَسَاءُ|-|companion; one sitting with someone|ساتھی؛ ہم نشین|
+ay-ferocious|adjective|ض ر ي|ضَارٍ|ضَوَارٍ|-|ferocious; predatory|درندہ؛ خون خوار|ضاري
+ay-phrase|noun|ع ب ر|عِبَارَةٌ|عِبَارَاتٌ|-|wording; passage|عبارت|
+ay-distress|noun|غ م م|غَمٌّ|غُمُومٌ|-|distress; sorrow|غم؛ پریشانی|
+ay-deadly|adjective|ف ت ك|فَاتِكٌ|فَاتِكُونَ|-|deadly; destructive|جان لیوا|
+ay-unique|adjective|ف ر د|فَرِيدَةٌ|فَرَائِدُ|-|unique; extraordinary|منفرد؛ بے مثال|فريدة
+ay-lot|noun|ق ر ع|قُرْعَةٌ|قُرَعٌ|-|lot; drawing lots|قرعہ؛ قرعہ اندازی|
+ay-calamity|noun|ك ر ب|كُرْبَةٌ|كُرُبَاتٌ|-|calamity; distress|تکلیف؛ مصیبت|
+ay-beloved|adjective|ح ب ب|مَحْبُوبٌ|مَحْبُوبُونَ|-|beloved|محبوب|محبوبين
+ay-loser|noun|د ح ض|مُدْحَضٌ|مُدْحَضُونَ|-|one who loses; whose lot is drawn|ہارنے والا؛ جس کے نام قرعہ نکلے|مدحضين
+ay-answered|adjective|ج و ب|مُسْتَجَابٌ|مُسْتَجَابَاتٌ|-|answered; accepted (prayer)|قبول شدہ|
+ay-opening|noun|ن ف ذ|مَنْفَذٌ|مَنَافِذُ|-|opening; outlet|راستہ؛ نکلنے کی جگہ|
+ay-belly|noun|ب ط ن|بَطْنٌ|بُطُونٌ|-|belly; interior|پیٹ؛ اندرونی حصہ|
+ay-miserable|adjective|ب أ س|بَائِسٌ|بُؤَسَاءُ|-|miserable; distressed|دکھی؛ بے حال|
+ay-scatter|verb|ب د د|بَدَّدَ|يُبَدِّدُ|تَبْدِيدٌ|to disperse; dispel|دور کرنا؛ منتشر کرنا|
+ay-emerge|verb|ب ر ز|بَرَزَ|يَبْرُزُ|بُرُوزٌ|to emerge; appear clearly|نمایاں ہونا؛ ظاہر ہونا|
+ay-turn|verb|د و ر|دَارَ|يَدُورُ|دَوَرَانٌ|to turn; revolve|گھومنا|
+ay-supplicate|verb|ض ر ع|تَضَرَّعَ|يَتَضَرَّعُ|تَضَرُّعٌ|to plead humbly; supplicate|گڑگڑانا|
+ay-grind|verb|ط ح ن|طَحَنَ|يَطْحَنُ|طَحْنٌ|to grind|پیسنا|
+ay-completion|noun|ك م ل|تَكْمِيلٌ|-|-|completion; perfecting|تکمیل|
+ay-complete|verb|ت م م|تَمَّ|يَتِمُّ|تَمَامٌ|to be complete|پورا ہونا|
+ay-crush|verb|ه ش م|هَشَمَ|يَهْشِمُ|هَشْمٌ|to crush; break|توڑنا؛ چکنا چور کرنا|
+ay-three|numeral|ث ل ث|ثَلَاثٌ|-|-|three|تین|
+ay-while|noun|ح ي ن|حِينٌ|أَحْيَانٌ|-|time; while; when|وقت؛ کچھ عرصہ؛ جب|
+ay-spacious|verb|ر ح ب|رَحُبَ|يَرْحُبُ|رَحَابَةٌ|to be spacious|کشادہ ہونا|
+ay-millstone|noun|ر ح ي|رَحًى|أَرْحَاءٌ|-|millstone|چکی|رحى
+ay-wife|noun|ز و ج|زَوْجَةٌ|زَوْجَاتٌ|-|wife|بیوی|
+ay-quick|adjective|س ر ع|سَرِيعٌ|سِرَاعٌ|-|quick; rapid|تیز|سريعة
+ay-other-than|particle|-|سِوَى|-|-|except; other than|سوائے|
+ay-loathe|verb|ع ي ف|عَافَ|يَعَافُ|عِيَافَةٌ|to find distasteful; shun|نفرت کرنا؛ جی اچاٹ ہونا|
+ay-mighty|verb|ع ز ز|عَزَّ|يَعِزُّ|عِزَّةٌ|to be mighty; exalted|غالب ہونا؛ عزت والا ہونا|
+ay-directly|noun|ع ي ن|عِيَانٌ|-|-|direct observation; with one's own eyes|آنکھوں سے دیکھنا؛ عیاں|
+ay-answer|verb|ج و ب|اسْتَجَابَ|يَسْتَجِيبُ|اسْتِجَابَةٌ|to answer; respond|قبول کرنا؛ جواب دینا|استجب استجبنا
+ay-draw-lots|verb|ق ر ع|اقْتَرَعَ|يَقْتَرِعُ|اقْتِرَاعٌ|to draw lots|قرعہ ڈالنا|
+ay-swallow|verb|ل ق م|الْتَقَمَ|يَلْتَقِمُ|الْتِقَامٌ|to swallow|نگلنا|
+ay-tilt|verb|ج ن ح|جَنَحَ|يَجْنَحُ|جُنُوحٌ|to tilt; lean to one side|ایک طرف جھکنا|
+ay-share-lot|verb|س ه م|سَاهَمَ|يُسَاهِمُ|مُسَاهَمَةٌ|to take part in drawing lots|قرعہ اندازی میں شریک ہونا|
+ay-refuse-heap|noun|ك ن س|كُنَاسَةٌ|كُنَاسَاتٌ|-|heap of sweepings; refuse heap|کوڑے کا ڈھیر|
+ay-worshipper|noun|ع ب د|عَابِدٌ|عَابِدُونَ|-|worshipper|عبادت کرنے والا|عابدين
+ay-supporting|adjective|أ ي د|مُؤَيِّدٌ|مُؤَيِّدُونَ|-|supporting; confirming|تائید کرنے والا|مؤيدة
+ay-protected|adjective|ح ف ظ|مَحْفُوظٌ|مَحْفُوظُونَ|-|protected; safe|محفوظ|
+ay-scratched|adjective|خ د ش|مَخْدُوشٌ|مَخْدُوشُونَ|-|scratched; injured|خراش لگا ہوا|
+ay-pleasing|adjective|ر ض ي|مَرْضِيٌّ|مَرْضِيُّونَ|-|pleasing; satisfactory|پسندیدہ|مرضية
+ay-multiplied|adjective|ض ع ف|مُضَاعَفٌ|مُضَاعَفَاتٌ|-|multiplied; increased manyfold|کئی گنا بڑھا ہوا|مضاعفة
+ay-anxious|adjective|ض ر ب|مُضْطَرِبٌ|مُضْطَرِبُونَ|-|anxious; troubled|پریشان؛ مضطرب|
+ay-angry|adjective|غ ض ب|مُغَاضِبٌ|مُغَاضِبُونَ|-|angry; leaving in anger|ناراض؛ غصے میں جانے والا|
+ay-linked|adjective|ق ر ن|مَقْرُونٌ|مَقْرُونَاتٌ|-|linked; paired|ساتھ ملا ہوا|مقرونة
+ay-cast|adjective|ل ق ي|مُلْقًى|مُلْقَوْنَ|-|cast down; lying neglected|پڑا ہوا؛ ڈال دیا گیا|
+ay-afflicted|adjective|ل ه ف|مَلْهُوفٌ|مَلْهُوفُونَ|-|distressed; afflicted|مصیبت زدہ|
+ay-diminished|adjective|ن ق ص|مَنْقُوصٌ|مَنْقُوصُونَ|-|diminished; incomplete|کم کیا ہوا؛ نامکمل|
+ay-soft|adjective|ن ع م|نَاعِمٌ|نَاعِمُونَ|-|soft; fine|نرم؛ باریک|ناعمة
+ay-nineveh|properNoun|-|نِينَوَى|-|-|Nineveh|نینویٰ|
+ay-livestock|noun|ن ع م|نَعَمٌ|أَنْعَامٌ|-|livestock; grazing animals|مویشی|
+ay-relief|noun|غ و ث|إِغَاثَةٌ|-|-|relief; coming to someone's aid|مدد؛ امداد|
+ay-contentment|noun|ر ض و|رِضًا|-|-|contentment; acceptance|رضا مندی|رضا
+ay-misery|noun|ب أ س|بُؤْسٌ|-|-|misery; hardship|دکھ؛ تکلیف|
+ay-strip|verb|ج ر د|تَجَرَّدَ|يَتَجَرَّدُ|تَجَرُّدٌ|to strip; divest oneself|لباس اتارنا|
+ay-call-down|verb|ن ز ل|اسْتَنْزَلَ|يَسْتَنْزِلُ|اسْتِنْزَالٌ|to call down; bring down|اتارنا؛ نازل کرانا|
+ay-persist|verb|م د ي|تَمَادَى|يَتَمَادَى|تَمَادٍ|to persist; continue obstinately|بڑھتے چلے جانا|تمادوا
+ay-bleat|verb|ث غ و|ثَغَا|يَثْغُو|ثُغَاءٌ|to bleat (sheep or goats)|ممیانا|ثغت
+ay-cry-out|verb|ج أ ر|جَأَرَ|يَجْأَرُ|جُؤَارٌ|to cry out; implore aloud|بلند آواز سے فریاد کرنا|
+ay-low|verb|خ و ر|خَارَ|يَخُورُ|خُوَارٌ|to low; moo (cattle)|ڈکرانا|
+ay-grunt|verb|ر غ و|رَغَا|يَرْغُو|رُغَاءٌ|to grunt; call (camels)|بلبلانا؛ اونٹ کی آواز نکالنا|رغت
+ay-heal|verb|ع ف و|عَافَى|يُعَافِي|مُعَافَاةٌ|to heal; restore to health|شفا دینا؛ عافیت دینا|عافا
+ay-colt|noun|ف ص ل|فَصِيلٌ|فُصْلَانٌ|-|young camel; camel calf|اونٹ کا بچہ|
+ay-enjoy|verb|م ت ع|مَتَّعَ|يُمَتِّعُ|تَمْتِيعٌ|to grant enjoyment; let benefit|فائدہ پہنچانا؛ لطف دینا|متعنا
+ay-blessing|noun|م ن ح|مِنْحَةٌ|مِنَحٌ|-|gift; blessing|عطیہ؛ بخشش|
+ay-herds|noun|م ش ي|مَاشِيَةٌ|مَوَاشٍ|-|herd animal; livestock|مویشی|مواشي
+ay-despairing|adjective|ي أ س|يَائِسٌ|يَائِسُونَ|-|despairing; hopeless|مایوس|
+ay-cover|verb|غ ش ي|غَشِيَ|يَغْشَى|غَشَيَانٌ|to cover; overwhelm|چھا جانا|
+ay-lighten|verb|خ ف ف|تَخَفَّفَ|يَتَخَفَّفُ|تَخَفُّفٌ|to lighten a load|بوجھ ہلکا کرنا|
+ay-complain|verb|ذ م ر|تَذَمَّرَ|يَتَذَمَّرُ|تَذَمُّرٌ|to grumble; complain|شکوہ کرنا|
+ay-repeat|verb|ل ه ج|لَهِجَ|يَلْهَجُ|لَهَجٌ|to repeat constantly; be devoted to uttering|بار بار ذکر کرنا|
+ay-exalted|verb|ج ل ل|جَلَّ|يَجِلُّ|جَلَالٌ|to be exalted; majestic|بزرگ و عظیم ہونا|
+ay-isolate|verb|ف ر د|أَفْرَدَ|يُفْرِدُ|إِفْرَادٌ|to isolate; set apart|الگ کرنا|
+ay-block|verb|س د د|سَدَّ|يَسُدُّ|سَدٌّ|to close; block|بند کرنا|
+ay-raising|noun|ر ف ع|رَفْعٌ|-|-|raising; elevation|بلند کرنا|
+ay-kathir|properNoun|-|كَثِيرٌ|-|-|Kathir (in the name Ibn Kathir)|کثیر؛ ابن کثیر کے نام کا حصہ|
+ay-fish|noun|ن و ن|نُونٌ|نِينَانٌ|-|fish; the fish in Yunus's title Dhun-Nun|مچھلی|
+ay-restrict|verb|ق د ر|قَدَرَ|يَقْدِرُ|قَدْرٌ|to constrain; restrict|تنگی کرنا؛ پابندی لگانا|
+ay-rescue|verb|ن ج و|نَجَّى|يُنَجِّي|تَنْجِيَةٌ|to rescue; save|نجات دینا|نجينا
+ay-ma-exclamation|particle|-|مَا|-|-|how ...! (exclamation)|کیا ہی ...!؛ تعجب|
+ay-lion|noun|أ س د|أَسَدٌ|أُسُودٌ|-|lion|شیر|
+ay-back|noun|ظ ه ر|ظَهْرٌ|أَظْهُرٌ، ظُهُورٌ|-|back; midst (من بين أظهرهم)|پیٹھ؛ ان کے درمیان|أظهر
+ay-benefit|verb|ن ف ع|نَفَعَ|يَنْفَعُ|نَفْعٌ|to benefit|فائدہ دینا|
+ay-blessed|verb|ب ر ك|تَبَارَكَ|يَتَبَارَكُ|تَبَارُكٌ|to be exalted and blessed|بابرکت اور بلند شان ہونا|
+ay-lamb|noun|س خ ل|سَخْلَةٌ|سِخَالٌ|-|lamb; kid; young sheep or goat|بھیڑ یا بکری کا بچہ|
+ay-solace|noun|س ل و|سَلْوَى|-|-|solace; consolation|تسلی؛ دلاسا|
+ay-sound|adjective|س ل م|سَلِيمٌ|سُلَمَاءُ|-|sound; unharmed; healthy|صحیح سالم؛ سلامت|
+ay-dark|adjective|ح ل ك|حَالِكٌ|حَوَالِكُ|-|pitch-dark; intensely dark|گہرا اندھیرا|
+ay-if-only|particle|-|لَوْلَا|-|-|why was there not ...?; if only ...!|کیوں نہیں ...؟؛ کاش ...!|
+ay-last|adjective|أ خ ر|آخِرٌ|-|-|last; final; all of it (عن آخره)|آخری؛ تمام کا تمام|
+ay-affection|verb|ح ن و|حَنَا|يَحْنُو|حُنُوٌّ|to show tenderness; care for|شفقت کرنا؛ مہربانی کرنا|
+ay-rescue-iv|verb|ن ج و|أَنْجَى|يُنْجِي|إِنْجَاءٌ|to rescue; save|نجات دینا|ننجي

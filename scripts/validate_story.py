@@ -190,6 +190,26 @@ def check(item):
         assert next(t for t in tokens if t['vocalized']=='لَهُوَ')['parts'][0]['vocabularyId']=='emphasis'
         assert next(t for t in tokens if t['vocalized']=='أَتُمِدُّونَنِ')['parts'][-1]['vocabularyId']=='me'
         assert any(t['vocabularyId']=='negation-ma' for t in story['sections'][14]['lines'][1]['tokens'])
+    elif story['id'] == '09-ayyub-yunus':
+        assert len(story['sections']) == 7 and len(lines) == 21
+        assert story['source']['pdfPages'] == 6
+        assert [s['sourceSectionNumber'] for s in story['sections']] == list(range(16,23))
+        assert [(r['surah'],r['ayah']) for l in lines for r in l['references']]==[(21,83),(21,84),(10,98),(37,141),(21,87),(21,88)]
+        expected={'أَيُّوبَ':'ds-ayyub','يُونُسَ':'ds-yunus','عَافَهُ':'ay-loathe',
+                  'وَعَافَاهُ':'ay-heal','مَالَهُ':'wealth','سَلْوَى':'ay-solace',
+                  'سَلِيمًا':'ay-sound','الْحَالِكُ':'ay-dark','الْأَسَدِ':'ay-lion',
+                  'وَسِخَالُهَا':'ay-lamb','فَلَا':'not','أَنِّي':'anna',
+                  'أَظْهُرِهِمْ':'ay-back','النُّونِ':'ay-fish',
+                  'وَنَجَّيْنَاهُ':'ay-rescue','نُنْجِي':'ay-rescue-iv','نَقْدِرَ':'ay-restrict'}
+        for word in ('فَابْتُلِيَ','ابْتُلِيَ','وَأُفْرِدَ','وَتُسَدُّ'):
+            matching=[t for t in tokens if t['vocalized']==word]
+            assert matching and all(t['usage']['en'].endswith('; passive') and MARKS.search(t['text']) for t in matching),word
+        footnotes=[l for l in lines if 'الْعِبَارَةُ لِابْنِ كَثِيرٍ' in l['vocalized']]
+        assert len(footnotes)==2 and [l['sourcePages'] for l in footnotes]==[[2],[5]]
+        assert all(next(t for t in l['tokens'] if t['vocalized']=='كَثِيرٍ')['vocabularyId']=='ay-kathir' for l in footnotes)
+        exclamations=[t for l in story['sections'][6]['lines'] for t in l['tokens'] if t['vocalized'] in ('فَمَا','وَمَا')]
+        assert len(exclamations)==2 and all(t['vocabularyId']=='ay-ma-exclamation' for t in exclamations)
+        assert next(t for t in story['sections'][3]['titleTokens'] if t['vocalized']=='وَحِكْمَتُهَا')['vocabularyId']=='wisdom'
     for word, lexeme in expected.items():
         matching = [t for t in tokens if t['vocalized'] == word]
         assert matching and all(t['vocabularyId'] == lexeme for t in matching), word

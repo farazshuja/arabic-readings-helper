@@ -160,6 +160,26 @@
         "vocabularyEntries": 604
       },
       "file": "stories/08-dawood-sulaiman.json"
+    },
+    {
+      "id": "09-ayyub-yunus",
+      "number": 9,
+      "title": "أيّوب ويونس",
+      "titleVocalized": "أَيُّوبُ وَيُونُسُ",
+      "subtitle": "قصّة سيّدنا أيّوب وسيّدنا يونس",
+      "titleEnglish": "Ayyub and Yunus",
+      "titleUrdu": "حضرت ایوب اور یونس",
+      "description": {
+        "en": "Read about Ayyub’s patience and Yunus’s prayer, in seven chapters.",
+        "ur": "حضرت ایوب کے صبر اور حضرت یونس کی دعا کا قصہ؛ سات ابواب۔"
+      },
+      "counts": {
+        "sections": 7,
+        "lines": 21,
+        "wordOccurrences": 581,
+        "vocabularyEntries": 319
+      },
+      "file": "stories/09-ayyub-yunus.json"
     }
   ]
 }
