@@ -1,0 +1,417 @@
+# Story 2 additions and sense-specific overrides; same nine pipe-separated fields as Story 1.
+binyamin|properNoun|-|بِنْيَامِينُ|-||Binyamin (Benjamin)|بنیامین|
+egypt|properNoun|-|مِصْرُ|-||Egypt|مصر|
+canaan|properNoun|-|كَنْعَانُ|-||Canaan|کنعان|
+adam|properNoun|-|آدَمُ|-||Adam|آدم|
+clever|adjective|ذ ك و|ذَكِيٌّ|أَذْكِيَاءُ||intelligent; clever|ذہین؛ ہوشیار|ذكيا
+beautiful|adjective|ج م ل|جَمِيلٌ|جُمَلَاءُ||beautiful; good|خوب صورت؛ اچھا|جميلا
+boy|noun|غ ل م|غُلَامٌ|غِلْمَانٌ، غِلْمَةٌ||boy; young lad|لڑکا|غلاما
+all-n|noun|ج م ع|جَمِيعٌ|-||all; everyone; altogether|سب؛ تمام|جميعا
+affair|noun|ش أ ن|شَأْنٌ|شُؤُونٌ||affair; standing; importance|معاملہ؛ مرتبہ|
+glad-tidings|noun|ب ش ر|بِشَارَةٌ|بَشَائِرُ||glad tidings|خوش خبری|
+knowledge|noun|ع ل م|عِلْمٌ|عُلُومٌ||knowledge|علم|
+prophethood|noun|ن ب أ|نُبُوَّةٌ|-||prophethood|نبوت|
+grandfather|noun|ج د د|جَدٌّ|أَجْدَادٌ، جُدُودٌ||grandfather|دادا؛ نانا|
+family|noun|أ و ل|آلٌ|-||family; household (collective)|خاندان؛ گھر والے|
+elder|noun|ش ي خ|شَيْخٌ|شُيُوخٌ||old man; elder|بوڑھا؛ بزرگ|شيخا
+disposition|noun|ط ب ع|طَبِيعَةٌ|طَبَائِعُ||nature; disposition|فطرت؛ طبیعت|
+jealousy|noun|ح س د|حَسَدٌ|-||envy; jealousy|حسد|
+love-n|noun|ح ب ب|حُبٌّ|-||love|محبت|حبا
+severe|adjective|ش د د|شَدِيدٌ|أَشِدَّاءُ||intense; severe|شدید|شديدا
+like-n|noun|م ث ل|مِثْلٌ|أَمْثَالٌ||like; equivalent; likeness|مثل؛ جیسا|
+young-man|noun|ش ب ب|شَابٌّ|شُبَّانٌ، شَبَابٌ||young man|نوجوان|
+command-n|noun|أ م ر|أَمْرٌ|أُمُورٌ، أَوَامِرُ||matter; command|معاملہ؛ حکم|
+distant|adjective|ب ع د|بَعِيدٌ|بَعِيدُونَ||far; distant|دور|بعيدا بعيدة
+exclusive|adjective|خ ل ص|خَالِصٌ|خَالِصُونَ||exclusive; undivided; pure|خالص؛ صرف تمہارے لیے|خالصا
+road|noun|ط ر ق|طَرِيقٌ|طُرُقٌ||road; way|راستہ|
+some|pronoun|ب ع ض|بَعْضٌ|-||some; a portion of|کچھ؛ بعض|
+traveller|noun|س ف ر|مُسَافِرٌ|مُسَافِرُونَ||traveller|مسافر|مسافرين
+delegation|noun|و ف د|وَفْدٌ|وُفُودٌ||delegation|وفد|
+opinion|noun|ر أ ي|رَأْيٌ|آرَاءٌ||opinion; plan|رائے؛ تجویز|
+wise-minded|adjective|ع ق ل|عَاقِلٌ|عُقَلَاءُ||sensible; wise|عقل مند|عاقلا
+evil|noun|ش ر ر|شَرٌّ|شُرُورٌ||evil|برائی|
+dear|adjective|ع ز ز|عَزِيزٌ|أَعِزَّاءُ||dear; the Aziz, a high official of Egypt here|عزیز؛ اس قصے میں مصر کے بڑے عہدے دار کا لقب|
+always|adverb|د و م|دَائِمًا|-||always|ہمیشہ|
+tomorrow|adverb|غ د و|غَدًا|-||tomorrow|کل؛ آنے والا دن|
+guardian|noun|ح ف ظ|حَافِظٌ|حَافِظُونَ||guardian; protector|محافظ|حافظين حافظا
+wolf|noun|ذ أ ب|ذِئْبٌ|ذِئَابٌ||wolf|بھیڑیا|
+heedless|adjective|غ ف ل|غَافِلٌ|غَافِلُونَ||heedless; inattentive|غافل|
+present|adjective|ح ض ر|حَاضِرٌ|حَاضِرُونَ||present; there|موجود|
+never|adverb|أ ب د|أَبَدًا|-||never; ever (depending on negation)|ہرگز؛ کبھی|أبدا
+forest|noun|غ ي ب|غَابَةٌ|غَابَاتٌ||forest|جنگل|
+heart|noun|ق ل ب|قَلْبٌ|قُلُوبٌ||heart|دل|
+deep|adjective|ع م ق|عَمِيقٌ|عَمِيقُونَ||deep|گہرا|عميقة
+dark|adjective|ظ ل م|مُظْلِمٌ|مُظْلِمُونَ||dark|تاریک|مظلمة مظلما
+alone|adjective|و ح د|وَحِيدٌ|وَحِيدُونَ||alone; solitary|اکیلا|وحيدا
+sign|noun|أ ي ي|آيَةٌ|آيَاتٌ||sign; evidence|نشانی؛ ثبوت|
+blood|noun|د م ي|دَمٌ|دِمَاءٌ||blood|خون|
+shirt|noun|ق م ص|قَمِيصٌ|قُمُصٌ، قُمْصَانٌ||shirt|قمیص|
+now|adverb|-|الْآنَ|-||now|اب|
+evening|noun|ع ش و|عِشَاءٌ|-||evening; nightfall|شام؛ رات کا وقت|عشاء
+belongings|noun|م ت ع|مَتَاعٌ|أَمْتِعَةٌ||belongings; provisions|سامان|
+falsehood|noun|ك ذ ب|كَذِبٌ|-||lie; falsehood; false in بدم كذب|جھوٹ؛ جھوٹا|
+wiser|adjective|ع ق ل|أَعْقَلُ|-||more sensible; wiser|زیادہ عقل مند|
+dyed|adjective|ص ب غ|مَصْبُوغٌ|مَصْبُوغُونَ||dyed; stained|رنگا ہوا|
+fabricated|adjective|و ض ع|مَوْضُوعٌ|مَوْضُوعُونَ||fabricated; invented|گھڑا ہوا|موضوعة
+patience|noun|ص ب ر|صَبْرٌ|-||patience|صبر|صبرا
+grief|noun|ح ز ن|حُزْنٌ|أَحْزَانٌ||sorrow; grief|غم|حزنا
+bed|noun|ف ر ش|فِرَاشٌ|فُرُشٌ||bed; bedding|بستر|
+desolate|adjective|و ح ش|مُوحِشٌ|مُوحِشُونَ||desolate; frightening|وحشت ناک؛ سنسان|موحشة
+palace|noun|ق ص ر|قَصْرٌ|قُصُورٌ||palace|محل|
+group|noun|ج م ع|جَمَاعَةٌ|جَمَاعَاتٌ||group|جماعت؛ گروہ|
+bucket|noun|د ل و|دَلْوٌ|دِلَاءٌ||bucket|ڈول|
+heavy|adjective|ث ق ل|ثَقِيلٌ|ثِقَالٌ||heavy|بھاری|ثقيلة
+joy-news|noun|ب ش ر|بُشْرَى|-||good news; joyful tidings|خوش خبری|
+market|noun|س و ق|سُوقٌ|أَسْوَاقٌ||market|بازار|
+dirham|noun|د ر ه م|دِرْهَمٌ|دَرَاهِمُ||dirham; silver coin|درہم؛ چاندی کا سکہ|
+counted|adjective|ع د د|مَعْدُودٌ|مَعْدُودُونَ||counted; few|گنے چنے؛ تھوڑے|معدودة
+merchant|noun|ت ج ر|تَاجِرٌ|تُجَّارٌ||merchant|تاجر|
+woman|noun|م ر أ|امْرَأَةٌ|نِسَاءٌ||woman; wife|عورت؛ بیوی|امرأة مرأة مرأ
+loyalty|noun|و ف ي|وَفَاءٌ|-||loyalty; fidelity|وفاداری|
+trustworthiness|noun|أ م ن|أَمَانَةٌ|أَمَانَاتٌ||trustworthiness; trust|امانت داری؛ امانت|
+betrayal|noun|خ و ن|خِيَانَةٌ|خِيَانَاتٌ||betrayal; breach of trust|خیانت|
+liar|noun|ك ذ ب|كَاذِبٌ|كَاذِبُونَ||liar; untruthful|جھوٹا|كاذبة كاذبين
+trustworthy|adjective|أ م ن|أَمِينٌ|أُمَنَاءُ||trustworthy; custodian|امانت دار|أمينا
+wrongdoer|noun|خ ط أ|خَاطِئٌ|خَاطِئُونَ||one who does wrong; sinner|خطا کار|خاطئين
+beauty|noun|ج م ل|جَمَالٌ|-||beauty|حسن؛ خوب صورتی|
+angel|noun|م ل ك|مَلَكٌ|مَلَائِكَةٌ||angel|فرشتہ|
+generous|adjective|ك ر م|كَرِيمٌ|كُرَمَاءُ||generous; noble|سخی؛ شریف|كريما
+anger-n|noun|غ ض ب|غَضَبٌ|-||anger|غصہ|
+prison|noun|س ج ن|سِجْنٌ|سُجُونٌ||prison|قید خانہ؛ جیل|
+dearer|adjective|ح ب ب|أَحَبُّ|-||dearer; preferable|زیادہ محبوب؛ زیادہ پسندیدہ|
+innocent|adjective|ب ر أ|بَرِيءٌ|أَبْرِيَاءُ||innocent; free of blame|بے قصور|بريئا
+lesson|noun|و ع ظ|مَوْعِظَةٌ|مَوَاعِظُ||admonition; moral lesson|نصیحت|
+inhabitants|noun|أ ه ل|أَهْلٌ|أَهْلُونَ||people; household; inhabitants|اہل؛ گھر والے؛ رہنے والے|
+great|adjective|ع ظ م|عَظِيمٌ|عِظَامٌ||great; immense|عظیم؛ بہت بڑا|عظيما
+chest|noun|ص د ر|صَدْرٌ|صُدُورٌ||chest; breast|سینہ|
+merciful|adjective|ر ح م|رَحِيمٌ|رُحَمَاءُ||merciful; compassionate|رحم کرنے والا|
+wine|noun|خ م ر|خَمْرٌ|خُمُورٌ||wine|شراب|خمرا
+head|noun|ر أ س|رَأْسٌ|رُؤُوسٌ||head|سر|
+above|adverb|ف و ق|فَوْقَ|-||above; on top of|اوپر|
+bread|noun|خ ب ز|خُبْزٌ|-||bread|روٹی|خبزا
+bird|noun|ط ي ر|طَائِرٌ|طَيْرٌ، طُيُورٌ||bird; birds collectively|پرندہ؛ پرندے|
+interpretation|noun|أ و ل|تَأْوِيلٌ|تَأْوِيلَاتٌ||interpretation; explanation|تعبیر؛ تشریح|
+scholar|noun|ع ل م|عَالِمٌ|عُلَمَاءُ||learned person; knowledgeable|عالم؛ جاننے والا|عالما
+time|noun|ز م ن|زَمَانٌ|أَزْمِنَةٌ||time; era|زمانہ|زمن
+other-than|noun|غ ي ر|غَيْرٌ|-||other than; without|غیر؛ کے علاوہ|
+land|noun|ب ر ر|بَرٌّ|-||land (as opposed to sea)|خشکی|
+sea|noun|ب ح ر|بَحْرٌ|بِحَارٌ، أَبْحُرٌ||sea|سمندر|
+provision|noun|ر ز ق|رِزْقٌ|أَرْزَاقٌ||sustenance; provision|رزق|
+rain|noun|م ط ر|مَطَرٌ|أَمْطَارٌ||rain|بارش|
+mercy|noun|ر ح م|رَحْمَةٌ|رَحَمَاتٌ||mercy|رحمت|
+servant|noun|ع ب د|عَبْدٌ|عِبَادٌ، عَبِيدٌ||servant; worshipper of Allah|بندہ|
+free|adjective|ح ر ر|حُرٌّ|أَحْرَارٌ||free|آزاد|حرا
+bold|adjective|ج ر أ|جَرِيءٌ|جُرَآءُ||brave; bold|دلیر|جريئا
+poor|adjective|ف ق ر|فَقِيرٌ|فُقَرَاءُ||poor|غریب|فقيرا
+liberal|adjective|ج و د|جَوَادٌ|أَجْوَادٌ||generous; open-handed|سخی|جوادا
+openhanded|adjective|س خ و|سَخِيٌّ|أَسْخِيَاءُ||generous; liberal|سخی؛ فیاض|سخيا
+truth|noun|ح ق ق|حَقٌّ|حُقُوقٌ||truth; right; due share|حق؛ سچ|حقا
+place|noun|ك و ن|مَكَانٌ|أَمْكِنَةٌ||place|جگہ|
+good|noun|خ ي ر|خَيْرٌ|خَيْرَاتٌ||good; better; best|بھلائی؛ بہتر؛ سب سے اچھا|
+wisdom|noun|ح ك م|حِكْمَةٌ|حِكَمٌ||wisdom|حکمت|
+need|noun|ح و ج|حَاجَةٌ|حَاجَاتٌ||need|ضرورت|
+owner|noun|ص ح ب|صَاحِبٌ|أَصْحَابٌ||owner; person with; possessor|مالک؛ کسی چیز یا ضرورت والا|
+opportunity|noun|ف ر ص|فُرْصَةٌ|فُرَصٌ||opportunity|موقع|
+oneness|noun|و ح د|تَوْحِيدٌ|-||Allah's oneness; monotheism|توحید|
+associating|noun|ش ر ك|شِرْكٌ|-||associating partners with Allah|شرک|
+religion|noun|م ل ل|مِلَّةٌ|مِلَلٌ||religion; creed|ملت؛ دین|
+only|adverb|-|فَقَطْ|-||only|صرف|
+bounty|noun|ف ض ل|فَضْلٌ|-||bounty; favour; generosity|فضل؛ مہربانی|
+different|adjective|ف ر ق|مُتَفَرِّقٌ|مُتَفَرِّقُونَ||separate; various|الگ الگ|متفرقة
+one-only|adjective|و ح د|وَاحِدٌ|-||one; the One (Allah)|ایک؛ واحد|
+subduer|adjective|ق ه ر|قَهَّارٌ|-||the All-Subduing (Allah)|سب پر غالب|
+share|noun|ش ر ك|شِرْكٌ|أَشْرَاكٌ||share; partnership|حصہ؛ شراکت|
+sky|noun|س م و|سَمَاءٌ|سَمَاوَاتٌ||sky; heaven|آسمان|
+creation|noun|خ ل ق|خَلْقٌ|-||creation; creatures|تخلیق؛ مخلوق|
+judgement|noun|ح ك م|حُكْمٌ|أَحْكَامٌ||judgement; rule; authority|حکم؛ فیصلہ؛ اقتدار|
+sovereignty|noun|م ل ك|مُلْكٌ|-||sovereignty; dominion; kingship|سلطنت؛ بادشاہت|
+faith|noun|د ي ن|دِينٌ|أَدْيَانٌ||religion; faith|دین|
+upright|adjective|ق و م|قَيِّمٌ|قَيِّمُونَ||upright; sound|سیدھا؛ درست|
+first|adjective|أ و ل|أَوَّلٌ|أَوَائِلُ||first|پہلا|
+cupbearer|noun|س ق ي|سَاقٍ|سُقَاةٌ||cupbearer; one who serves drinks|ساقی؛ پلانے والا|ساقي ساقيا
+year|noun|س ن و|سَنَةٌ|سِنُونَ، سَنَوَاتٌ||year|سال|سنين
+seven|numeral|س ب ع|سَبْعٌ|-||seven|سات|
+cow|noun|ب ق ر|بَقَرَةٌ|بَقَرَاتٌ||cow|گائے|
+fat|adjective|س م ن|سَمِينٌ|سِمَانٌ||fat; well-fed|موٹا|
+lean|adjective|ع ج ف|عَجْفَاءُ|عِجَافٌ||lean; emaciated (feminine; masculine أَعْجَفُ)|دبلی؛ لاغر|
+grain-ear|noun|س ن ب ل|سُنْبُلَةٌ|سُنْبُلَاتٌ، سُنْبُلٌ||ear of grain|اناج کی بالی|
+green|adjective|خ ض ر|أَخْضَرُ|خُضْرٌ||green|سبز|
+dry|adjective|ي ب س|يَابِسٌ|يَابِسُونَ||dry|خشک|يابسات
+companion|noun|ج ل س|جَلِيسٌ|جُلَسَاءُ||companion; courtier|ہم نشین؛ درباری|
+sleeper|noun|ن و م|نَائِمٌ|نَائِمُونَ||sleeper; sleeping person|سونے والا|
+reality|noun|ح ق ق|حَقِيقَةٌ|حَقَائِقُ||reality; truth|حقیقت|
+compassionate|adjective|ش ف ق|مُشْفِقٌ|مُشْفِقُونَ||compassionate; concerned|شفقت کرنے والا|مشفقا
+miserliness|noun|ب خ ل|بُخْلٌ|-||miserliness|بخل|
+planning|noun|د ب ر|تَدْبِيرٌ|تَدَابِيرُ||planning; management|تدبیر|
+little|adjective|ق ل ل|قَلِيلٌ|قَلِيلُونَ||little; few|تھوڑا|قليلا قليلة
+drought|noun|ق ح ط|قَحْطٌ|-||drought; famine|قحط|
+general|adjective|ع م م|عَامٌّ|عَامُّونَ||general; widespread|عام|
+help-n|noun|ن ص ر|نَصْرٌ|-||help; relief|مدد؛ نجات|
+truthful-intense|adjective|ص د ق|صِدِّيقٌ|صِدِّيقُونَ||very truthful; man of truth|نہایت سچا|
+meeting|noun|ل ق ي|لِقَاءٌ|لِقَاءَاتٌ||meeting|ملاقات|
+messenger|noun|ر س ل|رَسُولٌ|رُسُلٌ||messenger|پیغام لانے والا؛ رسول|
+inspection|noun|ف ت ش|تَفْتِيشٌ|-||inspection; investigation|تحقیق؛ چھان بین|
+search-n|noun|ب ح ث|بَحْثٌ|بُحُوثٌ||search; inquiry|تلاش؛ تحقیق|
+yesterday|adverb|-|أَمْسِ|-||yesterday|گزشتہ کل؛ کل|
+proud|adjective|أ ب ي|أَبِيٌّ|أُبَاةٌ||self-respecting; refusing humiliation|خود دار|أبيا
+intellect|noun|ع ق ل|عَقْلٌ|عُقُولٌ||intellect; mind|عقل|
+door|noun|ب و ب|بَابٌ|أَبْوَابٌ||door; gate|دروازہ|
+case|noun|ق ض ي|قَضِيَّةٌ|قَضَايَا||case; matter|قضیہ؛ معاملہ|
+storehouse|noun|خ ز ن|خِزَانَةٌ|خَزَائِنُ||storehouse; treasury|خزانہ؛ گودام|
+wealth|noun|م و ل|مَالٌ|أَمْوَالٌ||wealth; money|مال؛ رقم|
+wasted|adjective|ض ي ع|ضَائِعٌ|ضَائِعُونَ||wasted; neglected|ضائع؛ بے توجہی کا شکار|ضائعة
+prince|noun|أ م ر|أَمِيرٌ|أُمَرَاءُ||prince; ruler|امیر؛ حکم ران|
+dog|noun|ك ل ب|كَلْبٌ|كِلَابٌ||dog|کتا|
+preserver|adjective|ح ف ظ|حَفِيظٌ|حُفَظَاءُ||careful custodian; trustworthy guardian|حفاظت کرنے والا؛ امانت دار|حفيظا
+knowing|adjective|ع ل م|عَلِيمٌ|عُلَمَاءُ||knowledgeable; All-Knowing when used of Allah|جاننے والا؛ اللہ کے لیے سب کچھ جاننے والا|عليما
+famine|noun|ج و ع|مَجَاعَةٌ|مَجَاعَاتٌ||famine|بھوک؛ قحط|
+denier|noun|ن ك ر|مُنْكِرٌ|مُنْكِرُونَ||one who does not recognize; unaware here|نہ پہچاننے والا|منكرين
+killing-n|noun|ق ت ل|قَتْلٌ|-||killing|قتل|
+second|adjective|ث ن ي|ثَانٍ|ثَانُونَ||second|دوسرا|ثانية
+news|noun|خ ب ر|خَبَرٌ|أَخْبَارٌ||news; report|خبر|
+more-merciful|adjective|ر ح م|أَرْحَمُ|-||more merciful; most merciful|زیادہ رحم کرنے والا|
+merciful-doer|noun|ر ح م|رَاحِمٌ|رَاحِمُونَ||one who shows mercy|رحم کرنے والا|راحمين
+price|noun|ث م ن|ثَمَنٌ|أَثْمَانٌ||price|قیمت|ثمنا
+trustee|noun|و ك ل|وَكِيلٌ|وُكَلَاءُ||trustee; witness and guarantor here|کارساز؛ گواہ اور ذمہ دار|
+childhood|noun|ص غ ر|صِغَرٌ|-||childhood; young age|بچپن|
+long|adjective|ط و ل|طَوِيلٌ|طِوَالٌ||long|لمبا|طويلا
+way|noun|س ب ل|سَبِيلٌ|سُبُلٌ||way; means|راستہ؛ طریقہ|
+returning|noun|ر ج ع|رَاجِعٌ|رَاجِعُونَ||one who is returning|واپس جانے والا|
+reason|noun|س ب ب|سَبَبٌ|أَسْبَابٌ||reason; cause|سبب؛ وجہ|
+canaanite|noun|-|كَنْعَانِيٌّ|كَنْعَانِيُّونَ||Canaanite; man from Canaan|کنعان کا باشندہ|كنعانيا
+injustice|noun|ظ ل م|ظُلْمٌ|-||injustice|ظلم|
+vessel|noun|أ ن ي|إِنَاءٌ|آنِيَةٌ||vessel; container|برتن|
+valuable|adjective|ث م ن|ثَمِينٌ|ثِمَانٌ||valuable; precious|قیمتی|
+announcer|noun|أ ذ ن|مُؤَذِّنٌ|مُؤَذِّنُونَ||announcer; herald here|اعلان کرنے والا|
+thief|noun|س ر ق|سَارِقٌ|سَارِقُونَ||thief|چور|سارقين
+measuring-cup|noun|ص و ع|صُوَاعٌ|أَصْوَاعٌ||measuring cup; royal drinking vessel here|پیمانہ؛ بادشاہ کا پیالہ|
+load|noun|ح م ل|حِمْلٌ|أَحْمَالٌ||load; burden|بوجھ|
+camel|noun|ب ع ر|بَعِيرٌ|أَبْعِرَةٌ، بُعْرَانٌ||camel|اونٹ|
+baggage|noun|ر ح ل|رَحْلٌ|رِحَالٌ||baggage; saddlebag|سامان؛ کجاوہ|
+shame|noun|خ ج ل|خَجَلٌ|-||shame|شرمندگی|
+slander|noun|ب ه ت|بُهْتَانٌ|-||slander; false accusation|بہتان|
+benefactor|noun|ح س ن|مُحْسِنٌ|مُحْسِنُونَ||one who does good|احسان کرنے والا|محسنين
+refuge|noun|ع و ذ|مَعَاذٌ|-||refuge; معاذ الله: Allah forbid|پناہ؛ معاذ اللہ: اللہ کی پناہ|
+since|particle|-|مُنْذُ|-||since; for (a period)|سے؛ ایک مدت سے|
+unseen|noun|غ ي ب|غَيْبٌ|-||the unseen; what is unknown|غیب|
+tester|noun|م ح ن|مُمْتَحِنٌ|مُمْتَحِنُونَ||one who tests|آزمانے والا|
+misfortune|noun|ص و ب|مُصِيبَةٌ|مَصَائِبُ||misfortune; calamity|مصیبت|مصيبتين
+hidden|adjective|خ ف ي|خَفِيٌّ|أَخْفِيَاءُ||hidden; unseen|پوشیدہ|خفية
+concealed|adjective|خ ف ي|مَخْفِيٌّ|مَخْفِيُّونَ||concealed; hidden|چھپا ہوا|مخفية
+third|adjective|ث ل ث|ثَالِثٌ|ثَالِثُونَ||third|تیسرا|ثالثة
+two|numeral|ث ن ي|اثْنَانِ|-||two|دو|اثنين
+wise-knowing|adjective|ح ك م|حَكِيمٌ|حُكَمَاءُ||wise; All-Wise when used of Allah|حکیم؛ دانا|
+secret|noun|س ر ر|سِرٌّ|أَسْرَارٌ||secret|راز|
+piece|noun|ق ط ع|قِطْعَةٌ|قِطَعٌ||piece|ٹکڑا|
+regret-n|noun|أ س ف|أَسَفٌ|-||sorrow; regret; يا أسفى: alas|افسوس؛ حسرت|أسفى
+distress|noun|ب ث ث|بَثٌّ|-||anguish; deepest distress|شدید غم؛ بے قراری|
+despair|noun|ي أ س|يَأْسٌ|-||despair|مایوسی|
+disbelief|noun|ك ف ر|كُفْرٌ|-||disbelief|کفر|
+hope|noun|ر ج و|رَجَاءٌ|-||hope|امید|
+poverty|noun|ف ق ر|فَقْرٌ|-||poverty|غربت|
+state|noun|ح و ل|حَالٌ|أَحْوَالٌ||state; condition|حال؛ حالت|
+glory|noun|س ب ح|سُبْحَانَ|-||glory be to; سبحان الله: Allah is free of imperfection|پاکی؛ سبحان اللہ|
+doubt|noun|ش ك ك|شَكٌّ|شُكُوكٌ||doubt|شک|
+reward|noun|أ ج ر|أَجْرٌ|أُجُورٌ||reward; recompense|اجر؛ بدلہ|
+act|noun|ف ع ل|فَعْلَةٌ|فَعَلَاتٌ||act; deed|کرتوت؛ فعل|
+separation|noun|ف ر ق|فِرَاقٌ|-||separation|جدائی|
+eye|noun|ع ي ن|عَيْنٌ|أَعْيُنٌ، عُيُونٌ||eye|آنکھ|
+abundance|noun|ك ث ر|كَثْرَةٌ|-||abundance; large amount|کثرت|
+weeping|noun|ب ك ي|بُكَاءٌ|-||weeping|رونا|
+face-n|noun|و ج ه|وَجْهٌ|وُجُوهٌ||face|چہرہ|
+seeing|adjective|ب ص ر|بَصِيرٌ|بُصَرَاءُ||able to see; seeing|دیکھنے والا|بصيرا
+smell|noun|ر و ح|رَائِحَةٌ|رَوَائِحُ||smell; scent|خوش بو|
+scent-wind|noun|ر و ح|رِيحٌ|رِيَاحٌ||scent here; wind in other contexts|یہاں خوش بو؛ دیگر سیاق میں ہوا|
+error|noun|ض ل ل|ضَلَالٌ|-||error; mistaken belief|گمراہی؛ غلط خیال|
+old|adjective|ق د م|قَدِيمٌ|قُدَمَاءُ||old; longstanding|پرانا|
+bearer-news|noun|ب ش ر|بَشِيرٌ|بُشَرَاءُ||bearer of good news|خوش خبری لانے والا|
+sin|noun|ذ ن ب|ذَنْبٌ|ذُنُوبٌ||sin|گناہ|
+forgiving|adjective|غ ف ر|غَفُورٌ|-||All-Forgiving (Allah)|بہت بخشنے والا|
+happiness|noun|ف ر ح|فَرَحٌ|أَفْرَاحٌ||joy|خوشی|
+joy|noun|س ر ر|سُرُورٌ|-||joy; delight|مسرت|
+witnessed|adjective|ش ه د|مَشْهُودٌ|مَشْهُودُونَ||witnessed; memorable|یادگار؛ جس پر لوگ حاضر ہوں|مشهودا
+blessed|adjective|ب ر ك|مُبَارَكٌ|مُبَارَكُونَ||blessed|مبارک|مباركا
+throne|noun|ع ر ش|عَرْشٌ|عُرُوشٌ||throne|تخت|
+prostrating|adjective|س ج د|سَاجِدٌ|سُجَّدٌ، سَاجِدُونَ||prostrating; bowing down|سجدہ کرنے والا|ساجدين
+praise|noun|ح م د|حَمْدٌ|-||praise|حمد؛ تعریف|حمدا
+good-pure|adjective|ط ي ب|طَيِّبٌ|طَيِّبُونَ||good; pure|اچھا؛ پاکیزہ|طيبا
+thanks|noun|ش ك ر|شُكْرٌ|-||thanks; gratitude|شکر|شكرا
+goodness|noun|ح س ن|حُسْنٌ|-||goodness; excellence|اچھائی؛ حسن|
+outcome|noun|ع ق ب|عَاقِبَةٌ|عَوَاقِبُ||outcome; ending|انجام|
+death-n|noun|م و ت|مَوْتٌ|-||death|موت|
+righteous|adjective|ص ل ح|صَالِحٌ|صَالِحُونَ||righteous; good|نیک|صالحين
+supplication|noun|د ع و|دُعَاءٌ|أَدْعِيَةٌ||supplication; prayer|دعا|
+account|noun|ح د ث|حَدِيثٌ|أَحَادِيثُ||account; report; dream narratives here|بات؛ یہاں خوابوں کی باتیں|
+originator|noun|ف ط ر|فَاطِرٌ|-||Originator; Creator (Allah)|پیدا کرنے والا|
+protector|noun|و ل ي|وَلِيٌّ|أَوْلِيَاءُ||protector; guardian|کارساز؛ سرپرست|
+this-life|noun|د ن و|دُنْيَا|-||this worldly life|دنیا|
+hereafter|noun|أ خ ر|آخِرَةٌ|-||the Hereafter|آخرت|
+tell|verb|ح ك ي|حَكَى|يَحْكِي|حِكَايَةٌ|tell; recount|بیان کرنا|حكى
+bestow|verb|ن ع م|أَنْعَمَ|يُنْعِمُ|إِنْعَامٌ|bestow blessings|نعمت دینا|أنعم ينعم
+inform|verb|خ ب ر|أَخْبَرَ|يُخْبِرُ|إِخْبَارٌ|inform; tell|خبر دینا|تخبر أخبر أخبرو أخبروا أخبركما أخبركم
+envy|verb|ح س د|حَسَدَ|يَحْسُدُ|حَسَدٌ|envy|حسد کرنا|يحسدون
+intensify|verb|ش د د|اشْتَدَّ|يَشْتَدُّ|اشْتِدَادٌ|intensify|شدید ہونا|اشتد
+cast-away|verb|ط ر ح|طَرَحَ|يَطْرَحُ|طَرْحٌ|throw away; cast aside|پھینک دینا|اطرحو
+agree|verb|و ف ق|وَافَقَ|يُوَافِقُ|مُوَافَقَةٌ|agree; approve|اتفاق کرنا|وافق
+agree-together|verb|و ف ق|اتَّفَقَ|يَتَّفِقُ|اتِّفَاقٌ|agree together|متفق ہونا|اتفقوا
+resolve-v|verb|ع ز م|عَزَمَ|يَعْزِمُ|عَزْمٌ|resolve; decide firmly|پکا ارادہ کرنا|عزموا
+roam|verb|ر ت ع|رَتَعَ|يَرْتَعُ|رَتْعٌ|roam freely; enjoy oneself|کھانا پینا اور آزادی سے گھومنا|يرتع
+be-distant|verb|ب ع د|بَعُدَ|يَبْعُدُ|بُعْدٌ|be distant; go far|دور ہونا|يبعد
+permit|verb|أ ذ ن|أَذِنَ|يَأْذَنُ|إِذْنٌ|permit|اجازت دینا|أذن
+have-mercy|verb|ر ح م|رَحِمَ|يَرْحَمُ|رَحْمَةٌ|have mercy|رحم کرنا|يرحموا
+give-tidings|verb|ب ش ر|بَشَّرَ|يُبَشِّرُ|تَبْشِيرٌ|give glad tidings|خوش خبری دینا|بشر
+grieve-v|verb|ح ز ن|حَزِنَ|يَحْزَنُ|حُزْنٌ|grieve; feel sad|غمگین ہونا|تحزن حزن
+attend|verb|ح ض ر|حَضَرَ|يَحْضُرُ|حُضُورٌ|come; be present|حاضر ہونا|يحضر
+finish|verb|ف ر غ|فَرَغَ|يَفْرُغُ|فَرَاغٌ|finish|فارغ ہونا|فرغوا
+be-truthful|verb|ص د ق|صَدَقَ|يَصْدُقُ|صِدْقٌ|be truthful; be right|سچ کہنا؛ درست ہونا|صدقت
+dye|verb|ص ب غ|صَبَغَ|يَصْبُغُ|صَبْغٌ|dye; stain|رنگنا|صبغو
+believe|verb|ص د ق|صَدَّقَ|يُصَدِّقُ|تَصْدِيقٌ|believe; consider true|تصدیق کرنا؛ سچ ماننا|يصدق
+weep|verb|ب ك ي|بَكَى|يَبْكِي|بُكَاءٌ|weep|رونا|يبكون
+race|verb|س ب ق|اسْتَبَقَ|يَسْتَبِقُ|اسْتِبَاقٌ|race each other|دوڑ کا مقابلہ کرنا|نستبق
+wound|verb|ج ر ح|جَرَحَ|يَجْرَحُ|جَرْحٌ|wound|زخمی کرنا|جرح
+tear|verb|ش ق ق|شَقَّ|يَشُقُّ|شَقٌّ|tear; rip|پھاڑنا|شق
+be-patient|verb|ص ب ر|صَبَرَ|يَصْبِرُ|صَبْرٌ|be patient|صبر کرنا|صبر يصبر
+sleep|verb|ن و م|نَامَ|يَنَامُ|نَوْمٌ|sleep|سونا|نام ناموا
+forget|verb|ن س ي|نَسِيَ|يَنْسَى|نِسْيَانٌ|forget|بھولنا|نسي نسيتم
+search-v|verb|ب ح ث|بَحَثَ|يَبْحَثُ|بَحْثٌ|search|تلاش کرنا|بحثوا يبحثوا
+lower|verb|د ل و|أَدْلَى|يُدْلِي|إِدْلَاءٌ|lower; let down|نیچے لٹکانا|أدلى
+draw-out|verb|ن ز ع|نَزَعَ|يَنْزِعُ|نَزْعٌ|pull out; draw up|کھینچ کر نکالنا|نزع
+bring-out|verb|خ ر ج|أَخْرَجَ|يُخْرِجُ|إِخْرَاجٌ|bring out|نکالنا|أخرج
+call-out|verb|ن د و|نَادَى|يُنَادِي|نِدَاءٌ، مُنَادَاةٌ|call out|پکارنا|نادى نادوا
+hide|verb|خ ف ي|أَخْفَى|يُخْفِي|إِخْفَاءٌ|hide; conceal|چھپانا|أخفو أخفي
+stand|verb|ق و م|قَامَ|يَقُومُ|قِيَامٌ|stand; get up|کھڑا ہونا|قاموا
+buy|verb|ش ر ي|اشْتَرَى|يَشْتَرِي|اشْتِرَاءٌ|buy|خریدنا|اشترى
+honour|verb|ك ر م|أَكْرَمَ|يُكْرِمُ|إِكْرَامٌ|honour; treat generously|عزت کرنا|أكرم أكرمي أكرمو
+seduce|verb|ر و د|رَاوَدَ|يُرَاوِدُ|مُرَاوَدَةٌ|entice; try to seduce|بہلانا؛ ورغلانا|راودت
+refuse|verb|أ ب ي|أَبَى|يَأْبَى|إِبَاءٌ|refuse|انکار کرنا|أبى
+betray|verb|خ و ن|خَانَ|يَخُونُ|خِيَانَةٌ|betray; breach trust|خیانت کرنا|أخون خان يخونون
+treat-well|verb|ح س ن|أَحْسَنَ|يُحْسِنُ|إِحْسَانٌ|treat well; do good|احسان کرنا|أحسن
+complain|verb|ش ك و|شَكَا|يَشْكُو|شَكْوَى|complain|شکایت کرنا|شكت أشكو شكوا يشكون
+exalt|verb|ع ظ م|عَظَّمَ|يُعَظِّمُ|تَعْظِيمٌ|honour greatly; esteem|تعظیم کرنا|عظمو
+recount|verb|ق ص ص|قَصَّ|يَقُصُّ|قَصٌّ|recount; narrate|بیان کرنا|قصا
+squeeze|verb|ع ص ر|عَصَرَ|يَعْصِرُ|عَصْرٌ|press; squeeze|نچوڑنا|أعصر
+carry-v|verb|ح م ل|حَمَلَ|يَحْمِلُ|حَمْلٌ|carry; bear|اٹھانا|أحمل
+laugh|verb|ض ح ك|ضَحِكَ|يَضْحَكُ|ضَحِكٌ|laugh|ہنسنا|ضحك
+deserve|verb|ح ق ق|اسْتَحَقَّ|يَسْتَحِقُّ|اسْتِحْقَاقٌ|deserve|حق دار ہونا|يستحق
+proclaim|verb|ج ه ر|جَهَرَ|يَجْهَرُ|جَهْرٌ|proclaim openly|کھل کر کہنا|يجهرون
+be-generous|verb|ج و د|جَادَ|يَجُودُ|جُودٌ|be generous; give freely|سخاوت کرنا|يجودون
+drive|verb|س و ق|سَاقَ|يَسُوقُ|سَوْقٌ|drive; bring along|لے آنا؛ ہانکنا|ساقت ساق
+soften|verb|ل ي ن|لَانَ|يَلِينُ|لِينٌ|become soft; be compliant|نرم پڑنا|يلين
+submit|verb|خ ض ع|خَضَعَ|يَخْضَعُ|خُضُوعٌ|submit; humble oneself|جھکنا|يخضع
+obey|verb|ط و ع|أَطَاعَ|يُطِيعُ|إِطَاعَةٌ|obey|اطاعت کرنا|يطيع
+hasten|verb|ع ج ل|اسْتَعْجَلَ|يَسْتَعْجِلُ|اسْتِعْجَالٌ|hasten; act hastily|جلدی کرنا|يستعجل
+be-reassured|verb|ط م أ ن|اطْمَأَنَّ|يَطْمَئِنُّ|اطْمِئْنَانٌ|be reassured; feel at ease|مطمئن ہونا|اطمأنا اطمأن
+begin|verb|ب د أ|بَدَأَ|يَبْدَأُ|بَدْءٌ|begin|شروع کرنا|بدأ
+teach|verb|ع ل م|عَلَّمَ|يُعَلِّمُ|تَعْلِيمٌ|teach|سکھانا|علم
+give|verb|أ ت ي|آتَى|يُؤْتِي|إِيتَاءٌ|give; grant|عطا کرنا|يؤتي آتيت
+follow|verb|ت ب ع|اتَّبَعَ|يَتَّبِعُ|اتِّبَاعٌ|follow|پیروی کرنا|اتبعت
+associate|verb|ش ر ك|أَشْرَكَ|يُشْرِكُ|إِشْرَاكٌ|associate partners with Allah|شریک ٹھہرانا|نشرك
+thank|verb|ش ك ر|شَكَرَ|يَشْكُرُ|شُكْرٌ|thank|شکر کرنا|يشكرون شكر
+stop-v|verb|و ق ف|وَقَفَ|يَقِفُ|وُقُوفٌ|stop; stand|رکنا؛ کھڑا ہونا|وقف
+show|verb|ر أ ي|أَرَى|يُرِي|إِرَاءَةٌ|show|دکھانا|أرو
+name-v|verb|س م و|سَمَّى|يُسَمِّي|تَسْمِيَةٌ|name|نام رکھنا|سميتمو
+crucify|verb|ص ل ب|صَلَبَ|يَصْلِبُ|صَلْبٌ|crucify|سولی چڑھانا|يصلب صلب
+stay|verb|ق و م|أَقَامَ|يُقِيمُ|إِقَامَةٌ|stay; reside|قیام کرنا|أقام يقيم
+point|verb|د ل ل|دَلَّ|يَدُلُّ|دَلَالَةٌ|point out; guide to|بتانا؛ رہنمائی کرنا|دل
+cultivate|verb|ز ر ع|زَرَعَ|يَزْرَعُ|زَرْعٌ|cultivate; plant|کھیتی کرنا|تزرعون
+harvest|verb|ح ص د|حَصَدَ|يَحْصُدُ|حَصْدٌ، حَصَادٌ|harvest|فصل کاٹنا|حصدتم
+store|verb|خ ز ن|خَزَنَ|يَخْزُنُ|خَزْنٌ|store|ذخیرہ کرنا|خزنتم
+lengthen|verb|ط و ل|طَالَ|يَطُولُ|طُولٌ|be long; last long|طویل ہونا|يطول طال
+prosper|verb|خ ص ب|أَخْصَبَ|يُخْصِبُ|إِخْصَابٌ|enjoy abundance; have fertile crops|خوش حال ہونا؛ زمین کا زرخیز ہونا|يخصب
+long-for|verb|ش و ق|اشْتَاقَ|يَشْتَاقُ|اشْتِيَاقٌ|long for|ملنے کا اشتیاق ہونا|اشتاق يشتاق
+select|verb|خ ل ص|اسْتَخْلَصَ|يَسْتَخْلِصُ|اسْتِخْلَاصٌ|select; reserve exclusively|خاص کر لینا|أستخلص
+be-content|verb|ر ض و|رَضِيَ|يَرْضَى|رِضًا|be content; agree|راضی ہونا|رضي
+wait|verb|ن ظ ر|انْتَظَرَ|يَنْتَظِرُ|انْتِظَارٌ|wait|انتظار کرنا|ينتظر
+hurry|verb|س ر ع|أَسْرَعَ|يُسْرِعُ|إِسْرَاعٌ|hurry|تیزی سے جانا|أسرع يسرع
+wear|verb|ل ب س|لَبِسَ|يَلْبَسُ|لُبْسٌ|wear; be clothed|پہننا|تلبس يلبسون
+use-benefit|verb|ن ف ع|انْتَفَعَ|يَنْتَفِعُ|انْتِفَاعٌ|benefit; make use of|فائدہ اٹھانا|ينتفع
+hunger|verb|ج و ع|جَاعَ|يَجُوعُ|جُوعٌ|be hungry|بھوکا ہونا|يجوعون
+be-shy|verb|ح ي ي|اسْتَحْيَا|يَسْتَحْيِي|اسْتِحْيَاءٌ|feel shy; refrain out of shyness|شرمانا|يستحيي
+rest|verb|ر و ح|اسْتَرَاحَ|يَسْتَرِيحُ|اسْتِرَاحَةٌ|rest; find relief|آرام پانا|استراح
+praise-v|verb|ح م د|حَمِدَ|يَحْمَدُ|حَمْدٌ|praise|حمد کرنا|حمد حمدوا
+think|verb|ظ ن ن|ظَنَّ|يَظُنُّ|ظَنٌّ|think; suppose|گمان کرنا|يظنون
+deny|verb|ن ك ر|أَنْكَرَ|يُنْكِرُ|إِنْكَارٌ|deny; fail to recognize|انکار کرنا؛ نہ پہچاننا|أنكر
+protect|verb|ح ف ظ|حَفِظَ|يَحْفَظُ|حِفْظٌ|protect; keep safe|حفاظت کرنا|حفظ تحفظون حفظتم
+expose|verb|ف ض ح|فَضَحَ|يَفْضَحُ|فَضْحٌ|expose; disgrace publicly|رسوا کرنا|يفضح
+talk-to|verb|ك ل م|كَلَّمَ|يُكَلِّمُ|تَكْلِيمٌ|speak to|کسی سے بات کرنا|كلم يكلم
+test-v|verb|م ح ن|امْتَحَنَ|يَمْتَحِنُ|امْتِحَانٌ|test; try|آزمانا|يمتحن
+trust|verb|أ م ن|أَمِنَ|يَأْمَنُ|أَمْنٌ|trust; entrust|اعتماد کرنا|آمن أمنتكم
+return-object|verb|ر د د|رَدَّ|يَرُدُّ|رَدٌّ|return; give back|واپس کرنا|رد
+pledge|verb|ع ه د|عَاهَدَ|يُعَاهِدُ|مُعَاهَدَةٌ|pledge; make a covenant|عہد کرنا|تعاهدوا عاهدوا
+lodge|verb|ن ز ل|أَنْزَلَ|يُنْزِلُ|إِنْزَالٌ|lodge; let stay; bring down|ٹھہرانا؛ اتارنا|أنزل
+possible|verb|م ك ن|أَمْكَنَ|يُمْكِنُ|إِمْكَانٌ|be possible|ممکن ہونا|يمكن
+detain|verb|ح ب س|حَبَسَ|يَحْبِسُ|حَبْسٌ|detain; keep|روکنا؛ قید کرنا|يحبس حبس
+announce|verb|أ ذ ن|أَذَّنَ|يُؤَذِّنُ|تَأْذِينٌ|announce; call out|اعلان کرنا|أذن
+turn-around|verb|ل ف ت|الْتَفَتَ|يَلْتَفِتُ|الْتِفَاتٌ|turn around|مڑ کر دیکھنا|التفت
+miss|verb|ف ق د|فَقَدَ|يَفْقِدُ|فَقْدٌ|miss; find missing|گم پانا|تفقدون نفقد
+corrupt|verb|ف س د|أَفْسَدَ|يُفْسِدُ|إِفْسَادٌ|cause corruption|فساد کرنا|نفسد
+repay|verb|ج ز ي|جَزَى|يَجْزِي|جَزَاءٌ|repay; recompense|بدلہ دینا|نجزي
+steal|verb|س ر ق|سَرَقَ|يَسْرِقُ|سَرِقَةٌ|steal|چوری کرنا|يسرق سرق
+reflect|verb|ف ك ر|فَكَّرَ|يُفَكِّرُ|تَفْكِيرٌ|think; reflect|سوچنا|فكر
+bereave|verb|ف ج ع|فَجَعَ|يَفْجَعُ|فَجْعٌ|bereave; cause grief by loss|صدمہ پہنچانا|فجع يفجع يفجعون
+witness|verb|ش ه د|شَهِدَ|يَشْهَدُ|شَهَادَةٌ|witness; testify|گواہی دینا|شهدنا
+combine|verb|ج م ع|جَمَعَ|يَجْمَعُ|جَمْعٌ|combine; bring together|جمع کرنا|يجمع
+cease|verb|ز و ل|زَالَ|يَزَالُ|زَوَالٌ|cease; with negation: continue|ختم ہونا؛ نفی کے ساتھ: جاری رہنا|يزل تزال
+gladden|verb|س ر ر|سَرَّ|يَسُرُّ|سُرُورٌ|gladden; make happy|خوش کرنا|يسر
+hope-v|verb|ع س ي|عَسَى|-|-|perhaps; it is hoped (defective verb)|امید ہے؛ فعل ناقص|عسى
+appear|verb|ظ ه ر|ظَهَرَ|يَظْهَرُ|ظُهُورٌ|appear; come to light|ظاہر ہونا|يظهر ظهر
+renew|verb|ج د د|تَجَدَّدَ|يَتَجَدَّدُ|تَجَدُّدٌ|be renewed|تازہ ہونا|تجدد
+blame|verb|ل و م|لَامَ|يَلُومُ|لَوْمٌ|blame|ملامت کرنا|لام
+perish|verb|ه ل ك|هَلَكَ|يَهْلِكُ|هَلَاكٌ|perish|ہلاک ہونا|تهلك
+strive|verb|ج ه د|اجْتَهَدَ|يَجْتَهِدُ|اجْتِهَادٌ|strive; make an effort|کوشش کرنا|يجتهدوا
+despair-v|verb|ق ن ط|قَنِطَ|يَقْنَطُ|قُنُوطٌ|despair|مایوس ہونا|يقنطوا
+stir|verb|ه ي ج|هَاجَ|يَهِيجُ|هَيَجَانٌ|stir; surge|بھڑک اٹھنا؛ جوش مارنا|هاج
+possess|verb|م ل ك|مَلَكَ|يَمْلِكُ|مِلْكٌ|possess; control oneself|مالک ہونا؛ قابو رکھنا|يملك
+favour|verb|أ ث ر|آثَرَ|يُؤْثِرُ|إِيثَارٌ|prefer; favour|ترجیح دینا|آثر
+bestow-favour|verb|م ن ن|مَنَّ|يَمُنُّ|مَنٌّ|bestow favour|احسان کرنا|من
+be-pious|verb|و ق ي|اتَّقَى|يَتَّقِي|اتِّقَاءٌ|be mindful of Allah; act piously|تقویٰ اختیار کرنا|يتق
+lose|verb|ض ي ع|أَضَاعَ|يُضِيعُ|إِضَاعَةٌ|cause to be lost; waste|ضائع کرنا|يضيع
+forgive|verb|غ ف ر|غَفَرَ|يَغْفِرُ|مَغْفِرَةٌ|forgive|بخشنا|يغفر
+pleasant|verb|ط ي ب|طَابَ|يَطِيبُ|طِيبٌ|be pleasant; enjoy|اچھا لگنا؛ خوش گوار ہونا|يطيب
+be-uncovered|verb|ك ش ف|انْكَشَفَ|يَنْكَشِفُ|انْكِشَافٌ|be revealed; be uncovered|کھل جانا|انكشف
+be-content-eye|verb|ق ر ر|قَرَّ|يَقَرُّ|قُرَّةٌ|be comforted; be delighted (of the eye)|آنکھ ٹھنڈی ہونا|تقر
+be-blind|verb|ع م ي|عَمِيَ|يَعْمَى|عَمًى|become blind|نابینا ہونا|عمي
+journey|verb|س ي ر|سَارَ|يَسِيرُ|سَيْرٌ|travel; set out|چلنا؛ روانہ ہونا|سار
+sense|verb|ح س س|أَحَسَّ|يُحِسُّ|إِحْسَاسٌ|sense; perceive|محسوس کرنا|أحس
+revert|verb|ر د د|ارْتَدَّ|يَرْتَدُّ|ارْتِدَادٌ|return; recover a former state|لوٹ آنا؛ حالت بحال ہونا|ارتد
+seek-forgiveness|verb|غ ف ر|اسْتَغْفَرَ|يَسْتَغْفِرُ|اسْتِغْفَارٌ|seek forgiveness|بخشش مانگنا|استغفر أستغفر
+receive|verb|ق ب ل|اسْتَقْبَلَ|يَسْتَقْبِلُ|اسْتِقْبَالٌ|receive; welcome|استقبال کرنا|استقبل
+raise|verb|ر ف ع|رَفَعَ|يَرْفَعُ|رَفْعٌ|raise; lift|بلند کرنا|رفع
+fall|verb|و ق ع|وَقَعَ|يَقَعُ|وُقُوعٌ|fall; bow down here|گرنا؛ یہاں سجدے میں گرنا|وقعوا
+occupy|verb|ش غ ل|شَغَلَ|يَشْغَلُ|شَغْلٌ|occupy; distract|مشغول کرنا|يشغل
+change|verb|غ ي ر|غَيَّرَ|يُغَيِّرُ|تَغْيِيرٌ|change|بدلنا|يغير
+rule|verb|ح ك م|حَكَمَ|يَحْكُمُ|حُكْمٌ|rule; judge|حکم رانی کرنا|يحكم
+execute|verb|ن ف ذ|نَفَّذَ|يُنَفِّذُ|تَنْفِيذٌ|carry out; execute|نافذ کرنا|ينفذ
+count|verb|ع د د|عَدَّ|يَعُدُّ|عَدٌّ|count; consider|شمار کرنا|يعد
+gather-resurrection|verb|ح ش ر|حَشَرَ|يَحْشُرُ|حَشْرٌ|gather; resurrect|جمع کرنا؛ حشر میں اٹھانا|يحشر
+take-in-death|verb|و ف ي|تَوَفَّى|يَتَوَفَّى|تَوَفٍّ|take in death|وفات دینا|توفى توفني توفا
+join|verb|ل ح ق|أَلْحَقَ|يُلْحِقُ|إِلْحَاقٌ|join; cause to join|ملانا|ألحق ألحقني
+negation-lam|particle|-|لَمْ|-||did not (past negation)|نہیں؛ ماضی کی نفی|
+will-not|particle|-|لَنْ|-||will not|ہرگز نہیں؛ مستقبل کی نفی|
+until|particle|-|حَتَّى|-||until; so that|یہاں تک کہ|
+already|particle|-|قَدْ|-||already; indeed (with past verbs)|یقیناً؛ ہو چکا|
+no-indeed|particle|-|كَلَّا|-||certainly not; no indeed|ہرگز نہیں|
+as-for|particle|-|أَمَّا|-||as for|جہاں تک؛ رہا|
+or-question|particle|-|أَمْ|-||or (in a question)|یا؛ سوال میں|
+if-hypothetical|particle|-|لَوْ|-||if (hypothetical)|اگر|
+you-all|pronoun|-|أَنْتُمْ|-||you (plural)|تم سب|
+they|pronoun|-|هُمْ|-||they|وہ سب|
+they-two|pronoun|-|هُمَا|-||they two|وہ دونوں|
+those|pronoun|-|هَؤُلَاءِ|-||these (people)|یہ لوگ|
+relative-pl|pronoun|-|الَّذِينَ|-||who; those who (plural)|جو؛ وہ لوگ جو|
+him-only|pronoun|-|إِيَّاهُ|-||him; Him alone here|اسی کو|
+only-indeed|particle|-|إِنَّمَا|-||only; indeed|صرف؛ تاکید|
+thus-now|particle|-|إِذَنْ|-||then; in that case|تب؛ اس صورت میں|
+soon|particle|-|سَوْفَ|-||will; future marker|عنقریب|
+when-time|adverb|-|مَتَى|-||when|کب|
+under|adverb|د و ن|دُونَ|-||below; apart from; other than|نیچے؛ سوا|
+emphasis|particle|-|لَ|-||indeed; surely (emphasis)|یقیناً؛ تاکید کا حرف|
+oath|particle|-|تَ|-||by (oath, in تالله)|قسم کے لیے؛ اللہ کی قسم|
+that-two|pronoun|-|ذَلِكُمَا|-||that (addressing two people)|وہ؛ دو آدمیوں سے خطاب|
+you-two|pronoun|-|كُمَا|-||you two; your (dual)|تم دونوں؛ تم دونوں کا|
+from-what|particle|-|مِمَّا|-||from what; of that which|جو کچھ؛ اس میں سے|
+so-that-not|particle|-|أَلَّا|-||that you do not; أن + لا|کہ نہ؛ ان اور لا کا ادغام|
+o-address|particle|-|أَيُّهَا|-||O (formal address)|اے؛ خطاب کے لیے|
+everyone|pronoun|ج م ع|أَجْمَعُونَ|-||all; everyone together|سب کے سب|أجمعين
+between|adverb|ب ي ن|بَيْنَ|-||between|درمیان|
+ignorant|adjective|ج ه ل|جَاهِلٌ|جَاهِلُونَ||ignorant; unaware|نادان؛ بے خبر|

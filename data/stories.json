@@ -20,6 +20,26 @@
         "vocabularyEntries": 313
       },
       "file": "stories/01-ibrahim.json"
+    },
+    {
+      "id": "02-yusuf",
+      "number": 2,
+      "title": "قصّة يوسف",
+      "titleVocalized": "قِصَّةُ يُوسُفَ",
+      "subtitle": "قصّة سيّدنا يوسف",
+      "titleEnglish": "The story of Yusuf",
+      "titleUrdu": "حضرت یوسف کی کہانی",
+      "description": {
+        "en": "Follow Yusuf’s story from his childhood dream to his reunion with his family, in 25 sections.",
+        "ur": "حضرت یوسف کے بچپن کے خواب سے خاندان کے ساتھ دوبارہ ملاقات تک کی کہانی؛ ۲۵ حصے۔"
+      },
+      "counts": {
+        "sections": 25,
+        "lines": 286,
+        "wordOccurrences": 3038,
+        "vocabularyEntries": 618
+      },
+      "file": "stories/02-yusuf.json"
     }
   ]
 }

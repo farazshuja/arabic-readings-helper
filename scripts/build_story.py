@@ -349,11 +349,18 @@ def main():
                        'wordOccurrences': sum(len(l['tokens']) for l in lines),
                        'vocabularyEntries': len(lexicon)}
     DEST.write_text(json.dumps(story, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    index = {'schemaVersion': '1.0.0', 'stories': [{k: story[k] for k in (
-        'id', 'number', 'title', 'titleVocalized', 'subtitle', 'titleEnglish', 'titleUrdu', 'description', 'counts')} | {
-            'file': 'stories/01-ibrahim.json'}]}
-    (ROOT / 'data/stories.json').write_text(json.dumps(index, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    update_catalog(story, DEST.name)
     print(json.dumps(story['counts']))
+
+
+def update_catalog(story, filename):
+    path = ROOT / 'data/stories.json'
+    index = json.loads(path.read_text(encoding='utf-8')) if path.is_file() else {'schemaVersion': '1.0.0', 'stories': []}
+    item = {k: story[k] for k in ('id', 'number', 'title', 'titleVocalized', 'subtitle',
+                                'titleEnglish', 'titleUrdu', 'description', 'counts')}
+    item['file'] = 'stories/' + filename
+    index['stories'] = sorted([s for s in index['stories'] if s['id'] != story['id']] + [item], key=lambda s: s['number'])
+    path.write_text(json.dumps(index, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 
 
 if __name__ == '__main__':

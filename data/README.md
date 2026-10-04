@@ -2,12 +2,15 @@
 
 Story 1 is **من كسر الأصنام — قصة سيدنا إبراهيم**, reconstructed from all 15 pages of `books/Qisas Story 1 Sayyiduna Ibrahim (AS).pdf`. It contains 16 sections and 183 reading units. Long printed lines have been joined into sentences or short passages; these are stable logical lines, not lines that depend on screen width.
 
+Story 2 is **قصة يوسف — قصة سيدنا يوسف**, transcribed and checked against all 27 pages of `books/Qisas Story 2 Sayyiduna Yusuf  (AS).pdf`. It contains 25 sections and 286 reading units, with English/Urdu meanings, morphology, retained disambiguating marks, and Quran references. Editorial corrections and explanations are recorded in its JSON.
+
 ## Files
 
 - `stories.json`: lightweight home-screen catalog. Each record supplies the title, summary, counts, and story JSON path.
-- `stories/01-ibrahim.json`: complete story text and dictionary. This is the only story file the website needs to load.
+- `stories/01-ibrahim.json` and `stories/02-yusuf.json`: self-contained story text and dictionaries. The website loads only the selected story file.
 - `stories/01-ibrahim.vocalized.txt`: editable, reviewed transcription used by the build script. `#` starts a section; `@` lists one-based PDF pages.
 - `stories/01-ibrahim.lexicon.tsv`: editable bilingual vocabulary source. It is a pipe-delimited file; its header describes the columns.
+- `stories/02-yusuf.vocalized.txt` and `stories/02-yusuf.lexicon.tsv`: Story 2 transcription and bilingual lexical additions. Its builder reuses common vocabulary from Story 1, and embeds every required entry in the final JSON.
 
 The browser loads the catalog and selected story as static assets. After loading a story, text toggles and dictionary cards work entirely in browser memory, without a database, API, or further vocabulary requests. To support use after closing/reopening the browser without internet, the eventual website will also need asset caching, such as a service worker. Opening via `file://` may block `fetch`; use a static site origin or import the JSON during the frontend build.
 
@@ -25,7 +28,7 @@ The browser loads the catalog and selected story as static assets. After loading
 | `tokens[].vocabularyId` | Exact key into this story's `vocabulary` object. |
 | `tokens[].parts` | Attached conjunctions, articles, prepositions and pronouns, each linked to an entry. |
 | `tokens[].usage` | Optional occurrence-specific English/Urdu meaning, e.g. a passive verb. |
-| `sourcePages` | One-based PDF page numbers for tracing the passage. Printed page numbers are PDF page + 2. |
+| `sourcePages` | One-based PDF page numbers for tracing the passage. Printed page numbers are PDF page + 2 for Story 1 and PDF page + 17 for Story 2. |
 | `references` | Quran excerpts with verse references and links. |
 
 For rendering, append `leading`, then for every token append a clickable word followed by `after`. This reconstructs the line exactly. Do not split `text` on spaces or infer meanings from a root: the token links already distinguish **مَلِك** from other readings and **مَنْ** from **مِنْ**. Section headings, the story title, and subtitle also have token arrays.
@@ -49,9 +52,9 @@ For a compound word such as **ويمنعهم**, show the main verb card and then
 ## Minimal frontend integration
 
 ```js
-const catalog = await fetch('/data/stories.json').then(r => r.json());
+const catalog = await fetch('data/stories.json').then(r => r.json());
 const selected = catalog.stories[0];
-const story = await fetch(`/data/${selected.file}`).then(r => r.json());
+const story = await fetch(`data/${selected.file}`).then(r => r.json());
 
 function renderLine(line, showHarakat, container, openCard) {
   const field = showHarakat ? 'vocalized' : 'text';
@@ -90,6 +93,7 @@ From the repository root, using any Python 3 runtime:
 
 ```powershell
 python scripts/build_story.py
+python scripts/build_yusuf.py
 python scripts/validate_story.py
 ```
 
