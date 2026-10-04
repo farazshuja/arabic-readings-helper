@@ -10,10 +10,12 @@ Story 4 is **العاصفة — قصة سيدنا هود**, transcribed and chec
 
 Story 5 is **ناقة ثمود — قصة سيدنا صالح**, transcribed and checked against all 12 pages of `books/Qisas Story 5 Sayyiduna Salih (AS).pdf`. It contains 13 sections, 109 reading units and 423 English/Urdu vocabulary entries. The self-contained `stories/05-salih.json` includes both reading modes, noun/verb forms, roots, source pages, 15 Quran references, and the final hadith source. Original chapter numbers 12–24 are retained in `sourceSectionNumber`.
 
+Story 6 is **موسى — قصة سيدنا موسى**, transcribed from all 83 PDF pages. It contains 46 chapters across two parts, 759 reading units and 226 Quran excerpt references. Both reading modes, English/Urdu vocabulary, noun/verb forms, roots and page provenance are embedded in `stories/06-musa.json`. Cover pages 1 and 41 are excluded from narrative coverage; original part and chapter numbers are retained.
+
 ## Files
 
 - `stories.json`: lightweight home-screen catalog. Each record supplies the title, summary, counts, and story JSON path.
-- `stories/01-ibrahim.json`, `stories/02-yusuf.json`, `stories/03-nooh.json` `stories/04-hud.json` and `stories/05-salih.json`: self-contained story text and dictionaries. The website loads only the selected story file.
+- `stories/01-ibrahim.json`, `stories/02-yusuf.json`, `stories/03-nooh.json` `stories/04-hud.json` `stories/05-salih.json` and `stories/06-musa.json`: self-contained story text and dictionaries. The website loads only the selected story file.
 - `stories/01-ibrahim.vocalized.txt`: editable, reviewed transcription used by the build script. `#` starts a section; `@` lists one-based PDF pages.
 - `stories/01-ibrahim.lexicon.tsv`: editable bilingual vocabulary source. It is a pipe-delimited file; its header describes the columns.
 - `stories/02-yusuf.vocalized.txt` and `stories/02-yusuf.lexicon.tsv`: Story 2 transcription and bilingual lexical additions. Its builder reuses common vocabulary from Story 1, and embeds every required entry in the final JSON.
@@ -108,6 +110,7 @@ python scripts/build_yusuf.py
 python scripts/build_nooh.py
 python scripts/build_hud.py
 python scripts/build_salih.py
+python scripts/build_musa.py
 python scripts/validate_story.py
 ```
 

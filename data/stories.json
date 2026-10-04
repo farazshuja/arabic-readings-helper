@@ -100,6 +100,26 @@
         "vocabularyEntries": 423
       },
       "file": "stories/05-salih.json"
+    },
+    {
+      "id": "06-musa",
+      "number": 6,
+      "title": "موسى",
+      "titleVocalized": "مُوسَى",
+      "subtitle": "قصّة سيّدنا موسى",
+      "titleEnglish": "Musa (Moses)",
+      "titleUrdu": "حضرت موسیٰ علیہ السلام",
+      "description": {
+        "en": "Read the story of Musa, from his birth in Egypt to his journey with Khadir, in 46 chapters.",
+        "ur": "حضرت موسیٰ کی پیدائش، فرعون سے مقابلہ اور خضر کے ساتھ سفر کی کہانی؛ ۴۶ ابواب۔"
+      },
+      "counts": {
+        "sections": 46,
+        "lines": 759,
+        "wordOccurrences": 9659,
+        "vocabularyEntries": 1664
+      },
+      "file": "stories/06-musa.json"
     }
   ]
 }

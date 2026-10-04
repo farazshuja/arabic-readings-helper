@@ -59,7 +59,8 @@ def check(item):
     assert story['counts']['lines'] == len(lines)
     assert story['counts']['wordOccurrences'] == sum(len(l['tokens']) for l in lines)
     assert story['counts']['vocabularyEntries'] == len(vocabulary)
-    assert {page for line in lines for page in line['sourcePages']} == set(range(2, story['source']['pdfPages'] + 1))
+    body_pages = set(range(1, story['source']['pdfPages'] + 1)) - set(story['source'].get('frontMatterPages', [story['source']['coverPage']]))
+    assert {page for line in lines for page in line['sourcePages']} == body_pages
     assert [s['number'] for s in story['sections']] == list(range(1, len(story['sections']) + 1))
     for line in lines:
         excerpts = re.findall('﴿(.*?)﴾', line['vocalized'])
@@ -133,6 +134,21 @@ def check(item):
             assert line['tokens'][0]['vocabularyId'] == 'negation-in'
         assert sum(len(l['references']) for l in lines) == 15
         assert any(r.get('url') == 'https://sunnah.com/muslim:2980b' for r in story['editorial']['referenceSources'])
+    elif story['id'] == '06-musa':
+        assert len(story['sections']) == 46 and len(lines) == 759
+        assert story['source']['pdfPages'] == 83 and story['source']['frontMatterPages'] == [1,41]
+        assert [s['sourceSectionNumber'] for s in story['sections']] == list(range(1,27))+list(range(1,21))
+        assert [s['sourcePart'] for s in story['sections']] == ['A']*26+['B']*20
+        assert sum(len(l['references']) for l in lines) == 226
+        expected = {'أَنَا':'i', 'أَنْ':'to-verb', 'رَبَّنَا':'lord', 'لَنَا':'for-to',
+                    'الْمَنُّ':'manna', 'لَمَّا':'until-when', 'عُلِّمْتَ':'teach',
+                    'لِفَتَاهُ':'lad-assistant', 'سَنُقَتِّلُ':'kill-intensive',
+                    'عَبَّدْتَ':'enslave-ii', 'وَأُشْرِبُوا':'make-drink',
+                    'أَعْلَمُ':'more-knowledgeable', 'قُلْتُمْ':'say', 'فَأَبَوْا':'refuse',
+                    'الْغَرَقُ':'drowning-n', 'لَوْنُهَا':'colour', 'أُوذِينَا':'hurt-iv'}
+        for word in ('أُوذِينَا','عُلِّمْتَ','وَأُلْقِيَ','وَأُشْرِبُوا','قُتِلَ'):
+            matching=[t for t in tokens if t['vocalized']==word]
+            assert matching and all(t['usage']['en'].endswith('; passive') and MARKS.search(t['text']) for t in matching),word
     for word, lexeme in expected.items():
         matching = [t for t in tokens if t['vocalized'] == word]
         assert matching and all(t['vocabularyId'] == lexeme for t in matching), word
