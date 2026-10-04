@@ -60,6 +60,26 @@
         "vocabularyEntries": 466
       },
       "file": "stories/03-nooh.json"
+    },
+    {
+      "id": "04-hud",
+      "number": 4,
+      "title": "العاصفة",
+      "titleVocalized": "الْعَاصِفَةُ",
+      "subtitle": "قصّة سيّدنا هود",
+      "titleEnglish": "The Storm",
+      "titleUrdu": "حضرت ہود اور آندھی",
+      "description": {
+        "en": "Read about Hud’s call to Ad and the storm, in 11 sections.",
+        "ur": "حضرت ہود کی قوم عاد کو دعوت اور آندھی کی کہانی؛ ۱۱ حصے۔"
+      },
+      "counts": {
+        "sections": 11,
+        "lines": 110,
+        "wordOccurrences": 1102,
+        "vocabularyEntries": 380
+      },
+      "file": "stories/04-hud.json"
     }
   ]
 }

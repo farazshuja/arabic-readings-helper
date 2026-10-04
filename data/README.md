@@ -6,14 +6,18 @@ Story 2 is **قصة يوسف — قصة سيدنا يوسف**, transcribed and c
 
 Story 3 is **سفينة نوح — قصة سيدنا نوح**, transcribed and checked against all 19 pages of `books/Qisas Story 3 Sayyiduna Nooh (AS).pdf`. It contains 22 sections and 193 reading units. The self-contained `stories/03-nooh.json` includes 466 English/Urdu vocabulary entries, noun/verb forms, roots, source pages, Quran references, and documented editorial corrections.
 
+Story 4 is **العاصفة — قصة سيدنا هود**, transcribed and checked against all 11 pages of `books/Qisas Story 4 Sayyiduna Hud (AS).pdf`. It contains 11 sections, 110 reading units and 380 English/Urdu vocabulary entries. The self-contained `stories/04-hud.json` includes both reading modes, morphology, roots, source pages, 12 Quran references and documented source corrections.
+
 ## Files
 
 - `stories.json`: lightweight home-screen catalog. Each record supplies the title, summary, counts, and story JSON path.
-- `stories/01-ibrahim.json` and `stories/02-yusuf.json`: self-contained story text and dictionaries. The website loads only the selected story file.
+- `stories/01-ibrahim.json`, `stories/02-yusuf.json`, `stories/03-nooh.json` and `stories/04-hud.json`: self-contained story text and dictionaries. The website loads only the selected story file.
 - `stories/01-ibrahim.vocalized.txt`: editable, reviewed transcription used by the build script. `#` starts a section; `@` lists one-based PDF pages.
 - `stories/01-ibrahim.lexicon.tsv`: editable bilingual vocabulary source. It is a pipe-delimited file; its header describes the columns.
 - `stories/02-yusuf.vocalized.txt` and `stories/02-yusuf.lexicon.tsv`: Story 2 transcription and bilingual lexical additions. Its builder reuses common vocabulary from Story 1, and embeds every required entry in the final JSON.
 - `stories/03-nooh.vocalized.txt` and `stories/03-nooh.lexicon.tsv`: Story 3 transcription and bilingual lexical additions. Its builder reuses reviewed vocabulary and resolution rules from the earlier stories; the resulting JSON includes everything the browser needs for this story.
+
+- `stories/04-hud.vocalized.txt` and `stories/04-hud.lexicon.tsv`: Story 4 transcription and bilingual lexical additions, built with `scripts/build_hud.py`. Common entries are reused during preparation and embedded in its JSON.
 
 The browser loads the catalog and selected story as static assets. After loading a story, text toggles and dictionary cards work entirely in browser memory, without a database, API, or further vocabulary requests. To support use after closing/reopening the browser without internet, the eventual website will also need asset caching, such as a service worker. Opening via `file://` may block `fetch`; use a static site origin or import the JSON during the frontend build.
 
@@ -31,7 +35,7 @@ The browser loads the catalog and selected story as static assets. After loading
 | `tokens[].vocabularyId` | Exact key into this story's `vocabulary` object. |
 | `tokens[].parts` | Attached conjunctions, articles, prepositions and pronouns, each linked to an entry. |
 | `tokens[].usage` | Optional occurrence-specific English/Urdu meaning, e.g. a passive verb. |
-| `sourcePages` | One-based PDF page numbers for tracing the passage. Printed page numbers are PDF page + 2 for Story 1, PDF page + 17 for Story 2, and PDF page + 44 for Story 3. |
+| `sourcePages` | One-based PDF page numbers for tracing the passage. Printed page numbers are PDF page + 2 for Story 1, PDF page + 17 for Story 2, PDF page + 44 for Story 3, and PDF page + 66 for Story 4. |
 | `references` | Quran excerpts with verse references and links. |
 
 For rendering, append `leading`, then for every token append a clickable word followed by `after`. This reconstructs the line exactly. Do not split `text` on spaces or infer meanings from a root: the token links already distinguish **مَلِك** from other readings and **مَنْ** from **مِنْ**. Section headings, the story title, and subtitle also have token arrays.
@@ -98,6 +102,7 @@ From the repository root, using any Python 3 runtime:
 python scripts/build_story.py
 python scripts/build_yusuf.py
 python scripts/build_nooh.py
+python scripts/build_hud.py
 python scripts/validate_story.py
 ```
 

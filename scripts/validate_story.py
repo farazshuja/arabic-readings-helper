@@ -102,6 +102,20 @@ def check(item):
             matching = [t for t in tokens if t['vocalized'] == word]
             assert matching and all(t.get('usage', {}).get('en', '').endswith('; passive') for t in matching), word
         assert sum(r['surah'] == 37 and r['ayah'] == 79 for l in lines for r in l['references']) == 2
+    elif story['id'] == '04-hud':
+        assert len(story['sections']) == 11 and len(lines) == 110
+        expected = {'وُلِدَ': 'birth', 'عَادٌ': 'aad', 'الْعِلْمُ': 'knowledge',
+                    'النِّعَمِ': 'blessing', 'وَصَدِيقُكُمْ': 'friend',
+                    'يَظْلِمُ': 'oppress', 'وَأَظْلَمَتِ': 'become-dark',
+                    'وَالشُّرْبِ': 'drinking-n', 'مَرَضٌ': 'sickness',
+                    'لِقَوْلِكَ': 'saying-n', 'وَعُيُونٌ': 'water-spring'}
+        born = [t for t in tokens if t['vocalized'] == 'وُلِدَ']
+        assert born and all(t['text'] == 'وُلِد' and t['usage']['en'].endswith('; passive') for t in born)
+        reward = next(l for l in lines if 'إِنْ أَجْرِيَ إِلَّا' in l['vocalized'])
+        assert next(t for t in reward['tokens'] if t['vocalized'] == 'إِنْ')['vocabularyId'] == 'negation-in'
+        quote = next(l for l in lines if 'وَإِنَّمَا أَنَا نَذِيرٌ' in l['vocalized'])
+        assert [(r['surah'], r['ayah']) for r in quote['references']] == [(67, 26)]
+        assert sum(len(l['references']) for l in lines) == 12
     for word, lexeme in expected.items():
         matching = [t for t in tokens if t['vocalized'] == word]
         assert matching and all(t['vocabularyId'] == lexeme for t in matching), word
