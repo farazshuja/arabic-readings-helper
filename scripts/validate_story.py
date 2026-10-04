@@ -88,6 +88,20 @@ def check(item):
             assert all(MARKS.search(t['text']) for t in tokens if t['vocalized'] == word)
         for word in ('يُرْسَلَ', 'وُجِدَ', 'وَصُلِبَ', 'وَيُحْشَرَ'):
             assert all(t.get('usage', {}).get('en', '').endswith('; passive') for t in tokens if t['vocalized'] == word)
+    elif story['id'] == '03-nooh':
+        assert len(story['sections']) == 22 and len(lines) == 193
+        expected = {'مَلَكٌ': 'angel', 'مَلِكٍ': 'king', 'الْمُلُوكَ': 'king',
+                    'ذِكْرًا': 'mention-n', 'ذَكَرًا': 'male', 'وَذَكَرَ': 'remember',
+                    'وَلِي': 'for-to', 'وَقَلَّ': 'decrease', 'قِيلَ': 'say',
+                    'أَمَاتَ': 'die', 'آمَنَ': 'believe-faith', 'بُنَيَّ': 'little-son',
+                    'بَنِي': 'son', 'لَمَا': 'negation-ma'}
+        for word in ('مَلَكٌ', 'مَلِكٍ', 'ذِكْرًا', 'ذَكَرًا', 'تُعْبَدُ'):
+            matching = [t for t in tokens if t['vocalized'] == word]
+            assert matching and all(MARKS.search(t['text']) for t in matching), word
+        for word in ('قِيلَ', 'وَأُعْجِبَ', 'تُعْبَدُ', 'يُؤَخَّرُ'):
+            matching = [t for t in tokens if t['vocalized'] == word]
+            assert matching and all(t.get('usage', {}).get('en', '').endswith('; passive') for t in matching), word
+        assert sum(r['surah'] == 37 and r['ayah'] == 79 for l in lines for r in l['references']) == 2
     for word, lexeme in expected.items():
         matching = [t for t in tokens if t['vocalized'] == word]
         assert matching and all(t['vocabularyId'] == lexeme for t in matching), word

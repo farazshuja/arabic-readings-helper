@@ -40,6 +40,26 @@
         "vocabularyEntries": 618
       },
       "file": "stories/02-yusuf.json"
+    },
+    {
+      "id": "03-nooh",
+      "number": 3,
+      "title": "سفينة نوح",
+      "titleVocalized": "سَفِينَةُ نُوحٍ",
+      "subtitle": "قصّة سيّدنا نوح",
+      "titleEnglish": "The Ark of Nuh",
+      "titleUrdu": "حضرت نوح کی کشتی",
+      "description": {
+        "en": "Read about Nuh’s call to his people, the ark, and the flood, in 22 sections.",
+        "ur": "حضرت نوح کی دعوت، کشتی اور طوفان کی کہانی؛ ۲۲ حصے۔"
+      },
+      "counts": {
+        "sections": 22,
+        "lines": 193,
+        "wordOccurrences": 1943,
+        "vocabularyEntries": 466
+      },
+      "file": "stories/03-nooh.json"
     }
   ]
 }
