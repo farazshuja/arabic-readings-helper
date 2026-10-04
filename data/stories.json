@@ -80,6 +80,26 @@
         "vocabularyEntries": 380
       },
       "file": "stories/04-hud.json"
+    },
+    {
+      "id": "05-salih",
+      "number": 5,
+      "title": "ناقة ثمود",
+      "titleVocalized": "نَاقَةُ ثَمُودَ",
+      "subtitle": "قصّة سيّدنا صالح",
+      "titleEnglish": "The She-Camel of Thamud",
+      "titleUrdu": "قوم ثمود کی اونٹنی",
+      "description": {
+        "en": "Read about Salih’s call to Thamud and the she-camel, in 13 sections.",
+        "ur": "حضرت صالح کی قوم ثمود کو دعوت اور اونٹنی کی کہانی؛ ۱۳ حصے۔"
+      },
+      "counts": {
+        "sections": 13,
+        "lines": 109,
+        "wordOccurrences": 1289,
+        "vocabularyEntries": 423
+      },
+      "file": "stories/05-salih.json"
     }
   ]
 }

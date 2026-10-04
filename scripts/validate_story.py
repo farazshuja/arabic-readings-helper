@@ -116,6 +116,23 @@ def check(item):
         quote = next(l for l in lines if 'وَإِنَّمَا أَنَا نَذِيرٌ' in l['vocalized'])
         assert [(r['surah'], r['ayah']) for r in quote['references']] == [(67, 26)]
         assert sum(len(l['references']) for l in lines) == 12
+    elif story['id'] == '05-salih':
+        assert len(story['sections']) == 13 and len(lines) == 109
+        assert [s['sourceSectionNumber'] for s in story['sections']] == list(range(12, 25))
+        expected = {'صَالِحٌ': 'salih', 'مَلَكُ': 'angel', 'مُلُوكَ': 'king',
+                    'آمِنٍ': 'secure', 'عِلْمٌ': 'knowledge', 'سِنِّكَ': 'age',
+                    'نُحِرَتْ': 'slaughter-camel', 'وَنَحَرَهَا': 'slaughter-camel',
+                    'تُوعَدُونَ': 'promise-v', 'لِيُخْرِجَهُمْ': 'bring-out',
+                    'وَأُبَلِّغُكُمْ': 'convey', 'أَبْلَغْتُكُمْ': 'convey-iv',
+                    'لِمَا': 'to-what', 'كُلَّمَا': 'whenever', 'وَهَاجَرَ': 'migrate'}
+        for word in ('وُلِدَ', 'أُوتُوا', 'تُوعَدُونَ', 'نُحِرَتْ', 'وَدُهِشُوا'):
+            matching = [t for t in tokens if t['vocalized'] == word]
+            assert matching and all(t['usage']['en'].endswith('; passive') and MARKS.search(t['text']) for t in matching), word
+        for opening in ('﴿إِنْ هِيَ إِلَّا', '﴿إِنْ هُوَ إِلَّا'):
+            line = next(l for l in lines if l['vocalized'].startswith(opening))
+            assert line['tokens'][0]['vocabularyId'] == 'negation-in'
+        assert sum(len(l['references']) for l in lines) == 15
+        assert any(r.get('url') == 'https://sunnah.com/muslim:2980b' for r in story['editorial']['referenceSources'])
     for word, lexeme in expected.items():
         matching = [t for t in tokens if t['vocalized'] == word]
         assert matching and all(t['vocabularyId'] == lexeme for t in matching), word
