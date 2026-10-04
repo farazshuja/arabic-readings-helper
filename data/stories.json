@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "1.0.0",
+  "stories": [
+    {
+      "id": "01-ibrahim",
+      "number": 1,
+      "title": "من كسر الأصنام",
+      "titleVocalized": "مَنْ كَسَرَ الْأَصْنَامَ",
+      "subtitle": "قصّة سيّدنا إبراهيم",
+      "titleEnglish": "Who broke the idols?",
+      "titleUrdu": "بت کس نے توڑے؟",
+      "description": {
+        "en": "A beginner reading story about Ibrahim, in 16 sections.",
+        "ur": "حضرت ابراہیم کی کہانی؛ ابتدائی قارئین کے لیے ۱۶ حصے۔"
+      },
+      "counts": {
+        "sections": 16,
+        "lines": 183,
+        "wordOccurrences": 1452,
+        "vocabularyEntries": 313
+      },
+      "file": "stories/01-ibrahim.json"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+# Private/local source books and working files
+/books/
+*.pdf
+/tmp/
+__pycache__/
+*.py[cod]
+*.tar
+*.tar.gz
+*.zip
+*-preview.jpg
+
+# Browser payload copies are generated from data/ during deployment
+/website/dist/data/
+
+# Retired hosting configuration and local credentials
+.openai/
+.sites-runtime/
+.env
+.env.*
+!.env.example
+node_modules/
+.DS_Store
+Thumbs.db
