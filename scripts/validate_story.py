@@ -165,6 +165,31 @@ def check(item):
         reform=next(l for l in lines if 'إِنْ أُرِيدُ إِلَّا' in l['vocalized'])
         assert [t['vocabularyId'] for t in reform['tokens'] if t['vocalized']=='إِنْ']==['if','negation-in']
         assert all(t['vocabularyId']=='sh-emphatic-in' for t in tokens if t['vocalized']=='وَإِنْ')
+    elif story['id'] == '08-dawood-sulaiman':
+        assert len(story['sections']) == 15 and len(lines) == 84
+        assert story['source']['pdfPages'] == 12
+        assert sum(len(l['references']) for l in lines) == 41
+        expected={'دَاوُدُ':'ds-dawood','سُلَيْمَانُ':'ds-sulaiman',
+                  'الْمُلْكِ':'sovereignty','مَلِكٌ':'king','مَلِكَةِ':'queen',
+                  'الْكَرْمِ':'ds-vineyard','كَالْجَوَابِ':'ds-reservoir',
+                  'سَاقَيْهَا':'ds-leg','قُصُورِ':'ds-weakness',
+                  'بِجِوَارِ':'ds-neighbourhood','بِمَالٍ':'wealth',
+                  'وَيَحْيَى':'ds-yahya','أَوِّبِي':'ds-echo',
+                  'نِعْمَ':'ds-excellent','آتِيكَ':'bring-come',
+                  'فَهُمْ':'they','وَأَسْلَمْتُ':'ds-surrender',
+                  'فَفَهَّمْنَاهَا':'ds-make-understand','عُلِّمْنَا':'teach',
+                  'وَعَيْنَهُ':'eye','عَيْنَ':'water-spring','لَهُوَ':'he'}
+        for word in ('بُعِثُوا','عُلِّمْنَا','وَأُوتِينَا','وَأُوتِيَتْ','رُفِعَتْ','أُلْقِيَ','قِيلَ'):
+            matching=[t for t in tokens if t['vocalized']==word]
+            assert matching and all(t['usage']['en'].endswith('; passive') and MARKS.search(t['text']) for t in matching),word
+        for word in ('الْمُلْكِ','مَلِكٌ','مَلِكَةِ'):
+            matching=[t for t in tokens if t['vocalized']==word]
+            assert matching and all(MARKS.search(t['text']) for t in matching),word
+        quran=story['sections'][13]
+        assert [(r['surah'],r['ayah']) for l in quran['lines'] for r in l['references']]==[(27,a) for a in range(20,45)]
+        assert next(t for t in tokens if t['vocalized']=='لَهُوَ')['parts'][0]['vocabularyId']=='emphasis'
+        assert next(t for t in tokens if t['vocalized']=='أَتُمِدُّونَنِ')['parts'][-1]['vocabularyId']=='me'
+        assert any(t['vocabularyId']=='negation-ma' for t in story['sections'][14]['lines'][1]['tokens'])
     for word, lexeme in expected.items():
         matching = [t for t in tokens if t['vocalized'] == word]
         assert matching and all(t['vocabularyId'] == lexeme for t in matching), word

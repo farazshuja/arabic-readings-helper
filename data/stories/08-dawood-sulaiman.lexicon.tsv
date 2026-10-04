@@ -1,0 +1,224 @@
+# id|pos|root|singular/madi|plural/mudari|masdar|English|Urdu|extra forms
+ds-dawood|properNoun|-|دَاوُدُ|-|-|Dawood (David)|حضرت داؤد|
+ds-sulaiman|properNoun|-|سُلَيْمَانُ|-|-|Sulaiman (Solomon)|حضرت سلیمان|
+ds-ayyub|properNoun|-|أَيُّوبُ|-|-|Ayyub (Job)|حضرت ایوب|
+ds-yunus|properNoun|-|يُونُسُ|-|-|Yunus (Jonah)|حضرت یونس|
+ds-zakariya|properNoun|-|زَكَرِيَّا|-|-|Zakariya (Zechariah)|حضرت زکریا|
+ds-saba|properNoun|-|سَبَأٌ|-|-|Saba (Sheba)|سبا|
+ds-favours|noun|أ ل و|إِلًى|آلَاءٌ|-|favour; blessing|نعمت؛ احسان|
+ds-majesty|noun|أ ب ه|أُبَّهَةٌ|-|-|majesty; splendour|شان و شوکت|
+ds-bargain|verb|س و م|سَاوَمَ|يُسَاوِمُ|مُسَاوَمَةٌ|to bargain; negotiate|سودا کرنا؛ بھاؤ تاؤ کرنا|تساومونني
+ds-bargaining|noun|س و م|مُسَاوَمَةٌ|-|-|bargaining; negotiation|سودے بازی|
+ds-precise|adjective|د ق ق|دَقِيقٌ|دِقَاقٌ|-|precise; subtle|باریک؛ دقیق|
+ds-more-precise|adjective|د ق ق|أَدَقُّ|-|-|more subtle; more precise|زیادہ باریک|
+ds-pillar|noun|ر ك ن|رُكْنٌ|أَرْكَانٌ|-|pillar; chief counsellor|ستون؛ اہم مشیر|
+ds-penitent|adjective|أ و ب|أَوَّابٌ|أَوَّابُونَ|-|ever returning to Allah; penitent|بہت رجوع کرنے والا|
+ds-pleasing|noun|ر ض ي|إِرْضَاءٌ|-|-|pleasing; satisfying|خوش کرنا|
+ds-brevity|noun|خ ص ر|اخْتِصَارٌ|-|-|brevity; summarizing|اختصار|
+ds-islam|noun|س ل م|إِسْلَامٌ|-|-|Islam; submission to Allah|اسلام؛ اللہ کی فرمانبرداری|
+ds-humankind|noun|أ ن س|إِنْسٌ|-|-|humankind; humans|انسان|
+ds-delegation|noun|ب ع ث|بِعْثَةٌ|بِعْثَاتٌ|-|delegation; mission|وفد؛ مہم|
+ds-confuse|verb|ل ب س|الْتَبَسَ|يَلْتَبِسُ|الْتِبَاسٌ|to become confused or unclear|مشبہ ہونا؛ الجھ جانا|
+ds-army|noun|ج ي ش|جَيْشٌ|جُيُوشٌ|-|army|لشکر؛ فوج|
+ds-skilled|adjective|ح ذ ق|حَاذِقٌ|حَاذِقُونَ|-|skilled; proficient|ماہر؛ ہنر مند|حاذقة حاذقين
+ds-zeal|noun|ح م ي|حَمِيَّةٌ|-|-|zeal; protective pride|حمیت؛ جوش|
+ds-hidden|noun|خ ب أ|خَبْءٌ|-|-|hidden thing; what is concealed|چھپی ہوئی چیز|
+ds-armour|noun|د ر ع|دِرْعٌ|دُرُوعٌ|-|coat of armour|زرہ|
+ds-religious|adjective|د ي ن|دِينِيٌّ|دِينِيُّونَ|-|religious|دینی|دينية
+ds-gentleness|noun|ر ق ق|رِقَّةٌ|-|-|gentleness; tenderness|نرمی|
+ds-glass|noun|ز ج ج|زُجَاجٌ|-|-|glass|شیشہ|زجاجة
+ds-weaving|noun|س ر د|سَرْدٌ|-|-|linking armour rings; weaving mail|زرہ کی کڑیاں جوڑنا|
+ds-blaze|noun|س ع ر|سَعِيرٌ|-|-|blazing fire|بھڑکتی آگ|
+ds-grateful|adjective|ش ك ر|شَكُورٌ|شَكُورُونَ|-|deeply grateful|بہت شکر گزار|
+ds-correct|adjective|ص ح ح|صَحِيحٌ|صِحَاحٌ|-|correct; sound|درست؛ صحیح|
+ds-rightness|noun|ص و ب|صَوَابٌ|-|-|correct judgement; right course|درست بات؛ صحیح رائے|
+ds-urban|adjective|ع م ر|عُمْرَانِيٌّ|-|-|related to construction and development|تعمیر و ترقی سے متعلق|عمرانية
+ds-building-adj|adjective|ب ن ي|بِنَائِيٌّ|-|-|construction-related|تعمیراتی|بنائية
+ds-gigantic|adjective|ع م ل ق|عِمْلَاقٌ|عَمَالِقَةٌ|-|gigantic; colossal|دیو ہیکل؛ بہت بڑا|عملاقة
+ds-absent|adjective|غ ي ب|غَائِبٌ|غَائِبُونَ|-|absent|غائب|غائبين
+ds-gross|adjective|ف ح ش|فَاحِشٌ|فَوَاحِشُ|-|gross; excessive|فاش؛ بہت بڑا|
+ds-overpowering|adjective|ق ه ر|قَاهِرٌ|قَاهِرُونَ|-|overpowering; victorious|غالب؛ زبردست|قاهرة
+ds-copper|noun|ق ط ر|قِطْرٌ|-|-|molten copper|پگھلا ہوا تانبا|
+ds-vineyard|noun|ك ر م|كَرْمٌ|كُرُومٌ|-|vineyard; grapevine|انگور کا باغ؛ انگور کی بیل|
+ds-certain|adjective|أ ك د|مُؤَكَّدٌ|مُؤَكَّدَاتٌ|-|certain; confirmed|یقینی؛ پکا|
+ds-walker|noun|م ش ي|مَاشٍ|مَاشُونَ|-|walker; one walking|چلنے والا|ماشي
+ds-envoy|noun|ر س ل|مُرْسَلٌ|مُرْسَلُونَ|-|envoy; one sent|بھیجا ہوا؛ قاصد|
+ds-sender|noun|ر س ل|مُرْسِلٌ|مُرْسِلُونَ|-|sender; one sending|بھیجنے والا|مرسلة
+ds-polytheist|noun|ش ر ك|مُشْرِكٌ|مُشْرِكُونَ|-|polytheist|مشرک|مشركة
+ds-appearance|noun|ظ ه ر|مَظْهَرٌ|مَظَاهِرُ|-|appearance; manifestation|ظاہری صورت؛ مظہر|
+ds-conquered|adjective|ف ت ح|مَفْتُوحٌ|مَفْتُوحُونَ|-|conquered; opened|مفتوح؛ فتح کیا ہوا|مفتوحة
+ds-enjoyable|adjective|م ت ع|مُمْتِعٌ|مُمْتِعُونَ|-|enjoyable; engaging|دل چسپ؛ لطف دینے والا|ممتعة
+ds-procession|noun|و ك ب|مَوْكِبٌ|مَوَاكِبُ|-|procession; retinue|جلوس؛ شاہی قافلہ|
+ds-hoopoe|noun|ه د ه د|هُدْهُدٌ|هَدَاهِدُ|-|hoopoe|ہُدہُد|
+ds-gift|noun|ه د ي|هَدِيَّةٌ|هَدَايَا|-|gift; present|تحفہ؛ ہدیہ|
+ds-defeat|noun|ه ز م|هَزِيمَةٌ|هَزَائِمُ|-|defeat|شکست|
+ds-caliphate|noun|خ ل ف|خِلَافَةٌ|-|-|vicegerency; succession|خلافت؛ جانشینی|
+ds-hoof|noun|ح ف ر|حَافِرٌ|حَوَافِرُ|-|hoof|کھر|
+ds-eloquent|adjective|ب ل غ|بَلِيغٌ|بُلَغَاءُ|-|eloquent; effective|بلیغ؛ مؤثر|
+ds-jest|noun|ه ز ل|هَزْلٌ|-|-|jest; frivolity|مذاق؛ ہنسی کھیل|
+ds-respond|verb|ج و ب|تَجَاوَبَ|يَتَجَاوَبُ|تَجَاوُبٌ|to respond to one another; echo|ایک دوسرے کو جواب دینا|
+ds-imagine|verb|و ه م|تَوَهَّمَ|يَتَوَهَّمُ|تَوَهُّمٌ|to imagine; mistakenly suppose|گمان کرنا؛ غلط سمجھنا|
+ds-experience|noun|ج ر ب|تَجْرِبَةٌ|تَجَارِبُ|-|experience|تجربہ|
+ds-talk|verb|ح د ث|تَحَدَّثَ|يَتَحَدَّثُ|تَحَدُّثٌ|to speak; talk about|بات کرنا؛ بیان کرنا|
+ds-crush|verb|ح ط م|حَطَمَ|يَحْطِمُ|حَطْمٌ|to crush; trample|کچلنا|
+ds-ascertain|verb|ح ق ق|تَحَقَّقَ|يَتَحَقَّقُ|تَحَقُّقٌ|to ascertain; be realized|تصدیق کرنا؛ پورا ہونا|
+ds-autocratic|verb|ب د د|اسْتَبَدَّ|يَسْتَبِدُّ|اسْتِبْدَادٌ|to act autocratically; insist on one's own view|اپنی رائے چلانا|
+ds-consult|verb|ش و ر|اسْتَشَارَ|يَسْتَشِيرُ|اسْتِشَارَةٌ|to consult|مشورہ کرنا|
+ds-denial|noun|ك ذ ب|تَكْذِيبٌ|-|-|denial; rejection as false|جھٹلانا؛ تکذیب|
+ds-entangle|verb|و ر ط|تَوَرَّطَ|يَتَوَرَّطُ|تَوَرُّطٌ|to become entangled; fall into trouble|پھنس جانا|
+ds-vigilance|noun|ي ق ظ|تَيَقُّظٌ|-|-|vigilance; alertness|بیداری؛ ہوشیاری|
+ds-combining|adjective|ج م ع|جَامِعٌ|جَامِعُونَ|-|combining; bringing together|جمع کرنے والا|
+ds-submissive|adjective|خ ض ع|خَاضِعٌ|خَاضِعُونَ|-|submissive|فرمانبردار؛ سر جھکائے ہوئے|خاضعة
+ds-sermon|noun|خ ط ب|خُطْبَةٌ|خُطَبٌ|-|sermon; speech|خطبہ؛ تقریر|
+ds-shrewdness|noun|د ه ي|دَهَاءٌ|-|-|shrewdness; sagacity|دانائی؛ زیرکی|
+ds-state|noun|د و ل|دَوْلَةٌ|دُوَلٌ|-|state; kingdom|ریاست؛ سلطنت|
+ds-scout|noun|ر و د|رَائِدٌ|رُوَّادٌ|-|scout; guide|رہنما؛ پیش رو|
+ds-shimmering|adjective|ر ق ر ق|رَقْرَاقٌ|-|-|shimmering; rippling|چمکتا؛ لہراتا ہوا|
+ds-mail|noun|س ب غ|سَابِغَةٌ|سَابِغَاتٌ|-|ample coat of mail|لمبی زرہ|
+ds-abased|adjective|ص غ ر|صَاغِرٌ|صَاغِرُونَ|-|abased; humbled|ذلیل؛ پست|
+ds-attribute|noun|و ص ف|صِفَةٌ|صِفَاتٌ|-|attribute; characteristic|صفت؛ خصوصیت|
+ds-craft|noun|ص ن ع|صَنْعَةٌ|صَنَعَاتٌ|-|craft; skill of making|صنعت؛ ہنر|
+ds-glance|noun|ط ر ف|طَرْفٌ|أَطْرَافٌ|-|glance; gaze|نگاہ؛ پلک|
+ds-wise|adjective|ع ق ل|عَاقِلٌ|عُقَلَاءُ|-|wise; sensible|عقل مند|عاقلة
+ds-ifrit|noun|ع ف ر|عِفْرِيتٌ|عَفَارِيتُ|-|powerful jinn|طاقتور جن|
+ds-punishment|noun|ع ق ب|عُقُوبَةٌ|عُقُوبَاتٌ|-|punishment|سزا|
+ds-bunch|noun|ع ن ق د|عُنْقُودٌ|عَنَاقِيدُ|-|bunch of grapes|انگور کا گچھا|
+ds-morning|noun|غ د و|غُدُوٌّ|-|-|morning journey|صبح کا سفر|
+ds-doer|noun|ف ع ل|فَاعِلٌ|فَاعِلُونَ|-|doer; one who acts|کرنے والا|فاعلين
+ds-watching|adjective|ن ظ ر|نَاظِرٌ|نَاظِرُونَ|-|watching; waiting to see|دیکھنے والا؛ منتظر|ناظرة
+ds-tribe|noun|ق ب ل|قَبِيلَةٌ|قَبَائِلُ|-|tribe|قبیلہ|
+ds-crystal|noun|ق ر ر|قَارُورَةٌ|قَوَارِيرُ|-|glass vessel; crystal glass|شیشے کا برتن؛ شیشہ|
+ds-leadership|noun|ق و د|قِيَادَةٌ|-|-|leadership; command|قیادت|
+ds-comparison|noun|ق ي س|قِيَاسٌ|-|-|comparison; inference by analogy|قیاس؛ موازنہ|
+ds-complete|adjective|ك م ل|كَامِلٌ|كَامِلُونَ|-|complete; perfect|کامل؛ مکمل|
+ds-armour-wear|noun|ل ب س|لَبُوسٌ|-|-|armour; protective clothing|زرہ؛ حفاظتی لباس|
+ds-protect|verb|ح ص ن|أَحْصَنَ|يُحْصِنُ|إِحْصَانٌ|to protect; fortify|محفوظ کرنا|
+ds-deep-water|noun|ل ج ج|لُجَّةٌ|لُجَجٌ|-|deep water; pool|گہرا پانی|
+ds-nearness|noun|ز ل ف|زُلْفَى|-|-|nearness; high standing|قرب؛ مرتبہ|
+ds-return-place|noun|أ و ب|مَآبٌ|-|-|place of return|لوٹنے کی جگہ|
+ds-hasty|adjective|س ر ع|مُتَسَرِّعٌ|مُتَسَرِّعُونَ|-|hasty; rash|جلد باز|متسرعة
+ds-sanctuary|noun|ح ر ب|مِحْرَابٌ|مَحَارِيبُ|-|sanctuary; elevated chamber|عبادت گاہ؛ بلند عمارت|
+ds-settled|adjective|ق ر ر|مُسْتَقِرٌّ|مُسْتَقِرُّونَ|-|settled; firmly placed|ٹھہرا ہوا|
+ds-project|noun|ش ر ع|مَشْرُوعٌ|مَشَارِيعُ|-|project; undertaking|منصوبہ|
+ds-recognition|noun|ع ر ف|مَعْرِفَةٌ|مَعَارِفُ|-|knowledge; recognition|معرفت؛ پہچان|
+ds-statement|noun|ق و ل|مَقَالَةٌ|مَقَالَاتٌ|-|statement; opinion|بات؛ رائے|
+ds-just|adjective|ق س ط|مُقْسِطٌ|مُقْسِطُونَ|-|just; equitable|انصاف کرنے والا|
+ds-establish|verb|م ك ن|مَكَّنَ|يُمَكِّنُ|تَمْكِينٌ|to establish; give power|اقتدار دینا؛ مضبوط کرنا|
+ds-smooth|adjective|م ر د|مُمَرَّدٌ|-|-|smoothly paved; polished|ہموار؛ چکنا|
+ds-reach|noun|ن و ل|مَنَالٌ|-|-|reach; attainment|رسائی|
+ds-speech|noun|ن ط ق|مَنْطِقٌ|-|-|speech; language|بولی؛ زبان|
+ds-location|noun|و ض ع|مَوْضِعٌ|مَوَاضِعُ|-|location; place|مقام؛ جگہ|
+ds-stance|noun|و ق ف|مَوْقِفٌ|مَوَاقِفُ|-|stance; position|موقف؛ طرز عمل|
+ds-monotheist|noun|و ح د|مُوَحِّدٌ|مُوَحِّدُونَ|-|monotheist|توحید پرست|
+ds-order|noun|ن ظ م|نِظَامٌ|أَنْظِمَةٌ|-|order; system|نظام؛ ترتیب|
+ds-night-graze|verb|ن ف ش|نَفَشَ|يَنْفُشُ|نَفْشٌ|to graze unattended at night|رات کو کھیت میں چرنا|
+ds-disguise|verb|ن ك ر|نَكَّرَ|يُنَكِّرُ|تَنْكِيرٌ|to disguise; alter beyond recognition|صورت بدل دینا|نكروا
+ds-submission|noun|س ل م|اسْتِسْلَامٌ|-|-|submission; surrender|تسلیم؛ فرمانبرداری|
+ds-disturbance|noun|ض ر ب|اضْطِرَابٌ|-|-|uncertainty; disturbance|اضطراب؛ ڈگمگاہٹ|
+ds-joining|noun|خ ر ط|انْخِرَاطٌ|-|-|joining; entering a group|شامل ہونا|
+ds-brokenness|noun|ك س ر|انْكِسَارٌ|-|-|defeat; being broken|شکست|
+ds-glorification|noun|س ب ح|تَسْبِيحٌ|-|-|glorification of Allah|تسبیح؛ پاکی بیان کرنا|
+ds-empowerment|noun|م ك ن|تَمْكِينٌ|-|-|empowerment; establishment|اقتدار؛ مضبوطی|
+ds-inanimate|noun|ج م د|جَمَادٌ|جَمَادَاتٌ|-|inanimate object|بے جان چیز|
+ds-firmness|noun|ص ر م|صَرَامَةٌ|-|-|firmness; sternness|سختی؛ دو ٹوک انداز|
+ds-tyrant|noun|ع ت و|عَاتٍ|عُتَاةٌ|-|defiant tyrant|سرکش|
+ds-intelligence|noun|ك ي س|كِيَاسَةٌ|-|-|intelligence; shrewdness|عقل مندی؛ ہوشیاری|
+ds-rebel|noun|م ر د|مَارِدٌ|مَارِدُونَ|-|defiant rebel|سرکش|ماردين
+ds-compromise|noun|د ه ن|مُدَاهَنَةٌ|-|-|compromising one's principles; flattery|مداہنت؛ اصولوں میں نرمی|
+ds-deception|noun|خ د ع|انْخِدَاعٌ|-|-|being deceived|دھوکا کھانا|
+ds-flattery|noun|م ل ق|تَمَلُّقٌ|-|-|flattery|خوشامد|
+ds-humility|noun|و ض ع|تَوَاضُعٌ|-|-|humility|تواضع؛ عاجزی|
+ds-firmness-n|noun|ث ب ت|ثَبَاتٌ|-|-|steadfastness; composure|ثبات؛ ثابت قدمی|
+ds-ignorance|noun|ج ه ل|جَهَالَةٌ|-|-|ignorance; foolishness|جہالت|
+ds-destruction|noun|د م ر|دَمَارٌ|-|-|destruction; devastation|تباہی|
+ds-awe|noun|ر ه ب|رَهْبَةٌ|-|-|awe; fear|رعب؛ خوف|
+ds-evening|noun|ر و ح|رَوَاحٌ|-|-|evening journey|شام کا سفر|
+ds-scoffing|noun|س خ ر|سُخْرِيَّةٌ|-|-|mockery; ridicule|تمسخر؛ مذاق اڑانا|
+ds-arrival|noun|و ص ل|وُصُولٌ|-|-|arrival; reaching|پہنچنا|
+ds-rarity|noun|ط ر ف|طُرْفَةٌ|طُرَفٌ|-|rarity; precious curiosity|نادر تحفہ|
+ds-greatness|noun|ع ظ م|عَظَمَةٌ|-|-|greatness; grandeur|عظمت|
+ds-jealousy|noun|غ ي ر|غَيْرَةٌ|-|-|protective zeal|غیرت|
+ds-pot|noun|ق د ر|قِدْرٌ|قُدُورٌ|-|cooking pot|دیگ؛ ہانڈی|
+ds-pursuit|noun|ط ر د|مُطَارَدَةٌ|-|-|pursuit; persecution|تعاقب؛ پیچھا کرنا|
+ds-lodging|noun|ن ز ل|مَنْزِلٌ|مَنَازِلُ|-|dwelling; encampment|منزل؛ پڑاؤ|
+ds-favour|verb|ح ب و|حَابَى|يُحَابِي|مُحَابَاةٌ|to show favouritism|طرف داری کرنا|
+ds-restrict|verb|ق ص ر|اقْتَصَرَ|يَقْتَصِرُ|اقْتِصَارٌ|to limit oneself to|اکتفا کرنا|
+ds-befit|verb|ل ي ق|لَاقَ|يَلِيقُ|لِيَاقَةٌ|to befit; suit|زیب دینا؛ مناسب ہونا|
+ds-submit|verb|ق و د|انْقَادَ|يَنْقَادُ|انْقِيَادٌ|to submit; obey|تابع ہونا|
+ds-favour-v|verb|خ ص ص|خَصَّ|يَخُصُّ|خَصٌّ|to single out; favour specially|خاص کرنا|
+ds-entrust|verb|و ك ل|وَكَلَ|يَكِلُ|وَكْلٌ|to entrust; appoint|سپرد کرنا؛ مقرر کرنا|
+ds-complete-v|verb|ك م ل|أَكْمَلَ|يُكْمِلُ|إِكْمَالٌ|to complete|مکمل کرنا|
+ds-wave|verb|م و ج|مَاجَ|يَمُوجُ|مَوْجٌ|to surge; ripple|لہرانا|
+ds-abstain|verb|ز ه د|زَهِدَ|يَزْهَدُ|زُهْدٌ|to turn away from; have no desire for|بے رغبت ہونا|
+ds-adorn|verb|ز ي ن|زَيَّنَ|يُزَيِّنُ|تَزْيِينٌ|to adorn; make attractive|خوب صورت بنا کر دکھانا|
+ds-arise|verb|ث و ر|ثَارَ|يَثُورُ|ثَوَرَانٌ|to stir; arise|بھڑک اٹھنا|
+ds-hasten|verb|ب د ر|ابْتَدَرَ|يَبْتَدِرُ|ابْتِدَارٌ|to hasten; begin promptly|جلدی کرنا؛ فوراً شروع کرنا|
+ds-cause-flow|verb|ج ر ي|أَجْرَى|يُجْرِي|إِجْرَاءٌ|to cause to flow|بہانا؛ جاری کرنا|أجروا
+ds-error|noun|خ ط أ|خَطَأٌ|أَخْطَاءٌ|-|mistake; error|غلطی|خطإ خطئ
+ds-expansion|noun|ب س ط|بَسْطٌ|-|-|expansion; detailed exposition|تفصیل؛ پھیلاؤ|
+ds-feeling|noun|ه م م|هَمٌّ|هُمُومٌ|-|intention; concern|ارادہ؛ فکر|
+ds-extend|verb|م د د|مَدَّ|يَمُدُّ|مَدٌّ|to extend; increase|بڑھانا؛ دراز کرنا|مد
+ds-supply|verb|م د د|أَمَدَّ|يُمِدُّ|إِمْدَادٌ|to supply; offer assistance|مدد دینا؛ فراہم کرنا|تمدونن
+ds-advise|verb|ف ت ي|أَفْتَى|يُفْتِي|إِفْتَاءٌ|to give a ruling or advice|رائے دینا؛ فتویٰ دینا|أفتو أفتوا
+ds-glorify|verb|س ب ح|سَبَّحَ|يُسَبِّحُ|تَسْبِيحٌ|to glorify Allah|تسبیح کرنا|يسبحن
+ds-torture|verb|ع ذ ب|عَذَّبَ|يُعَذِّبُ|تَعْذِيبٌ|to punish; torment|عذاب دینا|أعذبن
+ds-try|verb|ب ل و|بَلَا|يَبْلُو|بَلَاءٌ|to test; try|آزمانا|يبلو
+ds-examine|verb|خ ب ر|اخْتَبَرَ|يَخْتَبِرُ|اخْتِبَارٌ|to test; examine|جانچنا|
+ds-cause-taste|verb|ذ و ق|أَذَاقَ|يُذِيقُ|إِذَاقَةٌ|to make taste or experience|مزہ چکھانا|نذق
+ds-discern|verb|ب ي ن|تَبَيَّنَ|يَتَبَيَّنُ|تَبَيُّنٌ|to discern; become clear|جان لینا؛ واضح ہونا|
+ds-wade|verb|خ و ض|خَاضَ|يَخُوضُ|خَوْضٌ|to wade into|پانی میں اترنا|
+ds-proclaim|verb|ع ل ن|أَعْلَنَ|يُعْلِنُ|إِعْلَانٌ|to announce; make public|اعلان کرنا|
+ds-be-arrogant|verb|ع ل و|عَلَا|يَعْلُو|عُلُوٌّ|to rise; exalt oneself|بلند ہونا؛ سرکشی کرنا|تعلوا
+ds-suppose|verb|ح س ب|حَسِبَ|يَحْسَبُ|حِسْبَانٌ|to suppose; consider|سمجھنا؛ گمان کرنا|
+ds-intellect|noun|ذ ك و|ذَكَاءٌ|-|-|intelligence; acumen|ذہانت|ذكاؤ ذكائ
+ds-seeing|noun|ر أ ي|رُؤْيَةٌ|-|-|seeing; sight|دیکھنا؛ رؤیت|
+ds-mockery|noun|ه ز أ|اسْتِهْزَاءٌ|-|-|mockery; ridicule|مذاق اڑانا|استهزائ
+ds-bima|particle|-|بِمَ|-|-|with what?; what ... with?|کس چیز کے ساتھ؟|
+ds-news|noun|ن ب أ|نَبَأٌ|أَنْبَاءٌ|-|news; report|خبر|نبإ
+ds-horse|noun|خ ي ل|خَيْلٌ|خُيُولٌ|-|horses (collective)|گھوڑے|
+ds-devil|noun|ش ط ن|شَيْطَانٌ|شَيَاطِينُ|-|devil; satan|شیطان|
+ds-benefit|verb|ص و ب|أَصَابَ|يُصِيبُ|إِصَابَةٌ|to obtain; benefit from (here)|حاصل کرنا؛ فائدہ اٹھانا|
+ds-reservoir|noun|ج ب ي|جَابِيَةٌ|جَوَابٍ|-|reservoir; large basin|حوض|جواب
+ds-bring|verb|ح ض ر|أَحْضَرَ|يُحْضِرُ|إِحْضَارٌ|to bring; have brought|حاضر کرنا؛ لانا|
+ds-farther|adjective|ب ع د|أَبْعَدُ|-|-|farther; more remote|زیادہ دور|
+ds-soften|verb|ل ي ن|أَلَانَ|يُلِينُ|إِلَانَةٌ|to soften; make pliable|نرم کرنا|ألن
+ds-truthfulness|noun|ص د ق|صِدْقٌ|-|-|truth; truthfulness|سچائی|
+ds-apparent|adjective|ظ ه ر|ظَاهِرٌ|ظَوَاهِرُ|-|apparent; outward|ظاہر؛ نمایاں|
+ds-conqueror|noun|ف ت ح|فَاتِحٌ|فَاتِحُونَ|-|conqueror|فاتح|فاتحين
+ds-understanding|noun|ف ق ه|فِقْهٌ|-|-|deep understanding; discernment|فقہ؛ گہری سمجھ|
+ds-chain|noun|س ل ك|سِلْكٌ|أَسْلَاكٌ|-|thread; ranks; company (here)|لڑی؛ جماعت|
+ds-weakness|noun|ق ص ر|قُصُورٌ|-|-|shortcoming; deficiency|کوتاہی؛ کمزوری|
+ds-time|noun|و ق ت|وَقْتٌ|أَوْقَاتٌ|-|time; interval|وقت|
+ds-bowl|noun|ج ف ن|جَفْنَةٌ|جِفَانٌ|-|large bowl|بڑا پیالہ|
+ds-subjugate|verb|س خ ر|سَخَّرَ|يُسَخِّرُ|تَسْخِيرٌ|to make subservient; subject to one's use|تابع کرنا؛ مسخر کرنا|
+ds-clear-blame|verb|ب ر أ|بَرَّأَ|يُبَرِّئُ|تَبْرِئَةٌ|to clear of blame; declare innocent|بری کرنا|
+ds-ascribe|verb|ن س ب|نَسَبَ|يَنْسِبُ|نِسْبَةٌ|to ascribe; attribute|منسوب کرنا|
+ds-neighbourhood|noun|ج و ر|جِوَارٌ|-|-|neighbourhood; vicinity|پڑوس؛ قرب و جوار|
+ds-more-indicative|adjective|د ل ل|أَدَلُّ|-|-|more indicative; clearer evidence|زیادہ واضح دلیل|
+ds-boast|verb|د ل ل|أَدَلَّ|يُدِلُّ|إِدْلَالٌ|to boast; take pride in|ناز کرنا؛ فخر جتانا|
+ds-inspect|verb|ف ق د|تَفَقَّدَ|يَتَفَقَّدُ|تَفَقُّدٌ|to inspect; check for someone|جائزہ لینا؛ خبر لینا|
+ds-yahya|properNoun|-|يَحْيَى|-|-|Yahya (John)|حضرت یحییٰ|
+ds-melt-flow|verb|س ي ل|أَسَالَ|يُسِيلُ|إِسَالَةٌ|to make flow; melt|بہانا؛ پگھلانا|أسل
+ds-apportion|verb|ق د ر|قَدَّرَ|يُقَدِّرُ|تَقْدِيرٌ|to measure; proportion accurately|مقدار مقرر کرنا|
+ds-surrender|verb|س ل م|أَسْلَمَ|يُسْلِمُ|إِسْلَامٌ|to submit; embrace Islam|اسلام قبول کرنا؛ فرمانبردار ہونا|
+ds-leg|noun|س و ق|سَاقٌ|سُوقٌ، سِيقَانٌ|-|leg; shin|پنڈلی؛ ٹانگ|ساقي
+ds-knowledgable|adjective|ع ل م|عَالِمٌ|عَالِمُونَ|-|knowing; knowledgeable|جاننے والا|عالمين
+ds-remind|verb|ذ ك ر|ذَكَّرَ|يُذَكِّرُ|تَذْكِيرٌ|to remind|یاد دلانا|
+ds-inform|verb|ط ل ع|أَطْلَعَ|يُطْلِعُ|إِطْلَاعٌ|to inform; make aware|آگاہ کرنا|
+ds-intend|noun|ق ص د|قَصْدٌ|-|-|intention; heading towards|ارادہ؛ رخ کرنا|
+ds-march|noun|ز ح ف|زَحْفٌ|-|-|advance; march|پیش قدمی|
+ds-march-v|verb|ز ح ف|زَحَفَ|يَزْحَفُ|زَحْفٌ|to advance; march upon|لشکر لے کر بڑھنا|
+ds-capacity|noun|ق ب ل|قِبَلٌ|-|-|capacity; power to resist (لا قبل)|مقابلے کی طاقت|
+ds-bestow|verb|و ه ب|وَهَبَ|يَهَبُ|هَبَةٌ|to bestow; grant|عطا کرنا|
+ds-excellent|verb|ن ع م|نِعْمَ|-|-|how excellent!; a verb of praise|کیا ہی اچھا ہے؛ فعل مدح|
+ds-greatest|adjective|ع ظ م|أَعْظَمُ|-|-|greatest; greater|سب سے بڑا؛ عظیم تر|
+ds-turn-away|verb|ع ر ض|أَعْرَضَ|يُعْرِضُ|إِعْرَاضٌ|to turn away; disregard|منہ پھیرنا|
+ds-make-understand|verb|ف ه م|فَهَّمَ|يُفَهِّمُ|تَفْهِيمٌ|to make understand|سمجھانا|
+ds-faster|adjective|س ر ع|أَسْرَعُ|-|-|faster; quicker|زیادہ تیز|
+ds-easy|adjective|ي س ر|يَسِيرٌ|يَسِيرُونَ|-|short; little; easy|تھوڑا؛ آسان|
+ds-polytheism|noun|ش ر ك|شِرْكٌ|-|-|polytheism; associating partners with Allah|شرک|
+ds-reach-v|verb|ب ل غ|بَلَغَ|يَبْلُغُ|بُلُوغٌ|to reach; arrive at|پہنچنا|
+ds-echo|verb|أ و ب|أَوَّبَ|يُؤَوِّبُ|تَأْوِيبٌ|to repeat praise; echo (here)|تسبیح دہرانا؛ ہم آواز ہونا|أوبي
+ds-turn-v|verb|و ل ي|تَوَلَّى|يَتَوَلَّى|تَوَلٍّ|to turn away; withdraw|منہ پھیرنا؛ ہٹ جانا|تول
+ds-fixed|adjective|ر س و|رَاسٍ|رَاسُونَ|-|firmly fixed; immovable|مضبوطی سے جما ہوا|راسيات
+ds-stormy|adjective|ع ص ف|عَاصِفٌ|عَوَاصِفُ|-|blowing forcefully; stormy|تیز چلنے والی؛ طوفانی|عاصفة

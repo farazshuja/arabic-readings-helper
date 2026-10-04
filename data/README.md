@@ -14,10 +14,12 @@ Story 6 is **موسى — قصة سيدنا موسى**, transcribed from all 83 
 
 Story 7 is **شعيب — قصة سيدنا شعيب**, transcribed and checked against all nine PDF pages. It contains 14 chapters, 39 reading units, 433 English/Urdu vocabulary entries and 20 Quran excerpt references. The self-contained `stories/07-shuaib.json` includes both reading modes, noun/verb forms, roots and source-page provenance (printed pages 174–181).
 
+Story 8 is **داود وسليمان — قصة سيدنا داود وسيدنا سليمان**, transcribed and checked against all twelve PDF pages. It contains 15 chapters, 84 reading units, 604 English/Urdu vocabulary entries and 41 Quran excerpt references, including An-Naml 27:20–44. The self-contained `stories/08-dawood-sulaiman.json` includes both reading modes, noun/verb forms, roots, contextual meanings and source-page provenance (printed pages 184–194). Pronoun corrections are documented in the JSON.
+
 ## Files
 
 - `stories.json`: lightweight home-screen catalog. Each record supplies the title, summary, counts, and story JSON path.
-- `stories/01-ibrahim.json`, `stories/02-yusuf.json`, `stories/03-nooh.json` `stories/04-hud.json` `stories/05-salih.json` and `stories/06-musa.json`: self-contained story text and dictionaries. The website loads only the selected story file.
+- `stories/01-ibrahim.json`, `stories/02-yusuf.json`, `stories/03-nooh.json`, `stories/04-hud.json`, `stories/05-salih.json`, `stories/06-musa.json`, `stories/07-shuaib.json` and `stories/08-dawood-sulaiman.json`: self-contained story text and dictionaries. The website loads only the selected story file.
 - `stories/01-ibrahim.vocalized.txt`: editable, reviewed transcription used by the build script. `#` starts a section; `@` lists one-based PDF pages.
 - `stories/01-ibrahim.lexicon.tsv`: editable bilingual vocabulary source. It is a pipe-delimited file; its header describes the columns.
 - `stories/02-yusuf.vocalized.txt` and `stories/02-yusuf.lexicon.tsv`: Story 2 transcription and bilingual lexical additions. Its builder reuses common vocabulary from Story 1, and embeds every required entry in the final JSON.
@@ -114,6 +116,7 @@ python scripts/build_hud.py
 python scripts/build_salih.py
 python scripts/build_musa.py
 python scripts/build_shuaib.py
+python scripts/build_dawood_sulaiman.py
 python scripts/validate_story.py
 ```
 

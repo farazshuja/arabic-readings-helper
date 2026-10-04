@@ -140,6 +140,26 @@
         "vocabularyEntries": 433
       },
       "file": "stories/07-shuaib.json"
+    },
+    {
+      "id": "08-dawood-sulaiman",
+      "number": 8,
+      "title": "داود وسليمان",
+      "titleVocalized": "دَاوُدُ وَسُلَيْمَانُ",
+      "subtitle": "قصّة سيّدنا داود وسيّدنا سليمان",
+      "titleEnglish": "Dawood and Sulaiman",
+      "titleUrdu": "حضرت داؤد اور سلیمان",
+      "description": {
+        "en": "Read about Dawood and Sulaiman, their wisdom, gratitude, and the Queen of Saba, in 15 chapters.",
+        "ur": "حضرت داؤد اور سلیمان کی حکمت، شکر گزاری اور ملکہ سبا کا قصہ؛ ۱۵ ابواب۔"
+      },
+      "counts": {
+        "sections": 15,
+        "lines": 84,
+        "wordOccurrences": 1562,
+        "vocabularyEntries": 604
+      },
+      "file": "stories/08-dawood-sulaiman.json"
     }
   ]
 }
