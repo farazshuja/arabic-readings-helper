@@ -120,6 +120,26 @@
         "vocabularyEntries": 1664
       },
       "file": "stories/06-musa.json"
+    },
+    {
+      "id": "07-shuaib",
+      "number": 7,
+      "title": "شعيب",
+      "titleVocalized": "شُعَيْبٌ",
+      "subtitle": "قصّة سيّدنا شعيب",
+      "titleEnglish": "Shuaib and the People of Madyan",
+      "titleUrdu": "حضرت شعیب اور اہل مدین",
+      "description": {
+        "en": "Read Shuaib’s call to faith, honest trade and fair weights and measures, in 14 chapters.",
+        "ur": "حضرت شعیب کی ایمان، دیانت دار تجارت اور پورے ناپ تول کی دعوت؛ ۱۴ ابواب۔"
+      },
+      "counts": {
+        "sections": 14,
+        "lines": 39,
+        "wordOccurrences": 943,
+        "vocabularyEntries": 433
+      },
+      "file": "stories/07-shuaib.json"
     }
   ]
 }

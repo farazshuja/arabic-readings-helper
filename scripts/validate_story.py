@@ -149,6 +149,22 @@ def check(item):
         for word in ('أُوذِينَا','عُلِّمْتَ','وَأُلْقِيَ','وَأُشْرِبُوا','قُتِلَ'):
             matching=[t for t in tokens if t['vocalized']==word]
             assert matching and all(t['usage']['en'].endswith('; passive') and MARKS.search(t['text']) for t in matching),word
+    elif story['id'] == '07-shuaib':
+        assert len(story['sections']) == 14 and len(lines) == 39
+        assert story['source']['pdfPages'] == 9
+        assert sum(len(l['references']) for l in lines) == 20
+        expected={'شُعَيْبٌ':'shuaib','الْيَمَنِ':'sh-yemen','وَالْيَقِينِ':'sh-certainty-n',
+                  'الْمِكْيَالَ':'sh-measure','وَالْمِيزَانَ':'sh-balance',
+                  'الْكَيْلَ':'sh-measuring','تُوعِدُونَ':'sh-threaten-iv',
+                  'أَثْرَوْا':'sh-become-rich','حَيَاتِكُمْ':'life-n',
+                  'بَيَانًا':'sh-eloquence-n','عُدْنَا':'come-back',
+                  'فَسُرِقَ':'steal','نُهِبَ':'sh-plunder','لَنُخْرِجَنَّكَ':'bring-out'}
+        for word in ('أُنْفِقَ','فَسُرِقَ','نُهِبَ','سُلِّطَ','يُفْتَرَى'):
+            matching=[t for t in tokens if t['vocalized']==word]
+            assert matching and all(t['usage']['en'].endswith('; passive') and MARKS.search(t['text']) for t in matching), word
+        reform=next(l for l in lines if 'إِنْ أُرِيدُ إِلَّا' in l['vocalized'])
+        assert [t['vocabularyId'] for t in reform['tokens'] if t['vocalized']=='إِنْ']==['if','negation-in']
+        assert all(t['vocabularyId']=='sh-emphatic-in' for t in tokens if t['vocalized']=='وَإِنْ')
     for word, lexeme in expected.items():
         matching = [t for t in tokens if t['vocalized'] == word]
         assert matching and all(t['vocabularyId'] == lexeme for t in matching), word

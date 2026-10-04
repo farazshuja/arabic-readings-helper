@@ -12,6 +12,8 @@ Story 5 is **ناقة ثمود — قصة سيدنا صالح**, transcribed and
 
 Story 6 is **موسى — قصة سيدنا موسى**, transcribed from all 83 PDF pages. It contains 46 chapters across two parts, 759 reading units and 226 Quran excerpt references. Both reading modes, English/Urdu vocabulary, noun/verb forms, roots and page provenance are embedded in `stories/06-musa.json`. Cover pages 1 and 41 are excluded from narrative coverage; original part and chapter numbers are retained.
 
+Story 7 is **شعيب — قصة سيدنا شعيب**, transcribed and checked against all nine PDF pages. It contains 14 chapters, 39 reading units, 433 English/Urdu vocabulary entries and 20 Quran excerpt references. The self-contained `stories/07-shuaib.json` includes both reading modes, noun/verb forms, roots and source-page provenance (printed pages 174–181).
+
 ## Files
 
 - `stories.json`: lightweight home-screen catalog. Each record supplies the title, summary, counts, and story JSON path.
@@ -111,6 +113,7 @@ python scripts/build_nooh.py
 python scripts/build_hud.py
 python scripts/build_salih.py
 python scripts/build_musa.py
+python scripts/build_shuaib.py
 python scripts/validate_story.py
 ```
 
