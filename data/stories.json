@@ -231,20 +231,20 @@
         "ur": "سیرتِ خاتم النبیین؛ نظرثانی شدہ ابواب مرحلہ وار شائع کیے جا رہے ہیں۔"
       },
       "counts": {
-        "sections": 2,
-        "lines": 76,
-        "wordOccurrences": 1574
+        "sections": 3,
+        "lines": 131,
+        "wordOccurrences": 2799
       },
       "wordLookup": "google",
       "publication": {
         "status": "partial",
         "reviewedPdfPages": [
           8,
-          28
+          41
         ],
-        "nextPdfPage": 28,
-        "nextHeading": "عَبْدُ اللَّهِ وَآمِنَةُ",
-        "label": "Reviewed through the event of the elephant · PDF pages 8–28 of 353 (page 28 opening paragraph only). More chapters to follow."
+        "nextPdfPage": 42,
+        "nextHeading": "بَعْدَ الْبَعْثَةِ",
+        "label": "Reviewed through Before the Prophethood · PDF pages 8–41 of 353. More chapters to follow."
       },
       "title": "مُحَمَّدٌ رَسُولُ اللَّهِ",
       "file": "stories/12-muhammad.json"
