@@ -231,20 +231,20 @@
         "ur": "سیرتِ خاتم النبیین؛ نظرثانی شدہ ابواب مرحلہ وار شائع کیے جا رہے ہیں۔"
       },
       "counts": {
-        "sections": 8,
-        "lines": 336,
-        "wordOccurrences": 7315
+        "sections": 9,
+        "lines": 357,
+        "wordOccurrences": 7994
       },
       "wordLookup": "google",
       "publication": {
         "status": "partial",
         "reviewedPdfPages": [
           8,
-          93
+          100
         ],
-        "nextPdfPage": 93,
-        "nextHeading": "وَقْعُ الْقُرْآنِ فِي الْقُلُوبِ السَّلِيمَةِ",
-        "label": "Reviewed through Umar’s acceptance of Islam, the boycott and the deaths of Abu Talib and Khadijah · PDF pages 8–93 of 353 (page 93 opening passage only). More chapters to follow."
+        "nextPdfPage": 101,
+        "nextHeading": "عَرْضُ رَسُولِ اللَّهِ نَفْسَهُ عَلَى الْقَبَائِلِ",
+        "label": "Reviewed through al-Tufayl, Ta’if and the Night Journey · PDF pages 8–100 of 353. More chapters to follow."
       },
       "title": "مُحَمَّدٌ رَسُولُ اللَّهِ",
       "file": "stories/12-muhammad.json"

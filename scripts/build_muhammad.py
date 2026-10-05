@@ -33,7 +33,8 @@ def main():
                 'اقْرَأْ وَرَبُّكَ': (96, 3), 'الَّذِي عَلَّمَ': (96, 4), 'عَلَّمَ الْإِنْسَانَ': (96, 5),
                 'فَاصْدَعْ بِمَا': (15, 94), 'وَأَنْذِرْ عَشِيرَتَكَ': (26, 214),
                 'وَاخْفِضْ جَنَاحَكَ': (26, 215), 'إِنِّي أَنَا النَّذِيرُ': (15, 89),
-                'يَا أَيُّهَا الْمُدَّثِّرُ': (74, 1), 'قُمْ فَأَنْذِرْ': (74, 2)}
+                'يَا أَيُّهَا الْمُدَّثِّرُ': (74, 1), 'قُمْ فَأَنْذِرْ': (74, 2),
+                'مَا زَاغَ الْبَصَرُ': (53, 17), 'لَقَدْ رَأَى مِنْ': (53, 18)}
             for beginning, (surah, ayah) in quran.items():
                 if vocal.startswith('﴿' + beginning): references = [{'surah': surah, 'ayah': ayah}]
             section = sections[-1]
@@ -49,10 +50,10 @@ def main():
              'wordLookup': 'google', 'titleVocalized': 'مُحَمَّدٌ رَسُولُ اللَّهِ', 'subtitleVocalized': 'سِيرَةُ خَاتَمِ النَّبِيِّينَ',
              'titleEnglish': 'Muhammad, the Messenger of Allah', 'titleUrdu': 'حضرت محمد رسول اللہ',
              'description': {'en': 'The life of Muhammad; reviewed chapters are being published in batches.', 'ur': 'سیرتِ خاتم النبیین؛ نظرثانی شدہ ابواب مرحلہ وار شائع کیے جا رہے ہیں۔'},
-             'publication': {'status': 'partial', 'reviewedPdfPages': [8, 93], 'nextPdfPage': 93,
-                             'nextHeading': 'وَقْعُ الْقُرْآنِ فِي الْقُلُوبِ السَّلِيمَةِ',
-                             'label': 'Reviewed through Umar’s acceptance of Islam, the boycott and the deaths of Abu Talib and Khadijah · PDF pages 8–93 of 353 (page 93 opening passage only). More chapters to follow.'},
-             'source': {'file': 'books/' + source.name, 'sha256': sha, 'pdfPages': 353, 'storyStartPage': 8, 'printedPageRange': [7, 92]},
+             'publication': {'status': 'partial', 'reviewedPdfPages': [8, 100], 'nextPdfPage': 101,
+                             'nextHeading': 'عَرْضُ رَسُولِ اللَّهِ نَفْسَهُ عَلَى الْقَبَائِلِ',
+                             'label': 'Reviewed through al-Tufayl, Ta’if and the Night Journey · PDF pages 8–100 of 353. More chapters to follow.'},
+             'source': {'file': 'books/' + source.name, 'sha256': sha, 'pdfPages': 353, 'storyStartPage': 8, 'printedPageRange': [7, 99]},
              'editorial': {'method': 'Manual transcription reviewed against each rendered page; full editorial grammatical vocalization.',
                            'notes': ['Front matter on PDF pages 1–7 is excluded.', 'Original narrative, subheadings and all explanatory footnotes in the reviewed batches are retained.',
                                      'The Before the Prophethood chapter is split into two reader sections; the second navigation title adds Birth and Upbringing for clarity. Original printed subheadings are retained.',
@@ -60,7 +61,8 @@ def main():
                                      'Reader section 5 groups the public call and early persecution; its navigation title is editorial and printed subheadings are retained.',
                                      'Reader section 6 begins at the original heading محاربة قريش رسول الله وتفننهم في الإيذاء.',
                                      'Reader section 7 covers the migration to Abyssinia and retains Ja‘far’s speech and the explanatory footnotes. Its passage ends on page 82 at وخرجا من عنده مقبوحين.',
-                                     'Reader section 8 extends the original إسلام عمر بن الخطاب heading with والمقاطعة for navigation; printed subheadings are retained. Page 93 is reviewed through the deaths of Abu Talib and Khadijah; resume at وقع القرآن في القلوب السليمة.',
+                                     'Reader section 8 extends the original إسلام عمر بن الخطاب heading with والمقاطعة for navigation; printed subheadings are retained. Its passage ends on page 93 with the deaths of Abu Talib and Khadijah.',
+                                     'Reader section 9 has an editorial navigation title grouping the Quran’s effect, Ta’if and the Night Journey; all original printed subheadings are retained. Pages 8–100 are complete; resume at عرض رسول الله نفسه على القبائل on page 101.',
                                      'Historical and theological statements remain those of the supplied author.', 'Only vocalized text is stored; browser text variants and tokens are derived locally.'],
                            'corrections': [{'sourcePages': [41], 'source': 'أن رسول الله أميا', 'edited': 'أن رسول الله أمي',
                                             'reason': 'The predicate of أن is nominative: أُمِّيٌّ. Honorific remains in the text.'},

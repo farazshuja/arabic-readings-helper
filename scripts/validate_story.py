@@ -269,9 +269,9 @@ def check_text_only(story):
     assert story['counts']['wordOccurrences'] == sum(len(re.findall(r'[\u0621-\u064a][\u0621-\u064a\u064b-\u0652\u0670]*', l['vocalized'])) for l in lines)
     assert all(MARKS.search(l['vocalized']) and l['sourcePages'] for l in lines)
     assert all('text' not in l and 'tokens' not in l for l in lines)
-    assert sum(l['kind'] == 'footnote' for l in lines) == 67
-    assert [(r['surah'], r['ayah']) for l in lines for r in l['references']] == [(30, 41), (3, 96), (2, 127), (2, 128), (2, 129)] + [(105, a) for a in range(1, 6)] + [(29, 48), (7, 157)] + [(96, a) for a in range(1, 6)] + [(15, 94), (26, 214), (26, 215), (15, 89), (40, 28), (74, 1), (74, 2), (40, 28)]
-    assert [s['id'] for s in story['sections']] == ['s01', 's02', 's03', 's04', 's05', 's06', 's07', 's08']
+    assert sum(l['kind'] == 'footnote' for l in lines) == 68
+    assert [(r['surah'], r['ayah']) for l in lines for r in l['references']] == [(30, 41), (3, 96), (2, 127), (2, 128), (2, 129)] + [(105, a) for a in range(1, 6)] + [(29, 48), (7, 157)] + [(96, a) for a in range(1, 6)] + [(15, 94), (26, 214), (26, 215), (15, 89), (40, 28), (74, 1), (74, 2), (40, 28), (53, 17), (53, 18)]
+    assert [s['id'] for s in story['sections']] == ['s01', 's02', 's03', 's04', 's05', 's06', 's07', 's08', 's09']
     assert any('وَقَدْ أَصَابَ لَهُ أَبْرَهَةُ مِائَتَيْ بَعِيرٍ' in l['vocalized'] for l in lines)
     childhood = story['sections'][2]['lines']
     assert any('وَكَانَ أَلِفًا وَدُودًا' in l['vocalized'] for l in childhood)
@@ -299,6 +299,11 @@ def check_text_only(story):
     assert umar[-1]['sourcePages'] == [93]
     assert umar[-1]['vocalized'].endswith('الْمَصَائِبُ.')
     assert sum(l['kind'] == 'footnote' for l in umar) == 4
+    taif = story['sections'][8]['lines']
+    assert taif[0]['sourcePages'] == [93]
+    assert taif[-1]['sourcePages'] == [100]
+    assert taif[-1]['vocalized'].endswith('أَجْرُ خَمْسِينَ صَلَاةً.')
+    assert sum(l['kind'] == 'footnote' for l in taif) == 1
     source = ROOT / story['source']['file']
     assert re.fullmatch('[0-9a-f]{64}', story['source']['sha256'])
     if source.exists(): assert hashlib.sha256(source.read_bytes()).hexdigest() == story['source']['sha256']
