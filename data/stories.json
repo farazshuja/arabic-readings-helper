@@ -231,20 +231,20 @@
         "ur": "سیرتِ خاتم النبیین؛ نظرثانی شدہ ابواب مرحلہ وار شائع کیے جا رہے ہیں۔"
       },
       "counts": {
-        "sections": 4,
-        "lines": 183,
-        "wordOccurrences": 3707
+        "sections": 5,
+        "lines": 223,
+        "wordOccurrences": 4649
       },
       "wordLookup": "google",
       "publication": {
         "status": "partial",
         "reviewedPdfPages": [
           8,
-          52
+          63
         ],
-        "nextPdfPage": 53,
-        "nextHeading": "الدَّعْوَةُ جِهَارًا عَلَى جَبَلِ الصَّفَا",
-        "label": "Reviewed through the first revelation and early believers · PDF pages 8–52 of 353. More chapters to follow."
+        "nextPdfPage": 63,
+        "nextHeading": "مُحَارَبَةُ قُرَيْشٍ رَسُولَ اللَّهِ وَتَفَنُّنُهُمْ فِي الْإِيذَاءِ",
+        "label": "Reviewed through the public call and early persecution · PDF pages 8–63 of 353 (page 63 opening passage only). More chapters to follow."
       },
       "title": "مُحَمَّدٌ رَسُولُ اللَّهِ",
       "file": "stories/12-muhammad.json"
