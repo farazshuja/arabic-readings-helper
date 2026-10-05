@@ -231,20 +231,20 @@
         "ur": "سیرتِ خاتم النبیین؛ نظرثانی شدہ ابواب مرحلہ وار شائع کیے جا رہے ہیں۔"
       },
       "counts": {
-        "sections": 10,
-        "lines": 380,
-        "wordOccurrences": 8745
+        "sections": 11,
+        "lines": 404,
+        "wordOccurrences": 9333
       },
       "wordLookup": "google",
       "publication": {
         "status": "partial",
         "reviewedPdfPages": [
           8,
-          109
+          115
         ],
-        "nextPdfPage": 109,
-        "nextHeading": "تَآمُرُ قُرَيْشٍ عَلَى رَسُولِ اللَّهِ الْأَخِيرُ وَخَيْبَتُهُمْ فِيمَا أَرَادُوا",
-        "label": "Reviewed through the Aqabah pledges and early migration · PDF pages 8–109 of 353 (page 109 opening passage only). More chapters to follow."
+        "nextPdfPage": 116,
+        "nextHeading": "رُكُوبُ سُرَاقَةَ فِي إِثْرِ الرَّسُولِ وَمَا وَقَعَ لَهُ",
+        "label": "Reviewed through Quraysh’s conspiracy, the departure and the Cave of Thawr · PDF pages 8–115 of 353. More chapters to follow."
       },
       "title": "مُحَمَّدٌ رَسُولُ اللَّهِ",
       "file": "stories/12-muhammad.json"

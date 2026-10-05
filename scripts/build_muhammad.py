@@ -34,9 +34,12 @@ def main():
                 'فَاصْدَعْ بِمَا': (15, 94), 'وَأَنْذِرْ عَشِيرَتَكَ': (26, 214),
                 'وَاخْفِضْ جَنَاحَكَ': (26, 215), 'إِنِّي أَنَا النَّذِيرُ': (15, 89),
                 'يَا أَيُّهَا الْمُدَّثِّرُ': (74, 1), 'قُمْ فَأَنْذِرْ': (74, 2),
-                'مَا زَاغَ الْبَصَرُ': (53, 17), 'لَقَدْ رَأَى مِنْ': (53, 18)}
+                'مَا زَاغَ الْبَصَرُ': (53, 17), 'لَقَدْ رَأَى مِنْ': (53, 18),
+                'فَأَغْشَيْنَاهُمْ': (36, 9), 'ثَانِيَ اثْنَيْنِ': (9, 40)}
             for beginning, (surah, ayah) in quran.items():
                 if vocal.startswith('﴿' + beginning): references = [{'surah': surah, 'ayah': ayah}]
+            if 'وَلِلَّهِ جُنُودُ السَّمَاوَاتِ وَالْأَرْضِ' in vocal:
+                references = [{'surah': 48, 'ayah': 4}, {'surah': 48, 'ayah': 7}]
             section = sections[-1]
             # Subheadings precede their page marker in the editable source.
             if kind == 'heading':
@@ -50,10 +53,10 @@ def main():
              'wordLookup': 'google', 'titleVocalized': 'مُحَمَّدٌ رَسُولُ اللَّهِ', 'subtitleVocalized': 'سِيرَةُ خَاتَمِ النَّبِيِّينَ',
              'titleEnglish': 'Muhammad, the Messenger of Allah', 'titleUrdu': 'حضرت محمد رسول اللہ',
              'description': {'en': 'The life of Muhammad; reviewed chapters are being published in batches.', 'ur': 'سیرتِ خاتم النبیین؛ نظرثانی شدہ ابواب مرحلہ وار شائع کیے جا رہے ہیں۔'},
-             'publication': {'status': 'partial', 'reviewedPdfPages': [8, 109], 'nextPdfPage': 109,
-                             'nextHeading': 'تَآمُرُ قُرَيْشٍ عَلَى رَسُولِ اللَّهِ الْأَخِيرُ وَخَيْبَتُهُمْ فِيمَا أَرَادُوا',
-                             'label': 'Reviewed through the Aqabah pledges and early migration · PDF pages 8–109 of 353 (page 109 opening passage only). More chapters to follow.'},
-             'source': {'file': 'books/' + source.name, 'sha256': sha, 'pdfPages': 353, 'storyStartPage': 8, 'printedPageRange': [7, 108]},
+             'publication': {'status': 'partial', 'reviewedPdfPages': [8, 115], 'nextPdfPage': 116,
+                             'nextHeading': 'رُكُوبُ سُرَاقَةَ فِي إِثْرِ الرَّسُولِ وَمَا وَقَعَ لَهُ',
+                             'label': 'Reviewed through Quraysh’s conspiracy, the departure and the Cave of Thawr · PDF pages 8–115 of 353. More chapters to follow.'},
+             'source': {'file': 'books/' + source.name, 'sha256': sha, 'pdfPages': 353, 'storyStartPage': 8, 'printedPageRange': [7, 114]},
              'editorial': {'method': 'Manual transcription reviewed against each rendered page; full editorial grammatical vocalization.',
                            'notes': ['Front matter on PDF pages 1–7 is excluded.', 'Original narrative, subheadings and all explanatory footnotes in the reviewed batches are retained.',
                                      'The Before the Prophethood chapter is split into two reader sections; the second navigation title adds Birth and Upbringing for clarity. Original printed subheadings are retained.',
@@ -63,7 +66,9 @@ def main():
                                      'Reader section 7 covers the migration to Abyssinia and retains Ja‘far’s speech and the explanatory footnotes. Its passage ends on page 82 at وخرجا من عنده مقبوحين.',
                                      'Reader section 8 extends the original إسلام عمر بن الخطاب heading with والمقاطعة for navigation; printed subheadings are retained. Its passage ends on page 93 with the deaths of Abu Talib and Khadijah.',
                                      'Reader section 9 has an editorial navigation title grouping the Quran’s effect, Ta’if and the Night Journey; all original printed subheadings are retained. Its passages cover pages 93–100.',
-                                     'Reader section 10 has an editorial navigation title grouping the call to the tribes, both Aqabah pledges and early migration. All printed subheadings and footnotes are retained. Page 109 is reviewed only through the migration passage ending رضي الله عنهما; resume at تآمر قريش على رسول الله الأخير وخيبتهم فيما أرادوا.',
+                                     'Reader section 10 has an editorial navigation title grouping the call to the tribes, both Aqabah pledges and early migration. All printed subheadings and footnotes are retained. Its migration passage ends on page 109 at رضي الله عنهما.',
+                                     'Reader section 11 groups Quraysh’s conspiracy, the departure from Mecca and the Cave of Thawr under an editorial navigation title; printed subheadings and footnotes are retained. Pages 8–115 are complete. Resume at ركوب سراقة في إثر الرسول وما وقع له on page 116.',
+                                     'The phrase ولله جنود السماوات والأرض occurs in both 48:4 and 48:7; both references are recorded because the source does not specify one.',
                                      'Historical and theological statements remain those of the supplied author.', 'Only vocalized text is stored; browser text variants and tokens are derived locally.'],
                            'corrections': [{'sourcePages': [41], 'source': 'أن رسول الله أميا', 'edited': 'أن رسول الله أمي',
                                             'reason': 'The predicate of أن is nominative: أُمِّيٌّ. Honorific remains in the text.'},
