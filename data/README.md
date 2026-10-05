@@ -24,6 +24,8 @@ Story 11 is **عيسى ابن مريم — قصة سيدنا عيسى ابن م�
 
 ## Files
 
+Story 12 uses the text-only `schemaVersion: "2.0.0"` format in `stories/12-muhammad.json`, with `wordLookup: "google"`. The first reviewed batch covers PDF pages 8–15 (printed pages 7–14), ending before the next major chapter. It contains one chapter, five subheadings, six explanatory footnotes, two Quran quotations and 27 reading units. Each unit stores `vocalized`, `kind`, `sourcePages`, `references` and a stable ID; no dictionary, word mappings or duplicate unvocalized text is stored. The browser derives tokens and reading variants. `publication` explicitly identifies the partial release and next page 16. The editable transcription is `stories/12-muhammad.vocalized.txt`; regenerate with `python scripts/build_muhammad.py`.
+
 - `stories.json`: lightweight home-screen catalog. Each record supplies the title, summary, counts, and story JSON path.
 - `stories/01-ibrahim.json` through `stories/11-isa.json`: self-contained story text and dictionaries. The catalog lists their exact filenames; the website loads only the selected story file.
 - `stories/01-ibrahim.vocalized.txt`: editable, reviewed transcription used by the build script. `#` starts a section; `@` lists one-based PDF pages.

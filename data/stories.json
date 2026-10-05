@@ -220,6 +220,33 @@
         "vocabularyEntries": 1105
       },
       "file": "stories/11-isa.json"
+    },
+    {
+      "id": "12-muhammad",
+      "number": 12,
+      "titleEnglish": "Muhammad, the Messenger of Allah",
+      "titleUrdu": "حضرت محمد رسول اللہ",
+      "description": {
+        "en": "The life of Muhammad; reviewed chapters are being published in batches.",
+        "ur": "سیرتِ خاتم النبیین؛ نظرثانی شدہ ابواب مرحلہ وار شائع کیے جا رہے ہیں۔"
+      },
+      "counts": {
+        "sections": 1,
+        "lines": 27,
+        "wordOccurrences": 582
+      },
+      "wordLookup": "google",
+      "publication": {
+        "status": "partial",
+        "reviewedPdfPages": [
+          8,
+          15
+        ],
+        "nextPdfPage": 16,
+        "label": "First reviewed chapter · PDF pages 8–15 of 353. More chapters to follow."
+      },
+      "title": "مُحَمَّدٌ رَسُولُ اللَّهِ",
+      "file": "stories/12-muhammad.json"
     }
   ]
 }

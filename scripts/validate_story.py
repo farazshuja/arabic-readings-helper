@@ -14,6 +14,9 @@ def check(item):
     story = json.loads(path.read_text(encoding='utf-8'))
     assert item['id'] == story['id']
     assert item['counts'] == story['counts']
+    if story.get('wordLookup') == 'google':
+        check_text_only(story)
+        return
     vocabulary = story['vocabulary']
     seen = set()
     used = set()
@@ -247,6 +250,29 @@ def check(item):
         matching = [t for t in tokens if t['vocalized'] == word]
         assert matching and all(t['vocabularyId'] == lexeme for t in matching), word
     print(f"PASS {story['id']}: {len(lines)} lines, {len(tokens)} word occurrences, {len(vocabulary)} bilingual entries, {len(used)} entries used including headings/clitics.")
+
+
+def check_text_only(story):
+    assert story['schemaVersion'] == '2.0.0'
+    assert 'vocabulary' not in story
+    assert story['source']['storyStartPage'] == 8
+    lines = [line for section in story['sections'] for line in section['lines']]
+    start, end = story['publication']['reviewedPdfPages']
+    assert start == 8 and end < story['source']['pdfPages']
+    assert story['publication']['nextPdfPage'] == end + 1
+    assert {p for line in lines for p in line['sourcePages']} == set(range(start, end + 1))
+    assert len({l['id'] for l in lines}) == len(lines)
+    assert story['counts']['sections'] == len(story['sections'])
+    assert story['counts']['lines'] == len(lines)
+    assert story['counts']['wordOccurrences'] == sum(len(re.findall(r'[\u0621-\u064a][\u0621-\u064a\u064b-\u0652\u0670]*', l['vocalized'])) for l in lines)
+    assert all(MARKS.search(l['vocalized']) and l['sourcePages'] for l in lines)
+    assert all('text' not in l and 'tokens' not in l for l in lines)
+    assert sum(l['kind'] == 'footnote' for l in lines) == 6
+    assert [(r['surah'], r['ayah']) for l in lines for r in l['references']] == [(30, 41), (3, 96)]
+    source = ROOT / story['source']['file']
+    assert re.fullmatch('[0-9a-f]{64}', story['source']['sha256'])
+    if source.exists(): assert hashlib.sha256(source.read_bytes()).hexdigest() == story['source']['sha256']
+    print(f"PASS {story['id']}: {len(lines)} text-only reading units, PDF pages {start}–{end}, no vocabulary dictionary.")
 
 
 if __name__ == '__main__':

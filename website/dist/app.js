@@ -67,7 +67,8 @@ function renderLibrary() {
     const details = el('div', 'story-details');
     details.append(el('span', 'eyebrow', `STORY ${String(story.number).padStart(2, '0')}`), ar(el('h3', 'arabic arabic-title', story.title)), el('p', 'english-title', story.titleEnglish));
     const meta = el('div', 'meta');
-    meta.append(el('span', '', `${story.counts.sections} chapters`), el('span', '', 'English + اردو'));
+    meta.append(el('span', '', `${story.counts.sections} chapters`), el('span', '', story.wordLookup === 'google' ? 'Google word lookup' : 'English + اردو'));
+    if (story.publication?.status === 'partial') details.append(el('p', 'small', story.publication.label));
     const start = el('a', 'primary', 'Read story');
     start.href = linkFor(story.id);
     details.append(meta, start);
@@ -79,7 +80,7 @@ function renderLibrary() {
 }
 
 function vocabularyCardEntry(token, story) {
-  const entry = story.vocabulary[token.vocabularyId];
+  const entry = story.vocabulary?.[token.vocabularyId];
   if (!entry || ['pronoun', 'particle', 'preposition'].includes(entry.partOfSpeech)) return null;
   return entry;
 }
@@ -87,6 +88,14 @@ function vocabularyCardEntry(token, story) {
 function renderWords(container, tokens, leading, showHarakat, story) {
   container.replaceChildren(document.createTextNode(leading || ''));
   for (const token of tokens) {
+    if (story.wordLookup === 'google') {
+      const word = el('a', 'word', showHarakat ? token.vocalized : token.text);
+      word.href = googleWordURL(token.vocalized);
+      word.target = '_blank'; word.rel = 'noopener noreferrer';
+      word.setAttribute('aria-label', `${token.vocalized} — search Google for meaning and forms (new tab)`);
+      container.append(word, document.createTextNode(token.after));
+      continue;
+    }
     if (!vocabularyCardEntry(token, story)) {
       container.append(document.createTextNode((showHarakat ? token.vocalized : token.text) + token.after));
       continue;
@@ -98,6 +107,31 @@ function renderWords(container, tokens, leading, showHarakat, story) {
     word.onclick = () => openWord(token, story);
     container.append(word, document.createTextNode(token.after));
   }
+}
+
+function googleWordURL(word) {
+  const query = `What is the meaning of ${word}, provide its madi/mudari/masdar form if its a verb, or sing./pl. forms if its a noun`;
+  return `https://www.google.com/search?q=${encodeURIComponent(query)}`;
+}
+
+function prepareStory(story) {
+  if (story.wordLookup !== 'google') return story;
+  function passage(vocalized, id) {
+    const matches = [...vocalized.matchAll(/[\u0621-\u064a][\u0621-\u064a\u064b-\u0652\u0670]*/g)];
+    const lighter = value => value.replace(/[\u064b-\u0650\u0652\u0670]/g, '');
+    const tokens = matches.map((m, i) => ({ id: `${id}-w${i + 1}`, vocalized: m[0], text: lighter(m[0]),
+      after: vocalized.slice(m.index + m[0].length, matches[i + 1]?.index ?? vocalized.length) }));
+    const leading = vocalized.slice(0, matches[0]?.index ?? vocalized.length);
+    return { vocalized, text: lighter(vocalized), tokens, leading };
+  }
+  const title = passage(story.titleVocalized, 'title');
+  const sections = story.sections.map(section => {
+    const heading = passage(section.titleVocalized, section.id);
+    const lines = section.lines.map(line => ({ ...line, ...passage(line.vocalized, line.id) }));
+    return { ...section, title: heading.text, titleTokens: heading.tokens, lines };
+  });
+  for (const section of sections) for (const line of section.lines) revealed.add(`${story.id}:${line.id}`);
+  return { ...story, title: title.text, titleTokens: title.tokens, subtitle: story.subtitleVocalized, sections };
 }
 
 function openWord(token, story) {
@@ -181,10 +215,11 @@ function renderReader(story, requestedSection) {
   const heading = el('div', 'reader-heading');
   const titleBlock = el('div');
   const title = ar(el('h1', 'arabic'));
-  renderWords(title, story.titleTokens, '', false, story);
+  renderWords(title, story.titleTokens, '', story.wordLookup === 'google', story);
   titleBlock.append(el('div', 'eyebrow', `STORY ${String(story.number).padStart(2, '0')}`), title, el('p', '', `${story.titleEnglish} · ${story.subtitle}`));
-  const wordNotes = Object.keys(story.vocabulary).filter(vocabularyId => vocabularyCardEntry({ vocabularyId }, story)).length;
-  heading.append(titleBlock, el('span', 'count', `${story.counts.sections} chapters · ${wordNotes} word notes`));
+  const wordNotes = Object.keys(story.vocabulary || {}).filter(vocabularyId => vocabularyCardEntry({ vocabularyId }, story)).length;
+  heading.append(titleBlock, el('span', 'count', `${story.counts.sections} chapters · ${story.wordLookup === 'google' ? 'Google word lookup' : `${wordNotes} word notes`}`));
+  if (story.publication?.status === 'partial') titleBlock.append(el('p', 'small', story.publication.label));
   const layout = el('div', 'reader-layout');
   const contents = el('nav', 'contents'); contents.setAttribute('aria-label', 'Story chapters');
   contents.append(el('p', 'contents-label', 'IN THIS STORY'));
@@ -205,16 +240,16 @@ function renderReader(story, requestedSection) {
   const tools = el('div', 'reader-tools');
   const key = el('div', 'tool-key');
   key.append(el('span', 'badge arabic', 'أَ'), el('span', '', 'Reveal vowels'), icon('copy'), el('span', '', 'Copy line'));
-  tools.append(key, el('span', '', 'Tap a word to learn'));
+  tools.append(key, el('span', '', story.wordLookup === 'google' ? 'Tap a word → Google; select AI Mode there' : 'Tap a word to learn'));
   const page = el('article', 'reading-page'); page.setAttribute('aria-label', section.titleEnglish);
   const chapter = el('header', 'chapter-header');
   const chapterTitles = el('div');
   const chapterTitle = ar(el('h2', 'arabic'));
-  renderWords(chapterTitle, section.titleTokens, '', false, story);
+  renderWords(chapterTitle, section.titleTokens, '', story.wordLookup === 'google', story);
   chapterTitles.append(chapterTitle, el('p', '', section.titleEnglish));
   chapter.append(el('span', 'chapter-number', String(section.number).padStart(2, '0')), chapterTitles); page.append(chapter);
   for (const [index, line] of section.lines.entries()) {
-    const row = el('div', 'reading-line');
+    const row = el('div', `reading-line${line.kind === 'heading' ? ' passage-heading' : line.kind === 'footnote' ? ' passage-footnote' : ''}`);
     const controls = el('div', 'line-controls');
     const stateKey = `${story.id}:${line.id}`;
     const toggle = el('button', 'icon-button harakat-button', 'أَ'); toggle.type = 'button';
@@ -280,7 +315,7 @@ async function route() {
     let story = cache.get(record.id);
     if (!story) {
       main.replaceChildren(el('div', 'loading', 'Opening the story…'));
-      story = await loadJSON(storyPath(record));
+      story = prepareStory(await loadJSON(storyPath(record)));
       cache.set(record.id, story);
     }
     if (request !== routeRequest) return;

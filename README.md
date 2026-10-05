@@ -30,6 +30,8 @@ See [the data contract](data/README.md) and [the website guide](website/README.m
 
 ## Repository contents
 
+Story #12 is published in reviewed batches, beginning at PDF page 8. Rebuild it with `python scripts/build_muhammad.py`. Its JSON stores only vocalized passages and source metadata; the browser derives word links and lighter text locally. Word clicks open the requested meaning-and-forms prompt on Google in a new tab. Readers can select Google AI Mode there. The published page range and next source page are recorded in `publication`.
+
 - `website/dist/`: HTML, CSS, JavaScript, and static hosting files.
 - `data/`: canonical story JSON, catalog, editorial transcription and lexicon.
 - `scripts/`: data generation, validation and synchronization utilities.
