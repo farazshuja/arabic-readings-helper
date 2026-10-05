@@ -1,0 +1,529 @@
+# id|pos|root|singular/madi|plural/mudari|masdar|English|Urdu|extra forms
+is-messiah|properNoun|م س ح|مَسِيحٌ|-|-|Messiah; a title of Isa|مسیح؛ حضرت عیسیٰ کا لقب|
+is-gospel|noun|-|إِنْجِيلٌ|-|-|Gospel; Injil|انجیل|
+is-will|noun|ر و د|إِرَادَةٌ|إِرَادَاتٌ|-|will; intention|ارادہ|
+is-unrestricted|adjective|ط ل ق|مُطْلَقٌ|مُطْلَقُونَ|-|unrestricted; absolute|مطلق؛ بے قید|مطلقة
+is-extraordinary|adjective|خ ر ق|خَارِقٌ|خَوَارِقُ|-|extraordinary; breaking the usual pattern|خارق؛ معمول سے ہٹ کر|خارقة
+is-law|noun|-|قَانُونٌ|قَوَانِينُ|-|law; rule|قانون|
+is-natural|adjective|ط ب ع|طَبِيعِيٌّ|طَبِيعِيُّونَ|-|natural|قدرتی|طبيعية
+is-nature|noun|ط ب ع|طَبِيعَةٌ|طَبَائِعُ|-|nature; disposition|فطرت؛ طبیعت|طبائع
+is-observation|noun|ش ه د|مُشَاهَدَةٌ|مُشَاهَدَاتٌ|-|observation; witnessing|مشاہدہ|
+is-medicine|noun|ط ب ب|طِبٌّ|-|-|medicine; medical science|طب؛ علم علاج|
+is-nomos|noun|-|نَامُوسٌ|نَوَامِيسُ|-|law; governing principle|قانون؛ ضابطہ|
+is-willing|adjective|ر و د|مُرِيدٌ|مُرِيدُونَ|-|willing; one who wills|ارادہ کرنے والا|
+is-maker|noun|ص ن ع|صَانِعٌ|صُنَّاعٌ|-|maker; craftsman|بنانے والا؛ کاریگر|
+is-originator|noun|ب ر أ|بَارِئٌ|-|-|Originator; Creator (Allah)|پیدا کرنے والا؛ اللہ تعالیٰ|
+is-shaper|noun|ص و ر|مُصَوِّرٌ|-|-|Giver of forms (Allah)|صورت بنانے والا؛ اللہ تعالیٰ|
+is-greece|properNoun|-|يُونَانُ|-|-|Greece; Greeks in context|یونان؛ یونانی لوگ|
+is-peak|noun|أ و ج|أَوْجٌ|-|-|peak; highest point|عروج؛ بلندی|
+is-rational|adjective|ع ق ل|عَقْلِيٌّ|عَقْلِيُّونَ|-|intellectual; rational|عقلی|عقلية
+is-mathematical|adjective|ر و ض|رِيَاضِيٌّ|رِيَاضِيُّونَ|-|mathematical|ریاضی سے متعلق|رياضية
+is-power|noun|ص و ل|صَوْلَةٌ|صَوْلَاتٌ|-|power; influence; force|دبدبہ؛ زور|
+is-visible|adjective|ظ ه ر|ظَاهِرٌ|ظَاهِرُونَ|-|visible; outward|ظاہر؛ بیرونی|ظاهرة
+is-prevailing|adjective|س و د|سَائِدٌ|سَائِدُونَ|-|prevailing; dominant|رائج؛ غالب|سائدة
+is-spirit|noun|ر و ح|رُوحٌ|أَرْوَاحٌ|-|spirit; soul|روح|
+is-explanation|noun|ف س ر|تَفْسِيرٌ|تَفَاسِيرُ|-|explanation; interpretation|تفسیر؛ وضاحت|
+is-material|adjective|م د د|مَادِّيٌّ|مَادِّيُّونَ|-|material; materialistic|مادی|مادية
+is-occurrence|noun|ح د ث|حَادِثٌ|حَوَادِثُ|-|occurrence; event|واقعہ|
+is-cause|noun|ع ل ل|عِلَّةٌ|عِلَلٌ|-|cause; reason; ailment|علت؛ سبب؛ بیماری|
+is-treatment|noun|ع ل ج|عِلَاجٌ|عِلَاجَاتٌ|-|treatment; remedy|علاج|
+is-intellect|noun|ع ق ل|عَقْلٌ|عُقُولٌ|-|intellect; mind|عقل|
+is-narrow|adjective|ض ي ق|ضَيِّقٌ|ضَيِّقُونَ|-|narrow; limited|تنگ؛ محدود|
+is-call|noun|ن د و|نِدَاءٌ|نِدَاءَاتٌ|-|call; appeal|ندا؛ پکار|
+is-attachment|noun|م س ك|تَمَسُّكٌ|-|-|adherence; clinging to|تمسک؛ مضبوطی سے پکڑنا|
+is-husk|noun|ق ش ر|قِشْرٌ|قُشُورٌ|-|husk; outer shell|چھلکا؛ ظاہری پرت|
+is-core|noun|ل ب ب|لُبَابٌ|-|-|core; essence|لباب؛ اصل جوہر|
+is-clinging|noun|ش ب ث|تَشَبُّثٌ|-|-|clinging; insistence|اصرار؛ مضبوطی سے پکڑنا|
+is-sanctification|noun|ق د س|تَقْدِيسٌ|-|-|sanctification; veneration|تقدیس؛ تعظیم|
+is-element|noun|-|عُنْصُرٌ|عَنَاصِرُ|-|element; ancestry or race here|عنصر؛ یہاں نسل|
+is-substance|noun|م د د|مَادَّةٌ|مَوَادُّ|-|matter; material substance|مادہ|
+is-israelite|adjective|-|إِسْرَائِيلِيٌّ|إِسْرَائِيلِيُّونَ|-|Israelite; belonging to the Children of Israel|بنی اسرائیل سے تعلق رکھنے والا|إسرائيليين إسرائيلية
+is-greco|adjective|-|يُونَانِيٌّ|يُونَانِيُّونَ|-|Greek|یونانی|يونانية
+is-syria|properNoun|-|سُورِيَا|-|-|Syria|شام؛ سوریہ|
+is-palestine|properNoun|-|فِلَسْطِينُ|-|-|Palestine|فلسطین|
+is-roman|adjective|-|رُومِيٌّ|رُومٌ|-|Roman|رومی|رومي روماني رومية الرومان
+is-humility|noun|خ ن ع|خُنُوعٌ|-|-|submission; servility|دب جانا؛ ذلت آمیز فرمانبرداری|
+is-trickery|noun|ح و ل|تَحَيُّلٌ|-|-|trickery; scheming|حیلہ سازی|
+is-cunning|noun|د ه ي|دَهَاءٌ|-|-|cunning; shrewdness|چالاکی؛ عیاری|
+is-refuge|noun|ل ج أ|لُجُوءٌ|-|-|recourse; seeking refuge|رجوع؛ پناہ لینا|
+is-conspiracy|noun|أ م ر|مُؤَامَرَةٌ|مُؤَامَرَاتٌ|-|conspiracy; plot|سازش|
+is-secrecy|noun|س ر ر|سِرِّيَّةٌ|-|-|secrecy|رازداری|
+is-disrespect|noun|خ ف ف|اسْتِخْفَافٌ|-|-|disrespect; treating lightly|بے قدری؛ حقیر سمجھنا|
+is-audacity|noun|ج ر أ|اجْتِرَاءٌ|-|-|audacity; daring|جرأت؛ بے باکی|
+is-transaction|noun|ع م ل|تَعَامُلٌ|تَعَامُلَاتٌ|-|dealings; transactions|معاملہ؛ لین دین|
+is-teaching|noun|ع ل م|تَعْلِيمٌ|تَعَالِيمُ|-|teaching; instruction|تعلیم؛ ہدایت|
+is-religious|adjective|د ي ن|دِينِيٌّ|دِينِيُّونَ|-|religious|دینی|دينية
+is-harshness|noun|غ ل ظ|غِلْظَةٌ|-|-|harshness; roughness|سختی؛ درشتی|
+is-dryness|noun|ج ف ف|جَفَافٌ|-|-|dryness; emotional coldness here|خشکی؛ یہاں بے رحمی|
+is-feeling|noun|ع ط ف|عَاطِفَةٌ|عَوَاطِفُ|-|feeling; affection|جذبہ؛ محبت|
+is-human|adjective|أ ن س|إِنْسَانِيٌّ|إِنْسَانِيُّونَ|-|human; humane|انسانی|إنسانية
+is-humanity|noun|أ ن س|إِنْسَانِيَّةٌ|-|-|humanity; human dignity|انسانیت|
+is-respect|noun|ح ر م|احْتِرَامٌ|-|-|respect|احترام|
+is-lineage|noun|ف ص ل|فَصْلٌ|-|-|ancestry; distinction of lineage here|یہاں نسب؛ خاندانی امتیاز|
+is-consolation|noun|أ س و|مُوَاسَاةٌ|-|-|comfort; sympathetic support|غم خواری؛ ہمدردی|مؤاساة
+is-equality|noun|س و ي|مُسَاوَاةٌ|-|-|equality|مساوات|
+is-generosity|noun|ك ر م|كَرَمٌ|-|-|generosity|کرم؛ سخاوت|
+is-reform|noun|ص ل ح|إِصْلَاحٌ|إِصْلَاحَاتٌ|-|reform; putting right|اصلاح|
+is-slander|noun|ب ه ت|بُهْتٌ|-|-|slander; false accusation|بہتان|
+is-concealment|noun|ك ت م|كِتْمَانٌ|-|-|concealment|چھپانا؛ کتمان|
+is-testimony|noun|ش ه د|شَهَادَةٌ|شَهَادَاتٌ|-|testimony; witness statement|گواہی|
+is-falsehood|noun|ز و ر|زُورٌ|-|-|falsehood; false testimony|جھوٹ؛ جھوٹی گواہی|
+is-contemporary|adjective|ع ص ر|مُعَاصِرٌ|مُعَاصِرُونَ|-|contemporary|ہم عصر|معاصرة
+is-mixing|noun|خ ل ط|اخْتِلَاطٌ|-|-|mixing; intermingling|میل جول؛ اختلاط|
+is-neighbouring|noun|ج و ر|مُجَاوَرَةٌ|-|-|living alongside; proximity|ہمسائیگی|
+is-nation|noun|ش ع ب|شَعْبٌ|شُعُوبٌ|-|people; nation|قوم|
+is-pagan|adjective|و ث ن|وَثَنِيٌّ|وَثَنِيُّونَ|-|pagan; idolatrous|بت پرست|وثنية وثنيين
+is-idolatry|noun|و ث ن|وَثَنِيَّةٌ|-|-|idolatry; paganism|بت پرستی|
+is-false|adjective|ز ي ف|زَائِفٌ|زَائِفُونَ|-|false; counterfeit|جھوٹا؛ کھوٹا|زائفة
+is-uzayr|properNoun|-|عُزَيْرٌ|-|-|Uzayr|عزیر|
+is-humanity-b|noun|ب ش ر|بَشَرِيَّةٌ|-|-|human nature; humanity|بشریت؛ انسان ہونا|
+is-impudence|noun|و ق ح|وَقَاحَةٌ|-|-|impudence; shamelessness|بے حیائی؛ بے باکی|
+is-hideous|adjective|ش ن ع|شَنِيعٌ|شَنِيعُونَ|-|hideous; atrocious|مذموم؛ نہایت برا|شنيعة
+is-pride|noun|ز ه و|زَهْوٌ|-|-|pride; conceit|غرور؛ فخر|
+is-conceit|noun|د ل ل|دَلَالٌ|-|-|conceit; self-indulgence|ناز؛ خود پسندی|
+is-boasting|noun|د ل ل|إِدْلَالٌ|-|-|boasting; presumptuous pride|فخر؛ ناز|
+is-dependence|noun|ع م د|اعْتِمَادٌ|-|-|reliance; dependence|اعتماد؛ بھروسا|
+is-wish|noun|م ن ي|أُمْنِيَّةٌ|أَمَانِيُّ|-|wish; hope|تمنا؛ آرزو|
+is-sensible|adjective|ح س س|مَحْسُوسٌ|مَحْسُوسَاتٌ|-|perceptible to the senses|حواس سے محسوس ہونے والا|
+is-established|adjective|ق ر ر|مُقَرَّرٌ|مُقَرَّرُونَ|-|established; settled|طے شدہ؛ مقرر|
+is-custom|noun|ع ر ف|عُرْفٌ|أَعْرَافٌ|-|custom; convention|رواج؛ عرف|
+is-widespread|adjective|ش ي ع|شَائِعٌ|شَائِعُونَ|-|widespread; common|رائج؛ عام|شائعة
+is-followed|adjective|ت ب ع|مُتَّبَعٌ|مُتَّبَعُونَ|-|followed; observed|مانا جانے والا|متبعة
+is-prescribed|adjective|ر س م|مَرْسُومٌ|مَرْسُومُونَ|-|prescribed; laid down|مقرر کردہ|مرسومة
+is-ideal|noun|م ث ل|مَثَلٌ|مُثُلٌ|-|ideal; exemplary value here|یہاں اعلیٰ مثال؛ مثالی قدر|
+is-unfamiliar|adjective|أ ل ف|مَأْلُوفٌ|مَأْلُوفُونَ|-|familiar; customary|مانوس؛ معمول کا|مألوفة
+is-lap|noun|ح ض ن|حِضْنٌ|أَحْضَانٌ|-|lap; embrace|گود؛ آغوش|
+is-despised|adjective|ه و ن|مُسْتَهَانٌ|-|-|looked down upon|حقیر سمجھا گیا|مستهانة
+is-atmosphere|noun|ج و و|جَوٌّ|أَجْوَاءٌ|-|atmosphere; surroundings|ماحول؛ فضا|
+is-criticism|noun|ق د ح|قَدْحٌ|-|-|criticism; disparagement|عیب جوئی؛ مذمت|
+is-lowly|adjective|و ض ع|وَضِيعٌ|وُضَعَاءُ|-|lowly; humble in status|کم حیثیت؛ پست مرتبہ|
+is-sentenced|noun|ح ك م|مَحْكُومٌ|مَحْكُومُونَ|-|one subject to authority; sentenced person|محکوم؛ سزا یافتہ|
+is-holy|adjective|ق د س|قُدُسٌ|-|-|holy; holiness (روح القدس: Holy Spirit)|پاک؛ روح القدس میں مقدس روح|
+is-dazzling|adjective|ب ه ر|بَاهِرٌ|بَاهِرُونَ|-|dazzling; extraordinary|حیرت انگیز؛ روشن|باهرة باهرات
+is-medication|noun|د و ي|مُدَاوَاةٌ|-|-|medical treatment|علاج|
+is-congenitally-blind|adjective|ك م ه|أَكْمَهُ|كُمْهٌ|-|blind from birth|پیدائشی نابینا|
+is-leprous|adjective|ب ر ص|أَبْرَصُ|بُرْصٌ|-|afflicted with leprosy|برص یا کوڑھ کا مریض|
+is-divine|adjective|أ ل ه|إِلَهِيٌّ|-|-|divine|الٰہی|إلهية
+is-lordly|adjective|ر ب ب|رَبَّانِيٌّ|رَبَّانِيُّونَ|-|godly; pertaining to the Lord|ربانی؛ اللہ سے تعلق رکھنے والا|ربانية ربانيين
+is-rejection|noun|ر ف ض|رَفْضٌ|-|-|rejection; refusal|رد کرنا؛ انکار|
+is-bow|noun|ق و س|قَوْسٌ|أَقْوَاسٌ|-|bow (weapon)|کمان|
+is-projectile|noun|ق ذ ف|قَذِيفَةٌ|قَذَائِفُ|-|projectile; missile|پھینکا جانے والا ہتھیار؛ گولا|
+is-ugly|adjective|ق ب ح|قَبِيحٌ|قِبَاحٌ|-|ugly; disgraceful|برا؛ بدصورت|
+is-obscene|adjective|ب ذ أ|بَذِيءٌ|بَذِيئُونَ|-|obscene; foul-mouthed|فحش؛ بد زبان|
+is-virgin|adjective|ب ت ل|بَتُولٌ|-|-|chaste; devoted; title of Maryam|پاک دامن؛ حضرت مریم کا لقب|
+is-slander-n|noun|ق ذ ف|قَذْفٌ|-|-|accusation; slander here|تہمت؛ بہتان|
+is-rabble|noun|و ب ش|وَبْشٌ|أَوْبَاشٌ|-|rabble; troublemakers|اوباش؛ شرپسند لوگ|
+is-way|noun|س ل ب|أُسْلُوبٌ|أَسَالِيبُ|-|style; manner; method|اسلوب؛ طریقہ|
+is-conflict|noun|ص ر ع|صِرَاعٌ|-|-|conflict; struggle|کشمکش؛ تصادم|
+is-humiliation|noun|غ ض ض|غَضَاضَةٌ|-|-|humiliation; perceived indignity|سبکی؛ عار|
+is-defect|noun|ع ي ب|عَيْبٌ|عُيُوبٌ|-|defect; fault|عیب|
+is-concession|noun|ن ز ل|تَنَازُلٌ|تَنَازُلَاتٌ|-|giving up; concession|دست برداری؛ چھوڑ دینا|
+is-leadership|noun|ز ع م|زَعَامَةٌ|-|-|leadership|سربراہی|
+is-privilege|noun|م ي ز|امْتِيَازٌ|امْتِيَازَاتٌ|-|privilege; distinction|امتیاز|
+is-power-n|noun|ح و ل|حَوْلٌ|-|-|power; ability|قوت؛ استطاعت|
+is-influence|noun|ط و ل|طَوْلٌ|-|-|wealth; influence; means|مال؛ طاقت؛ اثر و رسوخ|
+is-toil|noun|ك د د|كَدٌّ|-|-|toil; hard work|محنت|
+is-sweat|noun|ع ر ق|عَرَقٌ|-|-|sweat|پسینہ|
+is-forehead|noun|ج ب ن|جَبِينٌ|أَجْبِنَةٌ|-|forehead|پیشانی|
+is-position|noun|ن ص ب|مَنْصِبٌ|مَنَاصِبُ|-|position; office|عہدہ؛ منصب|
+is-launderer|noun|ق ص ر|قَصَّارٌ|قَصَّارُونَ|-|cloth bleacher; launderer|کپڑے دھونے والا؛ دھوبی|
+is-fisher|noun|ص ي د|صَيَّادٌ|صَيَّادُونَ|-|fisherman; hunter|ماہی گیر؛ شکاری|صيادو
+is-fish|noun|س م ك|سَمَكَةٌ|أَسْمَاكٌ|-|fish|مچھلی|
+is-profession|noun|م ه ن|مِهْنَةٌ|مِهَنٌ|-|profession; occupation|پیشہ|
+is-helper|noun|ن ص ر|نَاصِرٌ|أَنْصَارٌ|-|helper; supporter|مددگار|
+is-travel|noun|س ي ح|سِيَاحَةٌ|-|-|travelling; wandering|سفر؛ سیاحت|
+is-transfer|noun|ن ق ل|انْتِقَالٌ|انْتِقَالَاتٌ|-|movement; transition|منتقلی|
+is-sheep|noun|خ ر ف|خَرُوفٌ|خِرَافٌ|-|sheep; followers pictured as sheep here|بھیڑ؛ یہاں پیروکاروں کی مثال|
+is-errant|adjective|ض ل ل|ضَالٌّ|ضَالُّونَ|-|lost; astray|گمراہ؛ بھٹکا ہوا|ضالة ضالين
+is-tour|noun|ج و ل|جَوْلَةٌ|جَوْلَاتٌ|-|tour; round; excursion|دورہ؛ چکر|
+is-prosperity|noun|ر خ و|رَخَاءٌ|-|-|ease; prosperity|آسودگی؛ خوش حالی|
+is-lifespark|noun|ر م ق|رَمَقٌ|-|-|last spark of life; bare subsistence|باقی ماندہ جان؛ زندہ رہنے کی طاقت|
+is-disciple|noun|ح و ر|حَوَارِيٌّ|حَوَارِيُّونَ|-|disciple; devoted helper|حواری؛ مخلص ساتھی|حواريين
+is-endurance|noun|ج ل د|جَلَدٌ|-|-|endurance; fortitude|تحمل؛ مضبوطی|
+is-austerity|noun|ق ش ف|تَقَشُّفٌ|-|-|austerity; living simply|سادہ زندگی؛ سخت کوشی|
+is-asceticism|noun|ز ه د|زَهَادَةٌ|-|-|asceticism; detachment from luxuries|زہد؛ دنیا سے بے رغبتی|
+is-table|noun|م ي د|مَائِدَةٌ|مَوَائِدُ|-|table spread with food|کھانے کا دسترخوان|
+is-trick|noun|خ ر ق|مِخْرَاقٌ|مَخَارِيقُ|-|trick; illusion|شعبدہ؛ کرتب|
+is-inexperienced|noun|غ م ر|غُمْرٌ|أَغْمَارٌ|-|inexperienced; naive person|ناتجربہ کار؛ سادہ لوح|
+is-insistence|noun|ل ح ح|إِلْحَاحٌ|-|-|insistence; persistent asking|اصرار|
+is-persistence|noun|ص ر ر|إِصْرَارٌ|-|-|persistence; determination|اصرار؛ پختہ ارادہ|
+is-serious|adjective|ج د د|جَادٌّ|جَادُّونَ|-|serious; earnest|سنجیدہ|جادين
+is-assurance|noun|ط م أ ن|اطْمِئْنَانٌ|-|-|assurance; peace of mind|اطمینان|
+is-generation|noun|ج ي ل|جِيلٌ|أَجْيَالٌ|-|generation|نسل|
+is-coming|adjective|ق د م|قَادِمٌ|قَادِمُونَ|-|coming; future|آنے والا|قادمة
+is-cup|noun|ك أ س|كَأْسٌ|كُؤُوسٌ|-|cup; goblet|پیالہ|
+is-case|noun|ق ض ي|قَضِيَّةٌ|قَضَايَا|-|case; issue|قضیہ؛ مقدمہ|
+is-rebel|noun|ث و ر|ثَائِرٌ|ثُوَّارٌ|-|rebel; revolutionary|باغی؛ انقلابی|
+is-anarchist|adjective|ف و ض|فَوْضَوِيٌّ|فَوْضَوِيُّونَ|-|anarchic; disorderly|انتشار پسند|
+is-resentful|adjective|ن ق م|نَاقِمٌ|نَاقِمُونَ|-|resentful; hostile|ناراض؛ کینہ رکھنے والا|ناقمين
+is-political|adjective|س و س|سِيَاسِيٌّ|سِيَاسِيُّونَ|-|political|سیاسی|سياسية سياسيين
+is-revolutionary|adjective|ث و ر|ثَوْرِيٌّ|ثَوْرِيُّونَ|-|revolutionary|انقلابی|
+is-spark|noun|ش ر ر|شَرَارَةٌ|شَرَارَاتٌ|-|spark|چنگاری|
+is-trivial|adjective|ت ف ه|تَافِهٌ|تَافِهُونَ|-|trivial; insignificant|حقیر؛ معمولی|تافهة
+is-filled|adjective|م ل أ|مَمْلُوءٌ|مَمْلُوءُونَ|-|filled; full|بھرا ہوا|
+is-coloured|adjective|ص ب غ|مَصْبُوغٌ|مَصْبُوغُونَ|-|coloured; tinged|رنگا ہوا|
+is-colour|noun|ص ب غ|صِبْغَةٌ|صِبَغٌ|-|colour; colouring|رنگ؛ رنگت|
+is-politics|noun|س و س|سِيَاسَةٌ|سِيَاسَاتٌ|-|politics; policy|سیاست|
+is-problem|noun|ش ك ل|مُشْكِلَةٌ|مُشْكِلَاتٌ|-|problem; difficulty|مسئلہ؛ مشکل|
+is-aim|noun|غ ر ض|غَرَضٌ|أَغْرَاضٌ|-|aim; purpose|غرض؛ مقصد|
+is-administrative|adjective|د و ر|إِدَارِيٌّ|إِدَارِيُّونَ|-|administrative|انتظامی|إدارية
+is-preoccupying|adjective|ش غ ل|شَاغِلٌ|شَاغِلُونَ|-|preoccupying; absorbing|مشغول کر دینے والا|
+is-court|noun|ح ك م|مَحْكَمَةٌ|مَحَاكِمُ|-|court of law|عدالت|
+is-friday|noun|ج م ع|جُمُعَةٌ|جُمَعٌ|-|Friday|جمعہ|
+is-holiday|noun|ع ط ل|عُطْلَةٌ|عُطَلٌ|-|holiday; day off|چھٹی|
+is-cessation|noun|ك ف ف|كَفٌّ|-|-|refraining; stopping|رکنا؛ باز رہنا|
+is-eagerness|noun|ح ر ص|حِرْصٌ|-|-|eagerness; strong desire|حرص؛ شدت سے خواہش|
+is-eager|adjective|ح ر ص|حَرِيصٌ|حِرَاصٌ|-|eager; keen|خواہش مند؛ حریص|حريصين
+is-more-eager|adjective|ح ر ص|أَحْرَصُ|-|-|more eager; keenest|زیادہ خواہش مند|
+is-calm|adjective|ه د أ|هَادِئٌ|هَادِئُونَ|-|calm; peaceful|پرسکون|هادئي
+is-carefree|adjective|ن ع م|نَاعِمٌ|نَاعِمُونَ|-|comfortable; carefree|آسودہ؛ آرام میں|ناعمي
+is-shouter|noun|ص ي ح|صَائِحٌ|صَائِحُونَ|-|shouter; one crying out|چیخنے والا|
+is-caller|noun|ه ت ف|هَاتِفٌ|هَاتِفُونَ|-|caller; one shouting|پکارنے والا|
+is-joking|adjective|ن د ر|مُتَنَدِّرٌ|مُتَنَدِّرُونَ|-|joking; making fun|مذاق کرنے والا|
+is-mocking|adjective|ه ك م|مُتَهَكِّمٌ|مُتَهَكِّمُونَ|-|mocking; sarcastic|طنز کرنے والا|
+is-distressed|adjective|ض ي ق|مُتَضَايِقٌ|مُتَضَايِقُونَ|-|annoyed; distressed|پریشان؛ تنگ دل|
+is-cross|noun|ص ل ب|صَلِيبٌ|صُلْبَانٌ|-|cross|صلیب|
+is-criminal-law|adjective|ج ن ي|جِنَائِيٌّ|جِنَائِيُّونَ|-|criminal; pertaining to crimes|فوجداری؛ جرم سے متعلق|
+is-hanging|noun|ش ن ق|شَنْقٌ|-|-|hanging; execution by suspension|پھانسی|
+is-crucifixion|noun|ص ل ب|صَلْبٌ|-|-|crucifixion|صلیب پر چڑھانا|
+is-gallows|noun|ش ن ق|مَشْنَقٌ|مَشَانِقُ|-|place of execution; gallows|پھانسی کی جگہ|
+is-civilised|adjective|م د ن|مُتَمَدِّنٌ|مُتَمَدِّنُونَ|-|civilised; developed|مہذب؛ ترقی یافتہ|متمدنة
+is-crowded|adjective|ح ش د|حَاشِدٌ|حَاشِدُونَ|-|crowded; densely assembled|گھنا؛ جمع ہوا|
+is-police|noun|ش ر ط|شُرْطَةٌ|-|-|police (collective)|پولیس|
+is-officer|noun|ش ر ط|شُرْطِيٌّ|شُرْطِيُّونَ|-|police officer|پولیس کا اہلکار|
+is-commanded|adjective|أ م ر|مَأْمُورٌ|مَأْمُورُونَ|-|commanded; appointed official|مامور؛ حکم کا پابند|مأمورين
+is-employed|adjective|و ظ ف|مُوَظَّفٌ|مُوَظَّفُونَ|-|employed; employee|ملازم|موظفين
+is-enthusiastic|adjective|ح م س|مُتَحَمِّسٌ|مُتَحَمِّسُونَ|-|enthusiastic; zealous|پرجوش|متحمسين
+is-canopy|noun|ر و ق|رِوَاقٌ|أَرْوِقَةٌ|-|canopy; arcade; covering|سائبان؛ پردہ|
+is-harm|noun|أ ذ ي|إِيذَاءٌ|-|-|harming; causing hurt|تکلیف پہنچانا|
+is-insult|noun|ه و ن|إِهَانَةٌ|إِهَانَاتٌ|-|insult; humiliation|توہین|
+is-effort|noun|ج ه د|جَهْدٌ|جُهُودٌ|-|effort; exertion|محنت؛ مشقت|
+is-bearing|noun|ح م ل|تَحَمُّلٌ|-|-|bearing; enduring|برداشت کرنا|
+is-wood|noun|ع و د|عُودٌ|أَعْوَادٌ|-|piece of wood; wooden beam|لکڑی؛ لکڑی کا شہتیر|
+is-assigned|adjective|و ك ل|مُوَكَّلٌ|مُوَكَّلُونَ|-|assigned; put in charge|مقرر کردہ؛ ذمہ دار|
+is-colleague|noun|ز م ل|زَمِيلٌ|زُمَلَاءُ|-|colleague; companion|ساتھی|زملائ
+is-enthusiasm|noun|ح م س|حَمَاسَةٌ|-|-|enthusiasm; zeal|جوش؛ ولولہ|
+is-foolishness|noun|س ف ه|سَفَاهَةٌ|-|-|foolishness|سفاہت؛ بے وقوفی|
+is-haste|noun|ب د ر|مُبَادَرَةٌ|مُبَادَرَاتٌ|-|initiative; hastening|پہل؛ جلدی|
+is-responsibility|noun|س أ ل|مَسْؤُولِيَّةٌ|مَسْؤُولِيَّاتٌ|-|responsibility|ذمہ داری|
+is-exhausting|adjective|ر ه ق|مُرْهِقٌ|مُرْهِقُونَ|-|exhausting; burdensome|تھکا دینے والا|مرهقة
+is-procession|noun|و ك ب|مَوْكِبٌ|مَوَاكِبُ|-|procession|جلوس؛ قافلہ|
+is-accompanying|adjective|م ش ي|مُمَاشٍ|مُمَاشُونَ|-|walking alongside; escorting|ساتھ چلنے والا|مماشين
+is-noise|noun|ض ج ج|ضَجِيجٌ|-|-|noise; uproar|شور|
+is-roper|noun|ح ب ل|حَابِلٌ|حَابِلُونَ|-|trapper; net hunter (part of an idiom)|جال لگانے والا؛ محاورے کا حصہ|
+is-archer|noun|ن ب ل|نَابِلٌ|نَابِلُونَ|-|archer (part of an idiom)|تیر انداز؛ محاورے کا حصہ|
+is-forced-labour|noun|س خ ر|سُخْرَةٌ|-|-|forced unpaid labour|بیگار|
+is-criminal|noun|ج ر م|مُجْرِمٌ|مُجْرِمُونَ|-|criminal|مجرم|
+is-crime|noun|ج ر م|جَرِيمَةٌ|جَرَائِمُ|-|crime|جرم|
+is-wailing|noun|ع و ل|عَوِيلٌ|-|-|wailing; lamentation|واویلا؛ فریاد|
+is-crucified|adjective|ص ل ب|مَصْلُوبٌ|مَصْلُوبُونَ|-|crucified|صلیب پر چڑھایا گیا|
+is-purified|adjective|ط ه ر|مُطَهَّرٌ|مُطَهَّرُونَ|-|purified|پاک کیا گیا|
+is-circumstance|noun|ل ب س|مُلَابَسَةٌ|مُلَابَسَاتٌ|-|circumstance; surrounding condition|حالات؛ الملابسات|
+is-document|noun|و ث ق|وَثِيقَةٌ|وَثَائِقُ|-|document; record|دستاویز|
+is-christian|adjective|-|مَسِيحِيٌّ|مَسِيحِيُّونَ|-|Christian|مسیحی|مسيحية
+is-historical|adjective|أ ر خ|تَارِيخِيٌّ|تَارِيخِيُّونَ|-|historical|تاریخی|تاريخية
+is-legal|adjective|-|قَانُونِيٌّ|قَانُونِيُّونَ|-|legal|قانونی|قانونية
+is-demonstrating|adjective|ث ب ت|مُثْبِتٌ|مُثْبِتُونَ|-|demonstrating; proving|ثابت کرنے والا|
+is-successive|adjective|و ت ر|مُتَوَاتِرٌ|مُتَوَاتِرُونَ|-|transmitted through many successive reports|متواتر|متواترة
+is-mission|noun|ه م م|مُهِمَّةٌ|مُهِمَّاتٌ|-|mission; task|مہم؛ ذمہ داری|
+is-announcer|noun|ب ش ر|مُبَشِّرٌ|مُبَشِّرُونَ|-|bringer of good news|خوش خبری دینے والا|
+is-muhammad|properNoun|-|مُحَمَّدٌ|-|-|Muhammad|حضرت محمد ﷺ|
+is-ahmad|properNoun|-|أَحْمَدُ|-|-|Ahmad; a name of Prophet Muhammad|احمد؛ نبی کریم ﷺ کا نام|
+is-obscurity|noun|غ م ض|غُمُوضٌ|-|-|obscurity; ambiguity|ابہام؛ پیچیدگی|
+is-complication|noun|ع ق د|تَعْقِيدٌ|تَعْقِيدَاتٌ|-|complication; complexity|پیچیدگی|
+is-distortion|noun|ح ر ف|تَحْرِيفٌ|تَحْرِيفَاتٌ|-|distortion; alteration|تحریف|
+is-interpretation|noun|أ و ل|تَأْوِيلٌ|تَأْوِيلَاتٌ|-|interpretation|تاویل|
+is-seeking-refuge|noun|ل ج أ|الْتِجَاءٌ|-|-|turning to for refuge|پناہ لینا؛ رجوع کرنا|
+is-obscure|adjective|غ م ض|غَامِضٌ|غَامِضُونَ|-|obscure; unclear|مبہم؛ پیچیدہ|غامضة
+is-philosophy|noun|-|فَلْسَفَةٌ|فَلْسَفَاتٌ|-|philosophy|فلسفہ|
+is-complex|adjective|ع ق د|مُعَقَّدٌ|مُعَقَّدُونَ|-|complex; complicated|پیچیدہ|معقدة
+is-praise|noun|ط ر و|إِطْرَاءٌ|-|-|excessive praise; flattery|بڑھا چڑھا کر تعریف کرنا|
+is-divinity|noun|أ ل ه|أُلُوهِيَّةٌ|-|-|divinity; godhood|الوہیت|
+is-self-sufficient|adjective|ص م د|صَمَدٌ|-|-|Self-Sufficient; One sought by all (Allah)|بے نیاز؛ سب کا سہارا؛ اللہ تعالیٰ|
+is-assembled|adjective|أ ل ف|مُؤَلَّفٌ|مُؤَلَّفُونَ|-|assembled; composed of|مرکب؛ ملا کر بنایا گیا|مؤلفة
+is-church|noun|-|كَنِيسَةٌ|كَنَائِسُ|-|church|گرجا گھر|
+is-bowing|noun|ح ن ي|انْحِنَاءٌ|-|-|bowing; bending|جھکنا|
+is-disapproving|adjective|ن ك ر|مُنْكِرٌ|مُنْكِرُونَ|-|disapproving; rejecting|انکار کرنے والا|
+is-repulsed|adjective|ب ش ع|مُسْتَبْشِعٌ|مُسْتَبْشِعُونَ|-|finding repulsive; deploring|برا اور گھناؤنا سمجھنے والا|
+is-matthew|properNoun|-|مَتَّى|-|-|Matthew (Gospel attribution)|متی؛ انجیل کی نسبت|
+is-luke|properNoun|-|لُوقَا|-|-|Luke (Gospel attribution)|لوقا؛ انجیل کی نسبت|
+is-announcement|noun|ع ل ن|إِعْلَانٌ|إِعْلَانَاتٌ|-|announcement; declaration|اعلان|
+is-guardian|adjective|ه ي م ن|مُهَيْمِنٌ|مُهَيْمِنُونَ|-|guardian; overseeing and safeguarding|نگہبان؛ نگران|
+is-certifying|adjective|ص د ق|مُصَدِّقٌ|مُصَدِّقُونَ|-|confirming; affirming the truth|تصدیق کرنے والا|
+is-shrine|noun|-|هَيْكَلٌ|هَيَاكِلُ|-|temple; shrine; structure|معبد؛ عمارت|
+is-rooted|adjective|ع ر ق|عَرِيقٌ|عُرَقَاءُ|-|deep-rooted; long-established|گہرا؛ قدیم|عريقة
+is-authenticity|noun|أ ص ل|أَصَالَةٌ|-|-|authenticity; original character|اصالت؛ اصل پن|
+is-prophetic|adjective|ن ب أ|نَبَوِيٌّ|نَبَوِيُّونَ|-|prophetic|نبوی|نبوية
+is-simple|noun|ب س ط|بَسَاطَةٌ|-|-|simplicity|سادگی|
+is-monotheistic|adjective|و ح د|تَوْحِيدِيٌّ|تَوْحِيدِيُّونَ|-|monotheistic|توحیدی|توحيدية
+is-constantine|properNoun|-|قُسْطَنْطِينُ|-|-|Constantine|قسطنطین|
+is-europe|properNoun|-|أُورُبَّا|-|-|Europe|یورپ|
+is-chin|noun|ذ ق ن|ذَقَنٌ|أَذْقَانٌ|-|chin|ٹھوڑی|
+is-open|adjective|س ف ر|سَافِرٌ|سَافِرُونَ|-|open; undisguised|کھلا؛ بے پردہ|سافرة
+is-advancing|adjective|ز ح ف|زَاحِفٌ|زَاحِفُونَ|-|advancing; spreading|آگے بڑھنے والا|زاحفة
+is-conquering|adjective|ف ت ح|فَاتِحٌ|فَاتِحُونَ|-|conquering|فاتح|فاتحة
+is-path|noun|-|دَرْبٌ|دُرُوبٌ|-|path; way|راہ؛ راستہ|
+is-walking|noun|س ل ك|سَالِكٌ|سَالِكُونَ|-|traveller; one following a path|راہ پر چلنے والا|
+is-course|noun|س ي ر|سَيْرٌ|-|-|course; movement; travelling|سفر؛ چلنا|
+is-religion|noun|د ي ن|دِيَانَةٌ|دِيَانَاتٌ|-|religion; faith|دین؛ مذہب|
+is-wrath|noun|غ ض ب|مَغْضُوبِيَّةٌ|-|-|being the object of wrath|غضب کا مستحق ہونا|
+is-tragedy|noun|-|مَأْسَاةٌ|مَآسٍ|-|tragedy|المیہ|
+is-dominating|adjective|س ي ط ر|مُسَيْطِرٌ|مُسَيْطِرُونَ|-|dominating; controlling|غالب؛ قابو رکھنے والا|مسيطرة
+is-controlling|adjective|ح ك م|مُتَحَكِّمٌ|مُتَحَكِّمُونَ|-|controlling; exercising power|کنٹرول کرنے والا|متحكمة
+is-scene|noun|ش ه د|مَشْهَدٌ|مَشَاهِدُ|-|scene; spectacle|منظر|
+is-marvellous|adjective|ر و ع|رَائِعٌ|رَائِعُونَ|-|marvellous; striking|شاندار؛ حیرت انگیز|رائعة
+is-eloquence|noun|ب ل غ|بَلَاغَةٌ|-|-|eloquence|بلاغت|
+is-inimitability|noun|ع ج ز|إِعْجَازٌ|-|-|inimitability; miraculous quality|اعجاز|
+is-extremist|noun|غ ل و|غَالٍ|غُلَاةٌ|-|one who exceeds bounds|حد سے بڑھنے والا|
+is-answerable|adjective|س أ ل|مَسْؤُولٌ|مَسْؤُولُونَ|-|responsible; answerable|ذمہ دار|
+is-awe|noun|ج ل ل|إِجْلَالٌ|-|-|reverence; awe|تعظیم؛ ہیبت|
+is-splendour|noun|ر و ع|رَوْعَةٌ|-|-|splendour; awe-inspiring beauty|رونق؛ عظمت|
+is-raiser|noun|ر ف ع|رَافِعٌ|رَافِعُونَ|-|one who raises|بلند کرنے والا|
+is-purifier|noun|ط ه ر|مُطَهِّرٌ|مُطَهِّرُونَ|-|one who purifies|پاک کرنے والا|
+is-providing|noun|ر ز ق|رَازِقٌ|رَازِقُونَ|-|provider|رزق دینے والا|رازقين
+is-unseen|noun|غ ي ب|غَيْبٌ|غُيُوبٌ|-|unseen; hidden matters|غیب؛ پوشیدہ باتیں|
+is-watchful|adjective|ر ق ب|رَقِيبٌ|رُقَبَاءُ|-|watchful; watcher|نگہبان؛ نگران|
+is-triumph|noun|ف و ز|فَوْزٌ|-|-|success; triumph|کامیابی|
+is-upright|adjective|ق و م|مُسْتَقِيمٌ|مُسْتَقِيمُونَ|-|straight; upright|سیدھا؛ درست|
+is-best|adjective|ح س ن|حُسْنَى|-|-|best; most beautiful (feminine comparative)|سب سے اچھی؛ مؤنث|
+is-abrogate|verb|ن س خ|نَسَخَ|يَنْسَخُ|نَسْخٌ|to supersede; abrogate|منسوخ کرنا|
+is-change|verb|ح و ل|حَالَ|يَحُولُ|حَوْلٌ|to change; stand in the way|بدلنا؛ حائل ہونا|
+is-cease|verb|ز و ل|زَالَ|يَزُولُ|زَوَالٌ|to cease; pass away|زائل ہونا|
+is-become-changed|verb|ب د ل|تَبَدَّلَ|يَتَبَدَّلُ|تَبَدُّلٌ|to change; become altered|بدل جانا|
+is-interpret|verb|ف س ر|فَسَّرَ|يُفَسِّرُ|تَفْسِيرٌ|to explain; interpret|تفسیر کرنا؛ وضاحت کرنا|
+is-connect|verb|و ص ل|اتَّصَلَ|يَتَّصِلُ|اتِّصَالٌ|to connect; be connected|متصل ہونا|
+is-persist|verb|م ع ن|أَمْعَنَ|يُمْعِنُ|إِمْعَانٌ|to go deeply into; persist|بڑھتے جانا؛ گہرائی میں جانا|
+is-exaggerate|verb|غ ل و|غَلَا|يَغْلُو|غُلُوٌّ|to exceed bounds; exaggerate|حد سے بڑھنا|غلوا
+is-engross|verb|ه م ك|انْهَمَكَ|يَنْهَمِكُ|انْهِمَاكٌ|to be engrossed; absorbed|منہمک ہونا|
+is-harden|verb|ق س و|قَسَا|يَقْسُو|قَسْوَةٌ|to become hard; be harsh|سخت ہونا؛ سختی کرنا|قست يقسون
+is-freeze|verb|ج م د|جَمُدَ|يَجْمُدُ|جُمُودٌ|to freeze; become rigid|جم جانا؛ بے حس ہونا|
+is-tender|verb|ر ق ق|رَقَّ|يَرِقُّ|رِقَّةٌ|to be tender; feel compassion|نرم ہونا؛ رحم کرنا|يرقون
+is-sympathise|verb|ع ط ف|عَطَفَ|يَعْطِفُ|عَطْفٌ|to feel compassion; incline towards|شفقت کرنا؛ مائل ہونا|
+is-domineer|verb|ج ب ر|تَجَبَّرَ|يَتَجَبَّرُ|تَجَبُّرٌ|to act arrogantly; oppress|تکبر کرنا؛ ظلم کرنا|
+is-detach|verb|ج ر د|تَجَرَّدَ|يَتَجَرَّدُ|تَجَرُّدٌ|to become devoid of; strip oneself|خالی ہونا؛ الگ ہونا|
+is-surge|verb|ز خ ر|زَخَرَ|يَزْخَرُ|زَخْرٌ|to abound; teem with|بھرا ہونا|
+is-criticise|verb|ن ق د|انْتَقَدَ|يَنْتَقِدُ|انْتِقَادٌ|to criticise|تنقید کرنا|
+is-account|verb|ح س ب|حَاسَبَ|يُحَاسِبُ|مُحَاسَبَةٌ|to call to account|حساب لینا|
+is-leak|verb|س ر ب|تَسَرَّبَ|يَتَسَرَّبُ|تَسَرُّبٌ|to seep; infiltrate|سرایت کرنا؛ رسنا|
+is-overstep|verb|خ ط و|تَخَطَّى|يَتَخَطَّى|تَخَطٍّ|to overstep; cross beyond|تجاوز کرنا؛ پار کرنا|تخطوا
+is-compete|verb|ن ف س|تَنَافَسَ|يَتَنَافَسُ|تَنَافُسٌ|to compete|مقابلہ کرنا|
+is-fight-each|verb|ق ت ل|تَقَاتَلَ|يَتَقَاتَلُ|تَقَاتُلٌ|to fight one another|آپس میں لڑنا|
+is-sit-with|verb|ج ل س|جَالَسَ|يُجَالِسُ|مُجَالَسَةٌ|to sit with; keep company|ساتھ بیٹھنا|
+is-eat-with|verb|أ ك ل|آكَلَ|يُؤَاكِلُ|مُؤَاكَلَةٌ|to eat with someone|ساتھ کھانا|
+is-cure|verb|ب ر أ|أَبْرَأَ|يُبْرِئُ|إِبْرَاءٌ|to cure; heal|شفا دینا|أبرئ
+is-inform|verb|ن ب أ|نَبَّأَ|يُنَبِّئُ|تَنْبِئَةٌ|to inform; tell|خبر دینا|أنبئكم
+is-store|verb|د خ ر|ادَّخَرَ|يَدَّخِرُ|ادِّخَارٌ|to store; save up|ذخیرہ کرنا|
+is-renew|verb|ج د د|جَدَّدَ|يُجَدِّدُ|تَجْدِيدٌ|to renew|تجدید کرنا|
+is-establish|verb|ن ص ب|نَصَبَ|يَنْصِبُ|نَصْبٌ|to set up; establish|قائم کرنا|
+is-pelt|verb|ر ش ق|رَشَقَ|يَرْشُقُ|رَشْقٌ|to pelt; throw at|مارنا؛ نشانہ بنا کر پھینکنا|
+is-take-up|verb|ن و ل|تَنَاوَلَ|يَتَنَاوَلُ|تَنَاوُلٌ|to take up; assail verbally here|لینا؛ یہاں زبان سے نشانہ بنانا|
+is-oppose|verb|ع ك س|عَاكَسَ|يُعَاكِسُ|مُعَاكَسَةٌ|to oppose; obstruct|مخالفت کرنا؛ رکاوٹ ڈالنا|
+is-pursue|verb|ط ر د|طَارَدَ|يُطَارِدُ|مُطَارَدَةٌ|to pursue; chase|تعاقب کرنا|
+is-incite|verb|ه ي ج|أَهَاجَ|يُهِيجُ|إِهَاجَةٌ|to stir up; incite|بھڑکانا|
+is-abandon|verb|ه ج ر|هَجَرَ|يَهْجُرُ|هَجْرٌ|to abandon; leave|چھوڑ دینا|
+is-be-sure|verb|ي ق ن|اسْتَيْقَنَ|يَسْتَيْقِنُ|اسْتِيقَانٌ|to be certain; convinced|یقین کرنا|
+is-belittle|verb|ص غ ر|اسْتَصْغَرَ|يَسْتَصْغِرُ|اسْتِصْغَارٌ|to belittle; consider small|حقیر سمجھنا|
+is-boast|verb|ف خ ر|تَفَاخَرَ|يَتَفَاخَرُ|تَفَاخُرٌ|to boast to one another|فخر کرنا|
+is-act-superior|verb|ط و ل|تَطَاوَلَ|يَتَطَاوَلُ|تَطَاوُلٌ|to act superior; look down on others|برتری جتانا|
+is-gather-around|verb|ل ف ف|الْتَفَّ|يَلْتَفُّ|الْتِفَافٌ|to gather around; wrap around|جمع ہونا؛ لپٹنا|التفوا
+is-bear|verb|ح م ل|تَحَمَّلَ|يَتَحَمَّلُ|تَحَمُّلٌ|to bear; endure|برداشت کرنا|
+is-suffice|verb|ج ز أ|اجْتَزَأَ|يَجْتَزِئُ|اجْتِزَاءٌ|to be content with a little|تھوڑی چیز پر اکتفا کرنا|
+is-demand|verb|ط ل ب|طَالَبَ|يُطَالِبُ|مُطَالَبَةٌ|to demand; require|مطالبہ کرنا|
+is-charge|verb|ك ل ف|كَلَّفَ|يُكَلِّفُ|تَكْلِيفٌ|to charge with a duty|ذمہ داری دینا|
+is-amuse|verb|س ل و|سَلَّى|يُسَلِّي|تَسْلِيَةٌ|to amuse; entertain|دل بہلانا|يسلى
+is-distract|verb|ل ه و|أَلْهَى|يُلْهِي|إِلْهَاءٌ|to distract; divert|غافل کرنا؛ دل بہلانا|يلهى
+is-grant-respite|verb|م ه ل|أَمْهَلَ|يُمْهِلُ|إِمْهَالٌ|to grant respite|مہلت دینا|
+is-cling|verb|ش ب ث|تَشَبَّثَ|يَتَشَبَّثُ|تَشَبُّثٌ|to cling; insist|اصرار کرنا؛ پکڑے رہنا|
+is-try|verb|ح و ل|حَاوَلَ|يُحَاوِلُ|مُحَاوَلَةٌ|to try; attempt|کوشش کرنا|
+is-exhaust|verb|ع ي ل|عَالَ|يَعِيلُ|عَيْلٌ|to exhaust; wear out|تھکا دینا؛ ختم کر دینا|عيل
+is-rebel-v|verb|م ر ق|مَرَقَ|يَمْرُقُ|مُرُوقٌ|to break away; leave a faith|نکل جانا؛ دین سے پھرنا|
+is-entice|verb|ه و ي|اسْتَهْوَى|يَسْتَهْوِي|اسْتِهْوَاءٌ|to entice; captivate|لبھانا؛ بہکانا|
+is-deride|verb|س ف ه|سَفَّهَ|يُسَفِّهُ|تَسْفِيهٌ|to deride; declare foolish|بے وقوف کہنا؛ حقیر بتانا|
+is-restrict|verb|ق ي د|تَقَيَّدَ|يَتَقَيَّدُ|تَقَيُّدٌ|to be bound by; comply with|پابند ہونا|
+is-sanctify|verb|ق د س|قَدَّسَ|يُقَدِّسُ|تَقْدِيسٌ|to sanctify; venerate|تقدیس کرنا؛ مقدس ماننا|
+is-escalate|verb|ف ق م|تَفَاقَمَ|يَتَفَاقَمُ|تَفَاقُمٌ|to worsen; escalate|بڑھ جانا؛ بگڑنا|
+is-provoke|verb|ه ي ج|هَيَّجَ|يُهَيِّجُ|تَهْيِيجٌ|to provoke; excite|بھڑکانا|
+is-interfere|verb|د خ ل|تَدَخَّلَ|يَتَدَخَّلُ|تَدَخُّلٌ|to interfere; intervene|مداخلت کرنا|
+is-emit|verb|ص د ر|صَدَرَ|يَصْدُرُ|صُدُورٌ|to issue; be issued|صادر ہونا|
+is-annoy|verb|ز ع ج|أَزْعَجَ|يُزْعِجُ|إِزْعَاجٌ|to disturb; annoy|پریشان کرنا|
+is-crowd|verb|ح ش د|احْتَشَدَ|يَحْتَشِدُ|احْتِشَادٌ|to gather in crowds|جمع ہونا؛ بھیڑ لگانا|
+is-issue|verb|ص د ر|أَصْدَرَ|يُصْدِرُ|إِصْدَارٌ|to issue; pronounce|جاری کرنا؛ صادر کرنا|
+is-oblige|verb|و ج ب|أَوْجَبَ|يُوجِبُ|إِيجَابٌ|to require; make obligatory|لازم کرنا|
+is-fall-together|verb|س ق ط|تَسَاقَطَ|يَتَسَاقَطُ|تَسَاقُطٌ|to fall one after another|گرنا؛ ایک دوسرے پر گرنا|
+is-confuse|verb|ل ب س|الْتَبَسَ|يَلْتَبِسُ|الْتِبَاسٌ|to be confused; unclear|مشابہ لگنا؛ الجھن ہونا|
+is-distinguish|verb|م ي ز|مَيَّزَ|يُمَيِّزُ|تَمْيِيزٌ|to distinguish|فرق کرنا|
+is-rain-upon|verb|ه ي ل|انْهَالَ|يَنْهَالُ|انْهِيَالٌ|to pour down; rush at|ٹوٹ پڑنا|
+is-push|verb|د ف ع|تَدَافَعَ|يَتَدَافَعُ|تَدَافُعٌ|to push one another|ایک دوسرے کو دھکیلنا|
+is-taunt|verb|ع ي ر|عَيَّرَ|يُعَيِّرُ|تَعْيِيرٌ|to taunt; reproach|طعنہ دینا|
+is-wear-out|verb|ض ن ي|أَضْنَى|يُضْنِي|إِضْنَاءٌ|to exhaust; wear out|تھکا دینا|أضنا
+is-receive|verb|س ل م|تَسَلَّمَ|يَتَسَلَّمُ|تَسَلُّمٌ|to receive; take over|وصول کرنا؛ سنبھالنا|
+is-clamour|verb|ض ج ج|ضَجَّ|يَضِجُّ|ضَجِيجٌ|to clamour; make noise|شور کرنا|
+is-disown|verb|ن ص ل|تَنَصَّلَ|يَتَنَصَّلُ|تَنَصُّلٌ|to disown; deny responsibility|بری الذمہ ہونا؛ انکار کرنا|
+is-implement|verb|ن ف ذ|نَفَّذَ|يُنَفِّذُ|تَنْفِيذٌ|to implement; carry out|نافذ کرنا|
+is-rely|verb|س ن د|اسْتَنَدَ|يَسْتَنِدُ|اسْتِنَادٌ|to rely on; cite as evidence|استناد کرنا؛ سہارا لینا|
+is-record|verb|د و ن|دَوَّنَ|يُدَوِّنُ|تَدْوِينٌ|to record in writing|لکھ کر محفوظ کرنا|
+is-neglect|verb|ف ر ط|فَرَّطَ|يُفَرِّطُ|تَفْرِيطٌ|to neglect; fall short|کوتاہی کرنا|
+is-exceed|verb|ف ر ط|أَفْرَطَ|يُفْرِطُ|إِفْرَاطٌ|to exceed bounds|حد سے بڑھنا|
+is-subdue|verb|ك ب ت|كَبَتَ|يَكْبِتُ|كَبْتٌ|to suppress; humiliate|دبانا؛ رسوا کرنا|
+is-obey|verb|م ث ل|امْتَثَلَ|يَمْتَثِلُ|امْتِثَالٌ|to comply; obey|تعمیل کرنا|
+is-complete|verb|ت م م|تَمَّمَ|يُتَمِّمُ|تَتْمِيمٌ|to complete|پورا کرنا|
+is-weep|verb|د م ع|دَمَعَ|يَدْمَعُ|دَمْعٌ|to shed tears|آنسو بہانا|
+is-flatter|verb|ط ر و|أَطْرَى|يُطْرِي|إِطْرَاءٌ|to praise excessively|بڑھا چڑھا کر تعریف کرنا|
+is-spread|verb|ش ي ع|شَاعَ|يَشِيعُ|شُيُوعٌ|to spread; become common|پھیلنا؛ عام ہونا|
+is-state|verb|ص ر ح|صَرَّحَ|يُصَرِّحُ|تَصْرِيحٌ|to state clearly|صاف بیان کرنا|
+is-taste|verb|ذ و ق|تَذَوَّقَ|يَتَذَوَّقُ|تَذَوُّقٌ|to taste; appreciate|چکھنا؛ لطف محسوس کرنا|
+is-claim|verb|ق و ل|تَقَوَّلَ|يَتَقَوَّلُ|تَقَوُّلٌ|to invent sayings; falsely attribute|گھڑ کر کہنا|
+is-explain|verb|و ض ح|وَضَّحَ|يُوَضِّحُ|تَوْضِيحٌ|to clarify; explain|واضح کرنا|
+is-condemn|verb|د ي ن|أَدَانَ|يُدِينُ|إِدَانَةٌ|to condemn; find guilty|مجرم ٹھہرانا|
+is-feel|verb|ش ع ر|اسْتَشْعَرَ|يَسْتَشْعِرُ|اسْتِشْعَارٌ|to feel; sense deeply|محسوس کرنا|
+is-dive|verb|غ و ص|غَاصَ|يَغُوصُ|غَوْصٌ|to dive; sink into|غوطہ لگانا؛ ڈوبنا|
+is-embrace|verb|ح ض ن|احْتَضَنَ|يَحْتَضِنُ|احْتِضَانٌ|to embrace; adopt|گلے لگانا؛ قبول کرنا|
+is-adopt|verb|ب ن ي|تَبَنَّى|يَتَبَنَّى|تَبَنٍّ|to adopt; take up|اختیار کرنا؛ اپنا لینا|
+is-christianise|verb|-|تَنَصَّرَ|يَتَنَصَّرُ|تَنَصُّرٌ|to become Christian|مسیحی بننا|
+is-admix|verb|ط ع م|طَعَّمَ|يُطَعِّمُ|تَطْعِيمٌ|to mix in; graft|ملا دینا؛ پیوند لگانا|
+is-meet|verb|ل ق ي|الْتَقَى|يَلْتَقِي|الْتِقَاءٌ|to meet|ملنا|
+is-reject-scorn|verb|ن ك ف|اسْتَنْكَفَ|يَسْتَنْكِفُ|اسْتِنْكَافٌ|to disdain; refuse out of pride|عار سمجھنا؛ تکبر سے انکار کرنا|
+is-delude|verb|أ ف ك|أَفَكَ|يَأْفِكُ|إِفْكٌ|to turn away from truth; delude|حق سے پھیرنا|
+is-official|adjective|ر س م|رَسْمِيٌّ|رَسْمِيُّونَ|-|official|سرکاری|
+is-sound|adjective|ص ح ح|صَحِيحٌ|صِحَاحٌ|-|sound; correct; authentic|صحیح؛ درست|صحيحة
+is-clear|adjective|ص ر ح|صَرِيحٌ|صُرَحَاءُ|-|clear; explicit|صاف؛ واضح|
+is-difficult|adjective|ص ع ب|صَعْبٌ|صِعَابٌ|-|difficult|مشکل|
+is-known|adjective|ع ر ف|مَعْرُوفٌ|مَعْرُوفُونَ|-|known; familiar|معروف؛ جانا پہچانا|
+is-plotter|noun|م ك ر|مَاكِرٌ|مَاكِرُونَ|-|plotter; schemer|چال چلنے والا|ماكرين
+is-wrath-object|adjective|غ ض ب|مَغْضُوبٌ|مَغْضُوبُونَ|-|one subject to wrath|غضب کا مستحق|
+is-doubter|noun|م ر ي|مُمْتَرٍ|مُمْتَرُونَ|-|doubter|شک کرنے والا|ممترين
+is-hypocrite|noun|ن ف ق|مُنَافِقٌ|مُنَافِقُونَ|-|hypocrite|منافق|منافقين
+is-hypocrisy|noun|ن ف ق|نِفَاقٌ|-|-|hypocrisy|نفاق|
+is-christianity|noun|-|نَصْرَانِيَّةٌ|-|-|Christianity|مسیحیت|
+is-standing|noun|و ق ف|وُقُوفٌ|-|-|standing; stopping|کھڑا ہونا؛ رکنا|
+is-engrossment|noun|ه م ك|انْهِمَاكٌ|-|-|engrossment; absorption|انہماک|
+is-false-adj|adjective|ب ط ل|بَاطِلٌ|بَاطِلُونَ|-|false; invalid|باطل؛ غلط|باطلة
+is-charge-n|noun|و ه م|تُهْمَةٌ|تُهَمٌ|-|accusation; charge|تہمت|
+is-usury|noun|ر ب و|رِبًا|-|-|usury; interest|سود|ربا
+is-standing-n|noun|و ج ه|جَاهٌ|-|-|prestige; influence|جاہ؛ اثر و رسوخ|
+is-motive|noun|د ف ع|دَافِعٌ|دَوَافِعُ|-|motive; driving force|محرک؛ وجہ|
+is-innocence|noun|ب ر أ|بَرَاءَةٌ|-|-|innocence; freedom from blame|بے گناہی|
+is-punished|adjective|ع ذ ب|مُعَذَّبٌ|مُعَذَّبُونَ|-|punished; tormented|عذاب دیا گیا|معذبين
+is-rank|noun|ن ز ل|مَنْزِلَةٌ|مَنَازِلُ|-|rank; status|مرتبہ؛ مقام|
+is-history|noun|أ ر خ|تَارِيخٌ|تَوَارِيخُ|-|history|تاریخ|
+is-challenge-n|noun|ح د ي|تَحَدٍّ|تَحَدِّيَاتٌ|-|challenge|چیلنج؛ للکار|تحدي تحديا
+is-warning|noun|ح ذ ر|تَحْذِيرٌ|تَحْذِيرَاتٌ|-|warning|تنبیہ؛ خبردار کرنا|
+is-preference|noun|ف ض ل|تَفْضِيلٌ|-|-|preference; favouring above others|فضیلت دینا|
+is-implementation|noun|ن ف ذ|تَنْفِيذٌ|-|-|implementation; carrying out|عمل درآمد؛ نافذ کرنا|
+is-ignorance-period|adjective|ج ه ل|جَاهِلِيٌّ|جَاهِلِيُّونَ|-|of the age of ignorance; un-Islamic custom here|جاہلی|جاهلية
+is-capacity|noun|ذ ر ع|ذَرْعٌ|-|-|capacity; endurance (ضاق ذرعا)|برداشت؛ ضاق ذرعا میں تنگ آنا|
+is-presidency|noun|ر أ س|رِئَاسَةٌ|-|-|leadership; presidency|سربراہی|
+is-gentle|adverb|ر و د|رُوَيْدًا|-|-|gradually; gently|آہستہ آہستہ|
+is-additional|adjective|ز ي د|زَائِدٌ|زَائِدُونَ|-|additional; excessive|زائد؛ بڑھا ہوا|
+is-expanse|noun|و س ع|سَعَةٌ|-|-|breadth; extent|وسعت|
+is-various|adjective|ش ت ت|شَتَّى|-|-|various; diverse|مختلف|
+is-form|noun|ش ك ل|شَكْلٌ|أَشْكَالٌ|-|form; shape|شکل|
+is-witness|noun|ش ه د|شَهِيدٌ|شُهَدَاءُ|-|witness; one bearing witness here|یہاں گواہ|
+is-page|noun|ص ح ف|صَحِيفَةٌ|صُحُفٌ|-|page; written scripture|صحیفہ؛ ورق|
+is-truthful-f|adjective|ص د ق|صِدِّيقَةٌ|صِدِّيقَاتٌ|-|deeply truthful woman|نہایت سچی عورت|
+is-crying|noun|ص ي ح|صِيَاحٌ|-|-|crying out; shouting|چیخ و پکار|
+is-method|noun|ط ر ق|طَرِيقَةٌ|طَرَائِقُ|-|method; way|طریقہ|
+is-ordinary|noun|ع م م|عَامَّةٌ|-|-|ordinary people; the public (collective)|عام لوگ|
+is-omniscient|adjective|ع ل م|عَلَّامٌ|-|-|All-Knowing; knowing thoroughly|خوب جاننے والا|
+is-toil-n|noun|ع ن ي|عَنَاءٌ|-|-|hardship; toil|مشقت|
+is-isa|properNoun|-|عِيسَى|-|-|Isa (Jesus)|حضرت عیسیٰ|
+is-wonder|noun|غ ر ب|غَرِيبَةٌ|غَرَائِبُ|-|wonder; unusual occurrence|عجیب بات|
+is-sunset|noun|غ ر ب|غُرُوبٌ|-|-|sunset; setting|غروب|
+is-short|adjective|ق ص ر|قَصِيرٌ|قِصَارٌ|-|short|مختصر؛ چھوٹا|
+is-shape|noun|ه ي أ|هَيْئَةٌ|هَيْئَاتٌ|-|shape; appearance|ہیئت؛ صورت|
+is-sensation|noun|ح س س|حِسٌّ|حَوَاسُّ|-|sense; sensory perception|حس؛ حواس|
+is-hearing|noun|س م ع|سَمَاعٌ|-|-|hearing; listening|سننا|
+is-polite|adjective|أ د ب|مُتَأَدِّبٌ|مُتَأَدِّبُونَ|-|polite; well-mannered|باادب|متأدبين
+is-affluent|noun|ت ر ف|مُتْرَفٌ|مُتْرَفُونَ|-|affluent person living in luxury|عیش پسند؛ خوش حال|مترفو
+is-additional-n|noun|ز ي د|مَزِيدٌ|-|-|more; addition|مزید؛ اضافہ|
+is-channel|noun|ج ر ي|مَجْرًى|مَجَارٍ|-|course; channel|راستہ؛ گزرگاہ|مجرى
+is-war|noun|ح ر ب|مُحَارَبَةٌ|-|-|fighting against; opposition|محاربت؛ مخالفت|
+is-written|adjective|ك ت ب|مَكْتُوبٌ|مَكْتُوبُونَ|-|written|لکھا ہوا|
+is-honoured|adjective|ك ر م|مُكَرَّمٌ|مُكَرَّمُونَ|-|honoured|معزز|
+is-full|adjective|م ل أ|مَلِيءٌ|-|-|full|بھرا ہوا|
+is-ingratitude|noun|ن ك ر|نُكْرَانٌ|-|-|ingratitude; denial|ناشکری؛ انکار|
+is-livelihood|noun|ع ي ش|مَعِيشَةٌ|مَعَايِشُ|-|livelihood; way of life|معیشت؛ زندگی گزارنے کا طریقہ|
+is-doing|noun|ف ع ل|فِعْلٌ|أَفْعَالٌ|-|action; deed|فعل؛ عمل|
+is-tradition|noun|ق ل د|تَقْلِيدٌ|تَقَالِيدُ|-|tradition; custom|رسم؛ روایت|
+is-wealth|noun|غ ن ي|غِنًى|-|-|wealth; affluence|دولت؛ مال داری|غنى
+is-poor|adjective|ف ق ر|فَقِيرٌ|فُقَرَاءُ|-|poor|غریب|فقيرة فقرائ
+is-ruler|noun|ز ع م|زَعِيمٌ|زُعَمَاءُ|-|leader|رہنما|
+is-journey|noun|ر ح ل|رِحْلَةٌ|رِحْلَاتٌ|-|journey; trip|سفر|
+is-standing-adj|adjective|و ق ف|وَاقِفٌ|وَاقِفُونَ|-|standing|کھڑا ہوا|
+is-beloved|noun|ح ب ب|حَبِيبٌ|أَحِبَّاءُ|-|beloved one|محبوب|أحباؤ
+is-abode|noun|أ و ي|مَأْوًى|-|-|abode; refuge|ٹھکانا؛ پناہ گاہ|مأوى مأوا
+is-rebellion|noun|م ر د|تَمَرُّدٌ|-|-|rebellion; defiance|سرکشی|
+is-ad-versus|noun|ع د و|عَدَاءٌ|-|-|hostility; enmity|دشمنی|عدائ
+is-ce-year|abbreviation|-|م|-|-|CE; Common Era year marker|عیسوی سن کی علامت|
+is-blow|verb|ن ف خ|نَفَخَ|يَنْفُخُ|نَفْخٌ|to blow; breathe into|پھونکنا|أنفخ
+is-observe|verb|ش ه د|شَاهَدَ|يُشَاهِدُ|مُشَاهَدَةٌ|to witness; observe|مشاہدہ کرنا|
+is-accustom|verb|ع و د|اعْتَادَ|يَعْتَادُ|اعْتِيَادٌ|to become accustomed|عادت بنانا|
+is-challenge|verb|ح د ي|تَحَدَّى|يَتَحَدَّى|تَحَدٍّ|to challenge|للکارنا|
+is-transform|verb|ح و ل|تَحَوَّلَ|يَتَحَوَّلُ|تَحَوُّلٌ|to transform; change|بدل جانا|
+is-imagine|verb|ص و ر|تَصَوَّرَ|يَتَصَوَّرُ|تَصَوُّرٌ|to imagine; conceive|تصور کرنا|
+is-deny|verb|ج ح د|جَحَدَ|يَجْحَدُ|جُحُودٌ|to deny knowingly|جانتے ہوئے انکار کرنا|
+is-bewilder|verb|ح ي ر|حَارَ|يَحَارُ|حَيْرَةٌ|to be bewildered|حیران ہونا|
+is-allocate|verb|خ ص ص|خَصَّصَ|يُخَصِّصُ|تَخْصِيصٌ|to allocate; assign specially|خاص کرنا|
+is-mix|verb|خ ل ط|خَلَطَ|يَخْلِطُ|خَلْطٌ|to mix|ملانا|
+is-stay|verb|د و م|دَامَ|يَدُومُ|دَوَامٌ|to remain; continue|باقی رہنا|دمت
+is-distance|verb|ب ع د|ابْتَعَدَ|يَبْتَعِدُ|ابْتِعَادٌ|to move away|دور ہونا|
+is-continue|verb|و ص ل|وَاصَلَ|يُوَاصِلُ|مُوَاصَلَةٌ|to continue|جاری رکھنا|
+is-lead|verb|ق و د|قَادَ|يَقُودُ|قِيَادَةٌ|to lead|رہنمائی کرنا|قادت
+is-decide|verb|ق ر ر|قَرَّرَ|يُقَرِّرُ|تَقْرِيرٌ|to decide; affirm|فیصلہ کرنا؛ مقرر کرنا|
+is-famous|verb|ش ه ر|اشْتَهَرَ|يَشْتَهِرُ|اشْتِهَارٌ|to become famous; widespread|مشہور ہونا|
+is-mingle|verb|خ ل ط|اخْتَلَطَ|يَخْتَلِطُ|اخْتِلَاطٌ|to intermingle; be confused|مل جانا؛ گڈ مڈ ہونا|
+is-blend|verb|م ز ج|امْتَزَجَ|يَمْتَزِجُ|امْتِزَاجٌ|to blend; mingle|مل جانا|
+is-wean|verb|ط ب ع|طَبَعَ|يَطْبَعُ|طَبْعٌ|to imprint; endow with a disposition|چھاپ دینا؛ فطرت میں رکھنا|
+is-intelligence|noun|ح ل م|حِلْمٌ|أَحْلَامٌ|-|intelligence; sound judgment here|یہاں عقل؛ سمجھ بوجھ|
+is-easier|adjective|ي س ر|أَيْسَرُ|-|-|easier|زیادہ آسان|
+is-ease|noun|ي س ر|يُسْرٌ|-|-|ease; facility|آسانی|
+is-study|verb|د ر س|دَرَسَ|يَدْرُسُ|دَرْسٌ، دِرَاسَةٌ|to study|پڑھنا؛ مطالعہ کرنا|
+is-narrate|verb|ر و ي|رَوَى|يَرْوِي|رِوَايَةٌ|to narrate; transmit a report|روایت کرنا؛ بیان کرنا|تروى
+is-fabrication|noun|ف ر ي|افْتِرَاءٌ|-|-|fabrication; inventing a lie|جھوٹ گھڑنا|
+is-taker|noun|و ف ي|مُتَوَفٍّ|مُتَوَفُّونَ|-|one who takes fully; takes someone away|پورا لینے والا؛ کسی کو لے جانے والا|متوفي
+is-temple|noun|ع ب د|مَعْبَدٌ|مَعَابِدُ|-|temple; place of worship|عبادت گاہ؛ معبد|
+is-releasing|noun|خ ل ص|تَخَلُّصٌ|-|-|getting rid of; freeing oneself|چھٹکارا؛ جان چھڑانا|
+is-charity|noun|ز ك و|زَكَاةٌ|-|-|zakat; obligatory charity|زکوٰۃ|
+is-nourish|verb|غ ذ و|غَذَا|يَغْذُو|غِذَاءٌ|to nourish|پرورش کرنا|
+recite|verb|ت ل و|تَلَا|يَتْلُو|تِلَاوَةٌ|to recite|تلاوت کرنا|
+is-distance-n|noun|ب ع د|بُعْدٌ|-|-|distance|دوری؛ فاصلہ|
+is-truthfulness|noun|ص د ق|صِدْقٌ|-|-|truthfulness; sincerity|سچائی|
+is-helper-sing|noun|ن ص ر|نَصِيرٌ|نُصَرَاءُ|-|helper; supporter|مددگار|
+is-alikeness|noun|ش ب ه|شَبَهٌ|أَشْبَاهٌ|-|likeness; resemblance|مشابہت|
+is-assimilate|verb|ش ب ه|شَبَّهَ|يُشَبِّهُ|تَشْبِيهٌ|to make resemble; make appear alike|مشابہ بنانا|
+is-near|verb|د ن و|دَنَا|يَدْنُو|دُنُوٌّ|to draw near|قریب آنا|تدنو
+is-sabbath|noun|س ب ت|سَبْتٌ|سُبُوتٌ|-|Sabbath; Saturday|سبت؛ ہفتہ|
+is-insult-n|noun|س ب ب|سَبٌّ|-|-|verbal abuse; insult|گالی؛ برا بھلا کہنا|
+is-description|noun|و ص ف|وَصْفٌ|أَوْصَافٌ|-|description|وصف؛ بیان|
+is-doubt-v|verb|ش ك ك|شَكَّ|يَشُكُّ|شَكٌّ|to doubt|شک کرنا|
+is-engender|verb|و ل د|وَلَّدَ|يُوَلِّدُ|تَوْلِيدٌ|to produce; engender|پیدا کرنا؛ جنم دینا|
+is-secret|noun|س ر ر|سِرٌّ|أَسْرَارٌ|-|secret; underlying reason|راز|
+is-resolve|noun|ح ز م|حَزْمٌ|-|-|resolve; determination|عزم|
+is-limit|verb|ك ف ف|كَفَّ|يَكُفُّ|كَفٌّ|to restrain; stop|روکنا؛ باز رکھنا|يكف
+is-danger|noun|خ ط ر|خَطَرٌ|أَخْطَارٌ|-|danger; threat|خطرہ|
+is-tampering|noun|ع ب ث|عَبَثٌ|-|-|tampering; frivolity|کھلواڑ؛ بے مقصد حرکت|
+is-ruling-v|verb|ح ك م|حَكَمَ|يَحْكُمُ|حُكْمٌ|to judge; rule|حکم کرنا؛ فیصلہ کرنا|أحكم
+is-allow|verb|ح ل ل|أَحَلَّ|يُحِلُّ|إِحْلَالٌ|to permit; make lawful|حلال کرنا|
+is-turn-n|noun|د و ر|دَوْرٌ|أَدْوَارٌ|-|turn; role|باری؛ کردار|
+is-craft|noun|ح ر ف|حِرْفَةٌ|حِرَفٌ|-|craft; trade|حرفت؛ پیشہ|
+is-secretary|noun|ك ت ب|كَاتِبٌ|كُتَّابٌ|-|writer|لکھنے والا|
+is-meaning|noun|ع ن ي|مَعْنًى|مَعَانٍ|-|meaning; sense|معنی|معاني
+is-carrier|noun|ح م ل|حَامِلٌ|حَامِلُونَ|-|carrier; bearer|اٹھانے والا|
+is-secret-gen|noun|و ل د|تَوْلِيدٌ|-|-|generation; production|پیدا کرنا|
+is-sending|noun|ب ع ث|بِعْثَةٌ|-|-|sending; commissioning as a prophet|بعثت؛ نبی بنا کر بھیجنا|
+is-theology|noun|-|مَسِيحِيَّةٌ|-|-|Christianity|مسیحیت|
+is-majestic|adjective|ج ل ل|أَجَلُّ|-|-|more exalted; more majestic|زیادہ بلند؛ زیادہ عظیم|
+is-sending-down|noun|ن ز ل|نُزُولٌ|-|-|descent; coming down|نزول؛ اترنا|
+is-mother|noun|و ل د|وَالِدَةٌ|وَالِدَاتٌ|-|mother|والدہ|
+is-delay|noun|ر د د|تَرَدُّدٌ|-|-|repeated visits; hesitation|بار بار آنا جانا؛ تردد|
+is-persecution|noun|ط ع ن|طَعْنٌ|-|-|attack; disparagement; stabbing|طعن؛ عیب جوئی؛ حملہ|
+carrying|noun|ح م ل|حَمْلٌ|-|-|carrying; bearing a load|اٹھانا؛ بوجھ اٹھانا|
+crowd|noun|ج م ع|جَمْعٌ|جُمُوعٌ|-|crowd; gathering|مجمع؛ بھیڑ|
+oppose-enemy|verb|ع د و|عَادَى|يُعَادِي|مُعَادَاةٌ|to be hostile to; oppose|دشمنی کرنا|عادو
+come-to|verb|و ر د|وَرَدَ|يَرِدُ|وُرُودٌ|to come; be reported|آنا؛ وارد ہونا|
+strengthen-support|verb|أ ي د|أَيَّدَ|يُؤَيِّدُ|تَأْيِيدٌ|to support; strengthen|تائید کرنا؛ مضبوط کرنا|
+depict|verb|ص و ر|صَوَّرَ|يُصَوِّرُ|تَصْوِيرٌ|to depict; portray|تصویر کشی کرنا|
+easy|adjective|س ه ل|سَهْلٌ|سِهَالٌ|-|easy; simple|آسان؛ سادہ|
+is-downsender|noun|ن ز ل|مُنَزِّلٌ|مُنَزِّلُونَ|-|one who sends down|نازل کرنے والا|
+is-inclination|noun|ه و ي|هَوًى|أَهْوَاءٌ|-|desire; whim|خواہش؛ نفس کی چاہت|هوا
+is-mature|noun|ك ه ل|كَهْلٌ|كُهُولٌ|-|mature adult; middle-aged person|ادھیڑ عمر؛ پختہ عمر کا شخص|

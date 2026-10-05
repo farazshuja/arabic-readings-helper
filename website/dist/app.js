@@ -55,7 +55,7 @@ function renderLibrary() {
   document.title = 'Qira’ah · Arabic reading';
   const eyebrow = el('div', 'eyebrow', 'YOUR READING LIBRARY');
   const heading = el('h1', '', 'One story. A little more Arabic.');
-  const intro = el('p', 'intro', 'Read at your own pace. Reveal the vowels when you need them, and tap any word for its English and Urdu meanings.');
+  const intro = el('p', 'intro', 'Read at your own pace. Reveal the vowels when you need them, and tap highlighted words for their English and Urdu meanings.');
   const label = el('div', 'library-label');
   label.append(el('h2', '', 'Choose a story'), el('span', 'small', `${catalog.stories.length} ${catalog.stories.length === 1 ? 'story' : 'stories'} available`));
   const grid = el('div', 'story-grid');
@@ -78,9 +78,19 @@ function renderLibrary() {
   main.replaceChildren(eyebrow, heading, intro, label, grid, tip);
 }
 
+function vocabularyCardEntry(token, story) {
+  const entry = story.vocabulary[token.vocabularyId];
+  if (!entry || ['pronoun', 'particle', 'preposition'].includes(entry.partOfSpeech)) return null;
+  return entry;
+}
+
 function renderWords(container, tokens, leading, showHarakat, story) {
   container.replaceChildren(document.createTextNode(leading || ''));
   for (const token of tokens) {
+    if (!vocabularyCardEntry(token, story)) {
+      container.append(document.createTextNode((showHarakat ? token.vocalized : token.text) + token.after));
+      continue;
+    }
     const word = el('button', 'word', showHarakat ? token.vocalized : token.text);
     word.type = 'button';
     word.setAttribute('aria-haspopup', 'dialog');
@@ -91,8 +101,8 @@ function renderWords(container, tokens, leading, showHarakat, story) {
 }
 
 function openWord(token, story) {
-  const entry = story.vocabulary[token.vocabularyId];
-  if (!entry) { notify('This word’s notes are unavailable.'); return; }
+  const entry = vocabularyCardEntry(token, story);
+  if (!entry) return;
   const heading = ar(el('h2', 'arabic', token.vocalized));
   heading.id = 'word-heading';
   const posLabels = { properNoun: 'Proper name', noun: 'Noun', adjective: 'Adjective', verb: 'Verb', particle: 'Particle', pronoun: 'Pronoun', adverb: 'Adverb', numeral: 'Number' };
@@ -129,7 +139,7 @@ function openWord(token, story) {
   if (note) {
     nodes.push(el('p', 'card-note', note.en), ur(el('p', 'meaning-ur card-note', note.ur)));
   }
-  const affixes = token.parts.filter(part => part.role !== 'stem');
+  const affixes = token.parts.filter(part => part.role !== 'stem' && vocabularyCardEntry(part, story));
   if (affixes.length) {
     const parts = el('div', 'parts');
     parts.append(el('h3', '', 'Attached words'));
@@ -173,7 +183,8 @@ function renderReader(story, requestedSection) {
   const title = ar(el('h1', 'arabic'));
   renderWords(title, story.titleTokens, '', false, story);
   titleBlock.append(el('div', 'eyebrow', `STORY ${String(story.number).padStart(2, '0')}`), title, el('p', '', `${story.titleEnglish} · ${story.subtitle}`));
-  heading.append(titleBlock, el('span', 'count', `${story.counts.sections} chapters · ${story.counts.vocabularyEntries} word notes`));
+  const wordNotes = Object.keys(story.vocabulary).filter(vocabularyId => vocabularyCardEntry({ vocabularyId }, story)).length;
+  heading.append(titleBlock, el('span', 'count', `${story.counts.sections} chapters · ${wordNotes} word notes`));
   const layout = el('div', 'reader-layout');
   const contents = el('nav', 'contents'); contents.setAttribute('aria-label', 'Story chapters');
   contents.append(el('p', 'contents-label', 'IN THIS STORY'));

@@ -20,10 +20,12 @@ Story 9 is **أيوب ويونس — قصة سيدنا أيوب وسيدنا ي�
 
 Story 10 is **زكريّا — قصة سيدنا زكريا**, transcribed and checked against all six PDF pages. It contains eight chapters, 27 reading units, 682 word occurrences, 336 English/Urdu vocabulary entries and eleven Quran verse references. The story includes Maryam’s care and Yahya’s upbringing. Both reading modes, noun/verb forms, roots, contextual meanings and page provenance (printed pages 202–206) are embedded in `stories/10-zakariyya.json`.
 
+Story 11 is **عيسى ابن مريم — قصة سيدنا عيسى ابن مريم**, transcribed and checked against all 25 PDF pages. It contains 42 chapters, 175 reading units, 3,039 word occurrences and 59 Quran excerpt references. Both footnotes, two reading modes, English/Urdu meanings, noun/verb forms, roots and page provenance (printed pages 208–231) are embedded in `stories/11-isa.json`. A pronoun correction is documented in its editorial log.
+
 ## Files
 
 - `stories.json`: lightweight home-screen catalog. Each record supplies the title, summary, counts, and story JSON path.
-- `stories/01-ibrahim.json` through `stories/10-zakariyya.json`: self-contained story text and dictionaries. The catalog lists their exact filenames; the website loads only the selected story file.
+- `stories/01-ibrahim.json` through `stories/11-isa.json`: self-contained story text and dictionaries. The catalog lists their exact filenames; the website loads only the selected story file.
 - `stories/01-ibrahim.vocalized.txt`: editable, reviewed transcription used by the build script. `#` starts a section; `@` lists one-based PDF pages.
 - `stories/01-ibrahim.lexicon.tsv`: editable bilingual vocabulary source. It is a pipe-delimited file; its header describes the columns.
 - `stories/02-yusuf.vocalized.txt` and `stories/02-yusuf.lexicon.tsv`: Story 2 transcription and bilingual lexical additions. Its builder reuses common vocabulary from Story 1, and embeds every required entry in the final JSON.
@@ -123,7 +125,10 @@ python scripts/build_shuaib.py
 python scripts/build_dawood_sulaiman.py
 python scripts/build_ayyub_yunus.py
 python scripts/build_zakariyya.py
+python scripts/build_isa.py
 python scripts/validate_story.py
 ```
 
 The build uses only the Python standard library, fails on unmapped/ambiguous words, and requires no network. If you add new inflected forms, add exact mappings in the lexicon or build script, and verify their context. Validation checks unique IDs, all vocabulary references, both languages, morphology fields, source-page coverage, the source checksum, contextual distinctions, and exact reconstruction of every line in both reading modes.
+
+The reader filters entries with `partOfSpeech` equal to `pronoun`, `particle` or `preposition` from vocabulary cards and attached-word details. Function-word entries remain in the JSON for token reconstruction and linguistic provenance. Story 11 editable sources are `stories/11-isa.vocalized.txt` and `stories/11-isa.lexicon.tsv`.

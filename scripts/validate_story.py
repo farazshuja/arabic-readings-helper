@@ -41,7 +41,7 @@ def check(item):
             assert token['vocabularyId'] in vocabulary, token
             assert ''.join(p['surfaceBare'] for p in token['parts']) == token['textBare'], token
             assert any(p['role'] == 'stem' and p['vocabularyId'] == token['vocabularyId'] for p in token['parts']), token
-            assert MARKS.search(token['vocalized']), token
+            assert MARKS.search(token['vocalized']) or vocabulary[token['vocabularyId']]['partOfSpeech'] == 'abbreviation', token
             for part in token['parts']:
                 assert part['vocabularyId'] in vocabulary, part
                 used.add(part['vocabularyId'])
@@ -228,6 +228,21 @@ def check(item):
             assert matching and all(t['usage']['en'].endswith('; passive') and MARKS.search(t['text']) for t in matching),word
         assert story['sections'][4]['lines'][0]['sourcePages']==[4,5]
         assert 'يُشَارُ فِي ذَلِكَ إِلَيْهِ بِالْبَنَانِ' in story['sections'][7]['lines'][0]['vocalized']
+    elif story['id'] == '11-isa':
+        assert len(story['sections']) == 42 and len(lines) == 175
+        assert story['source']['pdfPages'] == 25
+        assert [s['sourceSectionNumber'] for s in story['sections']] == list(range(1,43))
+        assert sum(len(l['references']) for l in lines) == 59
+        expected = {'عِيسَى':'is-isa', 'مَرْيَمَ':'zk-maryam',
+                    'السَّبْتِ':'is-sabbath', 'وَحَيَاتُهُ':'life-n',
+                    'وَكَهْلًا':'is-mature', 'وَأَيَّدَهُ':'strengthen-support',
+                    'نَبِيُّنَا':'prophet', 'وَالْمُثُلِ':'is-ideal'}
+        assert any('كُلُّهُمْ إِلَهٌ' in l['vocalized'] for l in lines)
+        assert any('وَقَدْ صَوَّرَ الْقُرْآنُ' in l['vocalized'] for l in lines)
+        assert any('تَتَجَلَّى فِيهِ' in l['vocalized'] for l in lines)
+        for word in ('شُبِّهَ', 'فَوُلِدَ'):
+            matching = [t for t in tokens if t['vocalized'] == word]
+            assert matching and all(t['usage']['en'].endswith('; passive') and MARKS.search(t['text']) for t in matching), word
     for word, lexeme in expected.items():
         matching = [t for t in tokens if t['vocalized'] == word]
         assert matching and all(t['vocabularyId'] == lexeme for t in matching), word

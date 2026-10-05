@@ -19,12 +19,12 @@ Open `http://127.0.0.1:4173/`. Use Python 3.10 or later. No third-party packages
 
 ## Updating content
 
-1. Edit a story JSON in `data/stories/`, or regenerate story #1 with `python scripts/build_story.py`, story #2 with `python scripts/build_yusuf.py`, story #3 with `python scripts/build_nooh.py`, story #4 with `python scripts/build_hud.py`, story #5 with `python scripts/build_salih.py`, story #6 with `python scripts/build_musa.py`, story #7 with `python scripts/build_shuaib.py`, story #8 with `python scripts/build_dawood_sulaiman.py`, story #9 with `python scripts/build_ayyub_yunus.py`, and story #10 with `python scripts/build_zakariyya.py`. Each builder uses its editable vocalized transcription and bilingual lexicon, and updates its catalog entry while preserving other stories.
+1. Edit a story JSON in `data/stories/`, or regenerate story #1 with `python scripts/build_story.py`, story #2 with `python scripts/build_yusuf.py`, story #3 with `python scripts/build_nooh.py`, story #4 with `python scripts/build_hud.py`, story #5 with `python scripts/build_salih.py`, story #6 with `python scripts/build_musa.py`, story #7 with `python scripts/build_shuaib.py`, story #8 with `python scripts/build_dawood_sulaiman.py`, story #9 with `python scripts/build_ayyub_yunus.py`, story #10 with `python scripts/build_zakariyya.py`, and story #11 with `python scripts/build_isa.py`. Each builder uses its editable vocalized transcription and bilingual lexicon, and updates its catalog entry while preserving other stories.
 2. For a new story, add its entry to `data/stories.json` following the existing format.
 3. Run `python scripts/validate_story.py` and `python scripts/sync_website_data.py` locally, then preview the changes.
 4. Commit and push to `main`; GitHub Actions publishes the changes automatically.
 
-The validator checks every catalog story, including vocabulary coverage, exact line reconstruction, source pages and checksums. It also checks contextual distinctions in Ibrahim, Yusuf, Nuh, Hud, Salih, Musa, Shuaib, Dawood, Sulaiman, Ayyub and Yunus. The catalog and every referenced story are copied automatically by the synchronization script.
+The validator checks every catalog story, including vocabulary coverage, exact line reconstruction, source pages and checksums. It also checks contextual distinctions in Ibrahim, Yusuf, Nuh, Hud, Salih, Musa, Shuaib, Dawood, Sulaiman, Ayyub, Yunus, Zakariyya and Isa. The catalog and every referenced story are copied automatically by the synchronization script.
 
 See [the data contract](data/README.md) and [the website guide](website/README.md).
 
@@ -36,3 +36,5 @@ See [the data contract](data/README.md) and [the website guide](website/README.m
 - `.github/workflows/`: automated Pages deployment.
 
 Source PDFs in `books/`, temporary files, screenshots, deployment archives, and credentials are excluded from Git. PDF files are optional for rebuilding: when absent, the generator preserves the checksum recorded in the existing JSON. If the original PDF is available locally, validation also checks its checksum.
+
+Vocabulary cards omit pronouns (including demonstrative and relative pronouns), prepositions and particles throughout the reader. These words remain in the reading text. Run `node scripts/test_reader.cjs` to check filtering and text preservation in both reading modes across all stories.

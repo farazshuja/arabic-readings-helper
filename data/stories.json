@@ -200,6 +200,26 @@
         "vocabularyEntries": 336
       },
       "file": "stories/10-zakariyya.json"
+    },
+    {
+      "id": "11-isa",
+      "number": 11,
+      "title": "عيسى ابن مريم",
+      "titleVocalized": "عِيسَى ابْنُ مَرْيَمَ",
+      "subtitle": "قصّة سيّدنا عيسى ابن مريم",
+      "titleEnglish": "Isa ibn Maryam",
+      "titleUrdu": "حضرت عیسیٰ ابن مریم",
+      "description": {
+        "en": "Read about Isa ibn Maryam’s birth, miracles and message, in 42 chapters.",
+        "ur": "حضرت عیسیٰ ابن مریم کی ولادت، معجزات اور دعوت کا قصہ؛ ۴۲ ابواب۔"
+      },
+      "counts": {
+        "sections": 42,
+        "lines": 175,
+        "wordOccurrences": 3039,
+        "vocabularyEntries": 1105
+      },
+      "file": "stories/11-isa.json"
     }
   ]
 }
