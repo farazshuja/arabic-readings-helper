@@ -231,20 +231,20 @@
         "ur": "سیرتِ خاتم النبیین؛ نظرثانی شدہ ابواب مرحلہ وار شائع کیے جا رہے ہیں۔"
       },
       "counts": {
-        "sections": 7,
-        "lines": 297,
-        "wordOccurrences": 6354
+        "sections": 8,
+        "lines": 336,
+        "wordOccurrences": 7315
       },
       "wordLookup": "google",
       "publication": {
         "status": "partial",
         "reviewedPdfPages": [
           8,
-          82
+          93
         ],
-        "nextPdfPage": 82,
-        "nextHeading": "إِسْلَامُ عُمَرَ بْنِ الْخَطَّابِ",
-        "label": "Reviewed through the migration to Abyssinia · PDF pages 8–82 of 353 (page 82 through the end of the migration passage). More chapters to follow."
+        "nextPdfPage": 93,
+        "nextHeading": "وَقْعُ الْقُرْآنِ فِي الْقُلُوبِ السَّلِيمَةِ",
+        "label": "Reviewed through Umar’s acceptance of Islam, the boycott and the deaths of Abu Talib and Khadijah · PDF pages 8–93 of 353 (page 93 opening passage only). More chapters to follow."
       },
       "title": "مُحَمَّدٌ رَسُولُ اللَّهِ",
       "file": "stories/12-muhammad.json"
