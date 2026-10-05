@@ -27,7 +27,9 @@ def main():
                 'وَإِذْ يَرْفَعُ': (2, 127), 'رَبَّنَا وَاجْعَلْنَا': (2, 128), 'رَبَّنَا وَابْعَثْ': (2, 129),
                 'أَلَمْ تَرَ': (105, 1), 'أَلَمْ يَجْعَلْ': (105, 2), 'وَأَرْسَلَ عَلَيْهِمْ': (105, 3),
                 'تَرْمِيهِمْ': (105, 4), 'فَجَعَلَهُمْ': (105, 5),
-                'وَمَا كُنْتَ تَتْلُو': (29, 48), 'الَّذِينَ يَتَّبِعُونَ': (7, 157)}
+                'وَمَا كُنْتَ تَتْلُو': (29, 48), 'الَّذِينَ يَتَّبِعُونَ': (7, 157),
+                'اقْرَأْ بِاسْمِ': (96, 1), 'خَلَقَ الْإِنْسَانَ': (96, 2),
+                'اقْرَأْ وَرَبُّكَ': (96, 3), 'الَّذِي عَلَّمَ': (96, 4), 'عَلَّمَ الْإِنْسَانَ': (96, 5)}
             for beginning, (surah, ayah) in quran.items():
                 if vocal.startswith('﴿' + beginning): references = [{'surah': surah, 'ayah': ayah}]
             section = sections[-1]
@@ -43,17 +45,22 @@ def main():
              'wordLookup': 'google', 'titleVocalized': 'مُحَمَّدٌ رَسُولُ اللَّهِ', 'subtitleVocalized': 'سِيرَةُ خَاتَمِ النَّبِيِّينَ',
              'titleEnglish': 'Muhammad, the Messenger of Allah', 'titleUrdu': 'حضرت محمد رسول اللہ',
              'description': {'en': 'The life of Muhammad; reviewed chapters are being published in batches.', 'ur': 'سیرتِ خاتم النبیین؛ نظرثانی شدہ ابواب مرحلہ وار شائع کیے جا رہے ہیں۔'},
-             'publication': {'status': 'partial', 'reviewedPdfPages': [8, 41], 'nextPdfPage': 42,
-                             'nextHeading': 'بَعْدَ الْبَعْثَةِ',
-                             'label': 'Reviewed through Before the Prophethood · PDF pages 8–41 of 353. More chapters to follow.'},
-             'source': {'file': 'books/' + source.name, 'sha256': sha, 'pdfPages': 353, 'storyStartPage': 8, 'printedPageRange': [7, 40]},
+             'publication': {'status': 'partial', 'reviewedPdfPages': [8, 52], 'nextPdfPage': 53,
+                             'nextHeading': 'الدَّعْوَةُ جِهَارًا عَلَى جَبَلِ الصَّفَا',
+                             'label': 'Reviewed through the first revelation and early believers · PDF pages 8–52 of 353. More chapters to follow.'},
+             'source': {'file': 'books/' + source.name, 'sha256': sha, 'pdfPages': 353, 'storyStartPage': 8, 'printedPageRange': [7, 51]},
              'editorial': {'method': 'Manual transcription reviewed against each rendered page; full editorial grammatical vocalization.',
                            'notes': ['Front matter on PDF pages 1–7 is excluded.', 'Original narrative, subheadings and all explanatory footnotes in the reviewed batches are retained.',
                                      'The Before the Prophethood chapter is split into two reader sections; the second navigation title adds Birth and Upbringing for clarity. Original printed subheadings are retained.',
-                                     'The next batch begins on PDF page 42 at بعد البعثة.',
+                                     'Reader section 4 adds Revelation and Early Believers to the original After the Prophethood heading for navigation clarity.',
+                                     'The next batch begins on PDF page 53 at الدعوة جهارا على جبل الصفا.',
                                      'Historical and theological statements remain those of the supplied author.', 'Only vocalized text is stored; browser text variants and tokens are derived locally.'],
                            'corrections': [{'sourcePages': [41], 'source': 'أن رسول الله أميا', 'edited': 'أن رسول الله أمي',
-                                            'reason': 'The predicate of أن is nominative: أُمِّيٌّ. Honorific remains in the text.'}]}, 'sections': sections}
+                                            'reason': 'The predicate of أن is nominative: أُمِّيٌّ. Honorific remains in the text.'},
+                                           {'sourcePages': [43], 'source': 'فيمكث فيها', 'edited': 'فيمكث فيه',
+                                            'reason': 'Pronoun refers to the masculine noun غار.'},
+                                           {'sourcePages': [44], 'source': 'فغطني حتى الثانية بلغ مني الجهد', 'edited': 'فغطني الثانية حتى بلغ مني الجهد',
+                                            'reason': 'Correct misplaced الثانية in the printed quotation while retaining all words.'}]}, 'sections': sections}
     import re
     word = re.compile(r'[\u0621-\u064a][\u0621-\u064a\u064b-\u0652\u0670]*')
     lines = [line for section in sections for line in section['lines']]
