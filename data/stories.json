@@ -231,20 +231,20 @@
         "ur": "سیرتِ خاتم النبیین؛ نظرثانی شدہ ابواب مرحلہ وار شائع کیے جا رہے ہیں۔"
       },
       "counts": {
-        "sections": 12,
-        "lines": 439,
-        "wordOccurrences": 10223
+        "sections": 13,
+        "lines": 474,
+        "wordOccurrences": 10847
       },
       "wordLookup": "google",
       "publication": {
         "status": "partial",
         "reviewedPdfPages": [
           8,
-          125
+          134
         ],
-        "nextPdfPage": 126,
-        "nextHeading": "الْمُؤَاخَاةُ بَيْنَ الْمُهَاجِرِينَ وَالْأَنْصَارِ",
-        "label": "Reviewed through the arrival in Medina and construction of the mosque · PDF pages 8–125 of 353. More chapters to follow."
+        "nextPdfPage": 135,
+        "nextHeading": "مَعْرَكَةُ بَدْرٍ الْحَاسِمَةُ",
+        "label": "Reviewed through brotherhood in Medina, the qiblah and prescribed fasting · PDF pages 8–134 of 353. More chapters to follow."
       },
       "title": "مُحَمَّدٌ رَسُولُ اللَّهِ",
       "file": "stories/12-muhammad.json"
