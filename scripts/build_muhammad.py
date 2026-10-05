@@ -21,6 +21,7 @@ def main():
             kind = 'heading' if row.startswith('## ') else 'footnote' if row.startswith('! ') else 'text'
             vocal = row[3:] if kind == 'heading' else row[2:] if kind == 'footnote' else row
             references = []
+            if 'أَتَقْتُلُونَ رَجُلًا أَنْ يَقُولَ' in vocal: references = [{'surah': 40, 'ayah': 28}]
             if vocal.startswith('﴿ظَهَرَ'): references = [{'surah': 30, 'ayah': 41}]
             if vocal.startswith('﴿إِنَّ أَوَّلَ'): references = [{'surah': 3, 'ayah': 96}]
             quran = {
@@ -31,7 +32,8 @@ def main():
                 'اقْرَأْ بِاسْمِ': (96, 1), 'خَلَقَ الْإِنْسَانَ': (96, 2),
                 'اقْرَأْ وَرَبُّكَ': (96, 3), 'الَّذِي عَلَّمَ': (96, 4), 'عَلَّمَ الْإِنْسَانَ': (96, 5),
                 'فَاصْدَعْ بِمَا': (15, 94), 'وَأَنْذِرْ عَشِيرَتَكَ': (26, 214),
-                'وَاخْفِضْ جَنَاحَكَ': (26, 215), 'إِنِّي أَنَا النَّذِيرُ': (15, 89)}
+                'وَاخْفِضْ جَنَاحَكَ': (26, 215), 'إِنِّي أَنَا النَّذِيرُ': (15, 89),
+                'يَا أَيُّهَا الْمُدَّثِّرُ': (74, 1), 'قُمْ فَأَنْذِرْ': (74, 2)}
             for beginning, (surah, ayah) in quran.items():
                 if vocal.startswith('﴿' + beginning): references = [{'surah': surah, 'ayah': ayah}]
             section = sections[-1]
@@ -47,16 +49,17 @@ def main():
              'wordLookup': 'google', 'titleVocalized': 'مُحَمَّدٌ رَسُولُ اللَّهِ', 'subtitleVocalized': 'سِيرَةُ خَاتَمِ النَّبِيِّينَ',
              'titleEnglish': 'Muhammad, the Messenger of Allah', 'titleUrdu': 'حضرت محمد رسول اللہ',
              'description': {'en': 'The life of Muhammad; reviewed chapters are being published in batches.', 'ur': 'سیرتِ خاتم النبیین؛ نظرثانی شدہ ابواب مرحلہ وار شائع کیے جا رہے ہیں۔'},
-             'publication': {'status': 'partial', 'reviewedPdfPages': [8, 63], 'nextPdfPage': 63,
-                             'nextHeading': 'مُحَارَبَةُ قُرَيْشٍ رَسُولَ اللَّهِ وَتَفَنُّنُهُمْ فِي الْإِيذَاءِ',
-                             'label': 'Reviewed through the public call and early persecution · PDF pages 8–63 of 353 (page 63 opening passage only). More chapters to follow.'},
-             'source': {'file': 'books/' + source.name, 'sha256': sha, 'pdfPages': 353, 'storyStartPage': 8, 'printedPageRange': [7, 62]},
+             'publication': {'status': 'partial', 'reviewedPdfPages': [8, 75], 'nextPdfPage': 75,
+                             'nextHeading': 'هِجْرَةُ الْمُسْلِمِينَ إِلَى الْحَبَشَةِ',
+                             'label': 'Reviewed through Quraysh’s opposition, Hamzah and Utbah · PDF pages 8–75 of 353 (page 75 opening passage only). More chapters to follow.'},
+             'source': {'file': 'books/' + source.name, 'sha256': sha, 'pdfPages': 353, 'storyStartPage': 8, 'printedPageRange': [7, 74]},
              'editorial': {'method': 'Manual transcription reviewed against each rendered page; full editorial grammatical vocalization.',
                            'notes': ['Front matter on PDF pages 1–7 is excluded.', 'Original narrative, subheadings and all explanatory footnotes in the reviewed batches are retained.',
                                      'The Before the Prophethood chapter is split into two reader sections; the second navigation title adds Birth and Upbringing for clarity. Original printed subheadings are retained.',
                                      'Reader section 4 adds Revelation and Early Believers to the original After the Prophethood heading for navigation clarity.',
                                      'Reader section 5 groups the public call and early persecution; its navigation title is editorial and printed subheadings are retained.',
-                                     'Page 63 is reviewed through Uthman ibn Maz‘un’s reply ending يا أبا عبد شمس. Resume at محاربة قريش رسول الله وتفننهم في الإيذاء on the same page.',
+                                     'Reader section 6 begins at the original heading محاربة قريش رسول الله وتفننهم في الإيذاء.',
+                                     'Page 75 is reviewed only through Utbah’s reply ending فاصنعوا ما بدا لكم. Resume at هجرة المسلمين إلى الحبشة on the same page.',
                                      'Historical and theological statements remain those of the supplied author.', 'Only vocalized text is stored; browser text variants and tokens are derived locally.'],
                            'corrections': [{'sourcePages': [41], 'source': 'أن رسول الله أميا', 'edited': 'أن رسول الله أمي',
                                             'reason': 'The predicate of أن is nominative: أُمِّيٌّ. Honorific remains in the text.'},
