@@ -19,7 +19,7 @@ Open `http://127.0.0.1:4173/`. Use Python 3.10 or later. No third-party packages
 
 ## Updating content
 
-1. Edit a story JSON in `data/stories/`, or regenerate story #1 with `python scripts/build_story.py`, story #2 with `python scripts/build_yusuf.py`, story #3 with `python scripts/build_nooh.py`, story #4 with `python scripts/build_hud.py`, story #5 with `python scripts/build_salih.py`, story #6 with `python scripts/build_musa.py`, story #7 with `python scripts/build_shuaib.py`, story #8 with `python scripts/build_dawood_sulaiman.py`, and story #9 with `python scripts/build_ayyub_yunus.py`. Each builder uses its editable vocalized transcription and bilingual lexicon, and updates its catalog entry while preserving other stories.
+1. Edit a story JSON in `data/stories/`, or regenerate story #1 with `python scripts/build_story.py`, story #2 with `python scripts/build_yusuf.py`, story #3 with `python scripts/build_nooh.py`, story #4 with `python scripts/build_hud.py`, story #5 with `python scripts/build_salih.py`, story #6 with `python scripts/build_musa.py`, story #7 with `python scripts/build_shuaib.py`, story #8 with `python scripts/build_dawood_sulaiman.py`, story #9 with `python scripts/build_ayyub_yunus.py`, and story #10 with `python scripts/build_zakariyya.py`. Each builder uses its editable vocalized transcription and bilingual lexicon, and updates its catalog entry while preserving other stories.
 2. For a new story, add its entry to `data/stories.json` following the existing format.
 3. Run `python scripts/validate_story.py` and `python scripts/sync_website_data.py` locally, then preview the changes.
 4. Commit and push to `main`; GitHub Actions publishes the changes automatically.

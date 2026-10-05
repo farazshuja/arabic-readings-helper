@@ -180,6 +180,26 @@
         "vocabularyEntries": 319
       },
       "file": "stories/09-ayyub-yunus.json"
+    },
+    {
+      "id": "10-zakariyya",
+      "number": 10,
+      "title": "زكريّا",
+      "titleVocalized": "زَكَرِيَّا",
+      "subtitle": "قصّة سيّدنا زكريّا",
+      "titleEnglish": "Zakariyya",
+      "titleUrdu": "حضرت زکریا",
+      "description": {
+        "en": "Read Zakariyya’s prayer, Maryam’s care and Yahya’s upbringing, in eight chapters.",
+        "ur": "حضرت زکریا کی دعا، حضرت مریم کی پرورش اور حضرت یحییٰ کی تربیت؛ آٹھ ابواب۔"
+      },
+      "counts": {
+        "sections": 8,
+        "lines": 27,
+        "wordOccurrences": 682,
+        "vocabularyEntries": 336
+      },
+      "file": "stories/10-zakariyya.json"
     }
   ]
 }

@@ -210,6 +210,24 @@ def check(item):
         exclamations=[t for l in story['sections'][6]['lines'] for t in l['tokens'] if t['vocalized'] in ('فَمَا','وَمَا')]
         assert len(exclamations)==2 and all(t['vocabularyId']=='ay-ma-exclamation' for t in exclamations)
         assert next(t for t in story['sections'][3]['titleTokens'] if t['vocalized']=='وَحِكْمَتُهَا')['vocabularyId']=='wisdom'
+    elif story['id'] == '10-zakariyya':
+        assert len(story['sections']) == 8 and len(lines) == 27
+        assert story['source']['pdfPages'] == 6
+        assert [s['sourceSectionNumber'] for s in story['sections']] == list(range(1,9))
+        assert [(r['surah'],r['ayah']) for l in lines for r in l['references']] == [(3,35),(3,36),(3,37),(3,38),(3,41),(21,89),(21,90),(19,12),(19,13),(19,14),(19,15)]
+        expected={'زَكَرِيَّا':'ds-zakariya','يَحْيَى':'ds-yahya','مَرْيَمَ':'zk-maryam',
+                  'صَالِحٍ':'righteous','كَثِيرٍ':'many','بَكَّرَ':'zk-early',
+                  'الذَّكَرُ':'male','أُمًّا':'mother','بِدُعَاءٍ':'supplication',
+                  'هَبْ':'ds-bestow','فَتَقَبَّلَهَا':'accept','وَكَفَّلَهَا':'zk-foster-ii',
+                  'عَصِيًّا':'zk-rebellious','وَطَوْرًا':'zk-turn','عَيْنٍ':'eye',
+                  'قَدَّرَ':'consider-august','قُدْرَتِهِ':'power-ability',
+                  'وَقُرْبِ':'zk-proximity','وَلِينِ':'zk-gentleness',
+                  'وَزَكَاةً':'zk-purity','يُودِعَ':'zk-deposit','وُلِدَ':'birth'}
+        for word in ('وَخُصَّ','يُولَدَ','وَيُولَدُ','وَخُلِقَ','وَوُلِدَ','وُلِدَ','يُبْعَثُ','يُشَارُ'):
+            matching=[t for t in tokens if t['vocalized']==word]
+            assert matching and all(t['usage']['en'].endswith('; passive') and MARKS.search(t['text']) for t in matching),word
+        assert story['sections'][4]['lines'][0]['sourcePages']==[4,5]
+        assert 'يُشَارُ فِي ذَلِكَ إِلَيْهِ بِالْبَنَانِ' in story['sections'][7]['lines'][0]['vocalized']
     for word, lexeme in expected.items():
         matching = [t for t in tokens if t['vocalized'] == word]
         assert matching and all(t['vocabularyId'] == lexeme for t in matching), word
