@@ -269,9 +269,9 @@ def check_text_only(story):
     assert story['counts']['wordOccurrences'] == sum(len(re.findall(r'[\u0621-\u064a][\u0621-\u064a\u064b-\u0652\u0670]*', l['vocalized'])) for l in lines)
     assert all(MARKS.search(l['vocalized']) and l['sourcePages'] for l in lines)
     assert all('text' not in l and 'tokens' not in l for l in lines)
-    assert sum(l['kind'] == 'footnote' for l in lines) == 56
+    assert sum(l['kind'] == 'footnote' for l in lines) == 63
     assert [(r['surah'], r['ayah']) for l in lines for r in l['references']] == [(30, 41), (3, 96), (2, 127), (2, 128), (2, 129)] + [(105, a) for a in range(1, 6)] + [(29, 48), (7, 157)] + [(96, a) for a in range(1, 6)] + [(15, 94), (26, 214), (26, 215), (15, 89), (40, 28), (74, 1), (74, 2), (40, 28)]
-    assert [s['id'] for s in story['sections']] == ['s01', 's02', 's03', 's04', 's05', 's06']
+    assert [s['id'] for s in story['sections']] == ['s01', 's02', 's03', 's04', 's05', 's06', 's07']
     assert any('وَقَدْ أَصَابَ لَهُ أَبْرَهَةُ مِائَتَيْ بَعِيرٍ' in l['vocalized'] for l in lines)
     childhood = story['sections'][2]['lines']
     assert any('وَكَانَ أَلِفًا وَدُودًا' in l['vocalized'] for l in childhood)
@@ -289,6 +289,11 @@ def check_text_only(story):
     assert opposition[0]['sourcePages'] == [63, 64]
     assert opposition[-1]['sourcePages'] == [74, 75]
     assert opposition[-1]['vocalized'].endswith('فَاصْنَعُوا مَا بَدَا لَكُمْ.')
+    migration = story['sections'][6]['lines']
+    assert migration[0]['sourcePages'] == [75]
+    assert migration[-1]['sourcePages'] == [82]
+    assert migration[-1]['vocalized'].endswith('وَخَرَجَا مِنْ عِنْدِهِ مَقْبُوحَيْنِ.')
+    assert sum(l['kind'] == 'footnote' for l in migration) == 7
     source = ROOT / story['source']['file']
     assert re.fullmatch('[0-9a-f]{64}', story['source']['sha256'])
     if source.exists(): assert hashlib.sha256(source.read_bytes()).hexdigest() == story['source']['sha256']

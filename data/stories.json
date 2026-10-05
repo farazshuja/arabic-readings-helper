@@ -231,20 +231,20 @@
         "ur": "سیرتِ خاتم النبیین؛ نظرثانی شدہ ابواب مرحلہ وار شائع کیے جا رہے ہیں۔"
       },
       "counts": {
-        "sections": 6,
-        "lines": 265,
-        "wordOccurrences": 5742
+        "sections": 7,
+        "lines": 297,
+        "wordOccurrences": 6354
       },
       "wordLookup": "google",
       "publication": {
         "status": "partial",
         "reviewedPdfPages": [
           8,
-          75
+          82
         ],
-        "nextPdfPage": 75,
-        "nextHeading": "هِجْرَةُ الْمُسْلِمِينَ إِلَى الْحَبَشَةِ",
-        "label": "Reviewed through Quraysh’s opposition, Hamzah and Utbah · PDF pages 8–75 of 353 (page 75 opening passage only). More chapters to follow."
+        "nextPdfPage": 82,
+        "nextHeading": "إِسْلَامُ عُمَرَ بْنِ الْخَطَّابِ",
+        "label": "Reviewed through the migration to Abyssinia · PDF pages 8–82 of 353 (page 82 through the end of the migration passage). More chapters to follow."
       },
       "title": "مُحَمَّدٌ رَسُولُ اللَّهِ",
       "file": "stories/12-muhammad.json"
