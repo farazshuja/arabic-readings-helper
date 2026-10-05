@@ -27,13 +27,16 @@ for (const record of catalog.stories) {
   vm.runInContext('story = prepareStory(story)', context);
   if (context.story.wordLookup === 'google') {
     assert(!context.story.vocabulary);
-    vm.runInContext('renderReader(story)', context);
+    for (const section of context.story.sections) {
+    context.requestedSection = section.id;
+    vm.runInContext('renderReader(story, requestedSection)', context);
     const reader = nodes.get('#main');
     function descendants(node) { return [node, ...node.children.flatMap(descendants)]; }
     const rendered = descendants(reader);
     const paragraphs = rendered.filter(n => n.className === 'arabic line-text');
-    assert.deepEqual(paragraphs.map(n => n.textContent), context.story.sections[0].lines.map(l => l.vocalized));
-    assert.equal(rendered.filter(n => n.className === 'reading-line passage-footnote').length, 6);
+    assert.deepEqual(paragraphs.map(n => n.textContent), section.lines.map(l => l.vocalized));
+    assert.equal(rendered.filter(n => n.className === 'reading-line passage-footnote').length, section.lines.filter(l => l.kind === 'footnote').length);
+    }
   }
   for (const section of context.story.sections) for (const line of section.lines) {
     context.line = line;

@@ -259,7 +259,9 @@ def check_text_only(story):
     lines = [line for section in story['sections'] for line in section['lines']]
     start, end = story['publication']['reviewedPdfPages']
     assert start == 8 and end < story['source']['pdfPages']
-    assert story['publication']['nextPdfPage'] == end + 1
+    assert story['publication']['nextPdfPage'] in (end, end + 1)
+    if story['publication']['nextPdfPage'] == end:
+        assert story['publication']['nextHeading']
     assert {p for line in lines for p in line['sourcePages']} == set(range(start, end + 1))
     assert len({l['id'] for l in lines}) == len(lines)
     assert story['counts']['sections'] == len(story['sections'])
@@ -267,8 +269,10 @@ def check_text_only(story):
     assert story['counts']['wordOccurrences'] == sum(len(re.findall(r'[\u0621-\u064a][\u0621-\u064a\u064b-\u0652\u0670]*', l['vocalized'])) for l in lines)
     assert all(MARKS.search(l['vocalized']) and l['sourcePages'] for l in lines)
     assert all('text' not in l and 'tokens' not in l for l in lines)
-    assert sum(l['kind'] == 'footnote' for l in lines) == 6
-    assert [(r['surah'], r['ayah']) for l in lines for r in l['references']] == [(30, 41), (3, 96)]
+    assert sum(l['kind'] == 'footnote' for l in lines) == 20
+    assert [(r['surah'], r['ayah']) for l in lines for r in l['references']] == [(30, 41), (3, 96), (2, 127), (2, 128), (2, 129)] + [(105, a) for a in range(1, 6)]
+    assert [s['id'] for s in story['sections']] == ['s01', 's02']
+    assert any('وَقَدْ أَصَابَ لَهُ أَبْرَهَةُ مِائَتَيْ بَعِيرٍ' in l['vocalized'] for l in lines)
     source = ROOT / story['source']['file']
     assert re.fullmatch('[0-9a-f]{64}', story['source']['sha256'])
     if source.exists(): assert hashlib.sha256(source.read_bytes()).hexdigest() == story['source']['sha256']

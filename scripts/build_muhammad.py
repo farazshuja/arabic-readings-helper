@@ -23,6 +23,12 @@ def main():
             references = []
             if vocal.startswith('﴿ظَهَرَ'): references = [{'surah': 30, 'ayah': 41}]
             if vocal.startswith('﴿إِنَّ أَوَّلَ'): references = [{'surah': 3, 'ayah': 96}]
+            quran = {
+                'وَإِذْ يَرْفَعُ': (2, 127), 'رَبَّنَا وَاجْعَلْنَا': (2, 128), 'رَبَّنَا وَابْعَثْ': (2, 129),
+                'أَلَمْ تَرَ': (105, 1), 'أَلَمْ يَجْعَلْ': (105, 2), 'وَأَرْسَلَ عَلَيْهِمْ': (105, 3),
+                'تَرْمِيهِمْ': (105, 4), 'فَجَعَلَهُمْ': (105, 5)}
+            for beginning, (surah, ayah) in quran.items():
+                if vocal.startswith('﴿' + beginning): references = [{'surah': surah, 'ayah': ayah}]
             section = sections[-1]
             # Subheadings precede their page marker in the editable source.
             if kind == 'heading':
@@ -36,11 +42,13 @@ def main():
              'wordLookup': 'google', 'titleVocalized': 'مُحَمَّدٌ رَسُولُ اللَّهِ', 'subtitleVocalized': 'سِيرَةُ خَاتَمِ النَّبِيِّينَ',
              'titleEnglish': 'Muhammad, the Messenger of Allah', 'titleUrdu': 'حضرت محمد رسول اللہ',
              'description': {'en': 'The life of Muhammad; reviewed chapters are being published in batches.', 'ur': 'سیرتِ خاتم النبیین؛ نظرثانی شدہ ابواب مرحلہ وار شائع کیے جا رہے ہیں۔'},
-             'publication': {'status': 'partial', 'reviewedPdfPages': [8, 15], 'nextPdfPage': 16,
-                             'label': 'First reviewed chapter · PDF pages 8–15 of 353. More chapters to follow.'},
-             'source': {'file': 'books/' + source.name, 'sha256': sha, 'pdfPages': 353, 'storyStartPage': 8, 'printedPageRange': [7, 14]},
+             'publication': {'status': 'partial', 'reviewedPdfPages': [8, 28], 'nextPdfPage': 28,
+                             'nextHeading': 'عَبْدُ اللَّهِ وَآمِنَةُ',
+                             'label': 'Reviewed through the event of the elephant · PDF pages 8–28 of 353 (page 28 opening paragraph only). More chapters to follow.'},
+             'source': {'file': 'books/' + source.name, 'sha256': sha, 'pdfPages': 353, 'storyStartPage': 8, 'printedPageRange': [7, 27]},
              'editorial': {'method': 'Manual transcription reviewed against each rendered page; full editorial grammatical vocalization.',
-                           'notes': ['Front matter on PDF pages 1–7 is excluded.', 'Original narrative, subheadings and all six explanatory footnotes in this batch are retained.',
+                           'notes': ['Front matter on PDF pages 1–7 is excluded.', 'Original narrative, subheadings and all explanatory footnotes in the reviewed batches are retained.',
+                                     'Page 28 is reviewed only through the opening sentence ending سنة ٥٧٠ م. Resume at عبد الله وآمنة on the same page.',
                                      'Historical and theological statements remain those of the supplied author.', 'Only vocalized text is stored; browser text variants and tokens are derived locally.'],
                            'corrections': []}, 'sections': sections}
     import re
