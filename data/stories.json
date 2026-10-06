@@ -231,20 +231,20 @@
         "ur": "سیرتِ خاتم النبیین؛ نظرثانی شدہ ابواب مرحلہ وار شائع کیے جا رہے ہیں۔"
       },
       "counts": {
-        "sections": 24,
-        "lines": 735,
-        "wordOccurrences": 17815
+        "sections": 25,
+        "lines": 775,
+        "wordOccurrences": 18686
       },
       "wordLookup": "google",
       "publication": {
         "status": "partial",
         "reviewedPdfPages": [
           8,
-          217
+          227
         ],
-        "nextPdfPage": 217,
-        "nextHeading": "مُعَاهَدَةٌ وَصُلْحٌ، وَحِكْمَةٌ وَحِلْمٌ",
-        "label": "Reviewed through the journey to Hudaybiyah and the pledge · PDF pages 8–216 complete; page 217 partially reviewed. More chapters to follow."
+        "nextPdfPage": 228,
+        "nextHeading": "دَعْوَةُ الْمُلُوكِ وَالْأُمَرَاءِ إِلَى الْإِسْلَامِ",
+        "label": "Reviewed through the treaty of Hudaybiyah and its aftermath · PDF pages 8–227 of 353. More chapters to follow."
       },
       "title": "مُحَمَّدٌ رَسُولُ اللَّهِ",
       "file": "stories/12-muhammad.json"

@@ -180,3 +180,5 @@ Story 12 batch 22 covers Banu Qurayzah and its aftermath. The original subheadin
 Story 12 batch 23 covers Thumamah ibn Uthal, his release, conversion and the request to resume food supplies. All three footnotes are retained. Totals: twenty-three sections, 717 reading units, 136 footnotes. Pages 8–211 are complete. Resume at **صلح الحديبية** on page 212.
 
 Story 12 batch 24 begins Hudaybiyah: the dream, journey, Uthman’s mission, pledge and envoys. Four footnotes and the partial quotation from 48:18 are retained. Totals: twenty-four sections, 735 reading units, 140 footnotes and 58 Quran references. Pages 8–216 are complete; page 217 is reviewed through **ووصف لهم ما رآه**. Resume at **معاهدة وصلح، وحكمة وحلم** on page 217.
+
+Story 12 batch 25 completes Hudaybiyah, retaining the treaty dialogue, Abu Jandal and Abu Basir, the companions’ response and the conversions of Khalid and Amr. Seven footnotes and all quotations are retained. Totals: twenty-five sections, 775 reading units, 147 footnotes and 63 Quran references. Pages 8–227 are complete. Resume at **دعوة الملوك والأمراء إلى الإسلام** on page 228.
