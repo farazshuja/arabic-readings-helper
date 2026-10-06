@@ -38,7 +38,7 @@ def main():
                 'فَأَغْشَيْنَاهُمْ': (36, 9), 'ثَانِيَ اثْنَيْنِ': (9, 40),
                 'وَكَذَلِكَ جَعَلْنَاكُمْ': (2, 143), 'أُذِنَ لِلَّذِينَ': (22, 39),
                 'يَا أَيُّهَا الَّذِينَ آمَنُوا كُتِبَ': (2, 183), 'شَهْرُ رَمَضَانَ': (2, 185),
-                'إِنْ كُنْتُمْ آمَنْتُمْ': (8, 41), 'وَيُنَزِّلُ عَلَيْكُمْ': (8, 11), 'وَلَقَدْ نَصَرَكُمُ': (3, 123), 'وَلَقَدْ صَدَقَكُمُ': (3, 152), 'إِذْ جَاءُوكُمْ': (33, 10), 'هُنَالِكَ ابْتُلِيَ': (33, 11)}
+                'إِنْ كُنْتُمْ آمَنْتُمْ': (8, 41), 'وَيُنَزِّلُ عَلَيْكُمْ': (8, 11), 'وَلَقَدْ نَصَرَكُمُ': (3, 123), 'وَلَقَدْ صَدَقَكُمُ': (3, 152), 'إِذْ جَاءُوكُمْ': (33, 10), 'هُنَالِكَ ابْتُلِيَ': (33, 11), 'يَا أَيُّهَا الَّذِينَ آمَنُوا اذْكُرُوا': (33, 9), 'وَرَدَّ اللَّهُ': (33, 25)}
             for beginning, (surah, ayah) in quran.items():
                 if vocal.startswith('﴿' + beginning): references = [{'surah': surah, 'ayah': ayah}]
             if 'وَلِلَّهِ جُنُودُ السَّمَاوَاتِ وَالْأَرْضِ' in vocal:
@@ -53,6 +53,8 @@ def main():
                 references = [{'surah': 3, 'ayah': 126}, {'surah': 8, 'ayah': 10}]
             if vocal == 'هَذَانِ خَصْمَانِ اخْتَصَمُوا فِي رَبِّهِمْ':
                 references = [{'surah': 22, 'ayah': 19}]
+            if vocal == 'إِذْ جَاءُوكُمْ مِنْ فَوْقِكُمْ وَمِنْ أَسْفَلَ مِنْكُمْ': references = [{'surah': 33, 'ayah': 10}]
+            if 'إِنَّ بُيُوتَنَا عَوْرَةٌ' in vocal: references = [{'surah': 33, 'ayah': 13}]
             section = sections[-1]
             # Subheadings precede their page marker in the editable source.
             if kind == 'heading':
@@ -66,10 +68,10 @@ def main():
              'wordLookup': 'google', 'titleVocalized': 'مُحَمَّدٌ رَسُولُ اللَّهِ', 'subtitleVocalized': 'سِيرَةُ خَاتَمِ النَّبِيِّينَ',
              'titleEnglish': 'Muhammad, the Messenger of Allah', 'titleUrdu': 'حضرت محمد رسول اللہ',
              'description': {'en': 'The life of Muhammad; reviewed chapters are being published in batches.', 'ur': 'سیرتِ خاتم النبیین؛ نظرثانی شدہ ابواب مرحلہ وار شائع کیے جا رہے ہیں۔'},
-             'publication': {'status': 'partial', 'reviewedPdfPages': [8, 191], 'nextPdfPage': 191,
-                             'nextHeading': 'إِذْ جَاءُوكُمْ مِنْ فَوْقِكُمْ وَمِنْ أَسْفَلَ مِنْكُمْ',
-                             'label': 'Reviewed through preparations and digging at the Trench · PDF pages 8–190 complete; page 191 partially reviewed. More chapters to follow.'},
-             'source': {'file': 'books/' + source.name, 'sha256': sha, 'pdfPages': 353, 'storyStartPage': 8, 'printedPageRange': [7, 190]},
+             'publication': {'status': 'partial', 'reviewedPdfPages': [8, 202], 'nextPdfPage': 203,
+                             'nextHeading': 'غَزْوَةُ بَنِي قُرَيْظَةَ',
+                             'label': 'Reviewed through the siege and withdrawal at the Trench · PDF pages 8–202 of 353. More chapters to follow.'},
+             'source': {'file': 'books/' + source.name, 'sha256': sha, 'pdfPages': 353, 'storyStartPage': 8, 'printedPageRange': [7, 201]},
              'editorial': {'method': 'Manual transcription reviewed against each rendered page; full editorial grammatical vocalization.',
                            'notes': ['Front matter on PDF pages 1–7 is excluded.', 'Original narrative, subheadings and all explanatory footnotes in the reviewed batches are retained.',
                                      'The Before the Prophethood chapter is split into two reader sections; the second navigation title adds Birth and Upbringing for clarity. Original printed subheadings are retained.',

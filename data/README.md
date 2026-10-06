@@ -172,3 +172,5 @@ Story 12 batch 18 completes Uhud and the pursuit to Hamra al-Asad. All printed s
 Story 12 batch 19 covers al-Raji, Bir Maunah, Banu Nadir and Dhat al-Riqa. All printed subheadings, the two poetic lines and three footnotes are retained. Totals: nineteen sections, 631 reading units, 120 footnotes. Pages 8–184 are complete. Resume on page 185.
 
 Story 12 batch 20 begins the Trench chapter, covering the coalition, Salman’s proposal, digging, shared hardship and the source’s accounts of miracles. Six footnotes and 33:10–11 are retained. Totals: twenty sections, 660 reading units, 126 footnotes and 50 Quran references. Pages 8–190 are complete; page 191 is reviewed through the miracles passage and its footnotes. Resume at **إذ جاءوكم من فوقكم ومن أسفل منكم** on page 191.
+
+Story 12 batch 21 completes the Trench chapter: the siege, Ali’s duel, Saad’s injury, Nuaym’s intervention and the coalition’s withdrawal. Six footnotes and the Quran references are retained and checked. Totals: twenty-one sections, 693 reading units, 132 footnotes and 56 Quran references. Pages 8–202 are complete. Resume at **غزوة بني قريظة** on page 203.
