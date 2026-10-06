@@ -56,6 +56,7 @@ def main():
             if vocal == 'إِذْ جَاءُوكُمْ مِنْ فَوْقِكُمْ وَمِنْ أَسْفَلَ مِنْكُمْ': references = [{'surah': 33, 'ayah': 10}]
             if 'إِنَّ بُيُوتَنَا عَوْرَةٌ' in vocal: references = [{'surah': 33, 'ayah': 13}]
             if vocal == 'عَسَى أَنْ تَكْرَهُوا شَيْئًا وَهُوَ خَيْرٌ لَكُمْ': references = [{'surah': 2, 'ayah': 216}]
+            if 'تَاللَّهِ لَقَدْ آثَرَكَ اللَّهُ عَلَيْنَا' in vocal: references = [{'surah': 12, 'ayah': 91}, {'surah': 12, 'ayah': 92}]
             section = sections[-1]
             # Subheadings precede their page marker in the editable source.
             if kind == 'heading':
@@ -69,10 +70,10 @@ def main():
              'wordLookup': 'google', 'titleVocalized': 'مُحَمَّدٌ رَسُولُ اللَّهِ', 'subtitleVocalized': 'سِيرَةُ خَاتَمِ النَّبِيِّينَ',
              'titleEnglish': 'Muhammad, the Messenger of Allah', 'titleUrdu': 'حضرت محمد رسول اللہ',
              'description': {'en': 'The life of Muhammad; reviewed chapters are being published in batches.', 'ur': 'سیرتِ خاتم النبیین؛ نظرثانی شدہ ابواب مرحلہ وار شائع کیے جا رہے ہیں۔'},
-             'publication': {'status': 'partial', 'reviewedPdfPages': [8, 257], 'nextPdfPage': 258,
-                             'nextHeading': 'فَتْحُ مَكَّةَ',
-                             'label': 'Reviewed through Mu’tah · PDF pages 8–257 of 353. More chapters to follow.'},
-             'source': {'file': 'books/' + source.name, 'sha256': sha, 'pdfPages': 353, 'storyStartPage': 8, 'printedPageRange': [7, 256]},
+             'publication': {'status': 'partial', 'reviewedPdfPages': [8, 265], 'nextPdfPage': 265,
+                             'nextHeading': 'أَبُو سُفْيَانَ بْنُ حَرْبٍ بَيْنَ يَدَيْ رَسُولِ اللَّهِ',
+                             'label': 'Reviewed through preparations for the conquest of Mecca · PDF pages 8–264 complete; page 265 partially reviewed. More chapters to follow.'},
+             'source': {'file': 'books/' + source.name, 'sha256': sha, 'pdfPages': 353, 'storyStartPage': 8, 'printedPageRange': [7, 264]},
              'editorial': {'method': 'Manual transcription reviewed against each rendered page; full editorial grammatical vocalization.',
                            'notes': ['Front matter on PDF pages 1–7 is excluded.', 'Original narrative, subheadings and all explanatory footnotes in the reviewed batches are retained.',
                                      'The Before the Prophethood chapter is split into two reader sections; the second navigation title adds Birth and Upbringing for clarity. Original printed subheadings are retained.',
@@ -92,7 +93,7 @@ def main():
                                      'The quotation وما النصر إلا من عند الله occurs in both 3:126 and 8:10; both matches are recorded because the source does not specify one.',
                                      'Reader section 15 completes the Badr chapter; its navigation title adds القتال والنصر to the printed title. Original subheadings, all five footnotes and the account of Banu Qaynuqa are retained. Pages 8–153 are complete; resume at غزوة أحد on page 154.',
                                      'Historical and theological statements remain those of the supplied author.', 'Only vocalized text is stored; browser text variants and tokens are derived locally.'],
-                           'corrections': [{'sourcePages': [251], 'source': 'أراد يبعث بعثا', 'edited': 'أراد أن يبعث بعثا', 'reason': 'Restore the missing أن before the purpose verb.'}, {'sourcePages': [254], 'source': 'بضعة يسيرا', 'edited': 'بضعة يسيرة', 'reason': 'Correct adjective agreement with the feminine noun.'}, {'sourcePages': [174], 'source': 'وإن غطي رجلاه بدت رأسه', 'edited': 'وإن غطيت رجلاه بدا رأسه', 'reason': 'Agreement corrected for the dual legs and masculine head.'}, {'sourcePages': [174], 'source': 'حشيش ب الرائحة', 'edited': 'حشيش طيب الرائحة', 'reason': 'Restore the damaged printed adjective in the explanatory footnote.'}, {'sourcePages': [143], 'source': 'عريش يكون فيها', 'edited': 'عريش يكون فيه',
+                           'corrections': [{'sourcePages': [258], 'source': 'أن يدخل رسوله والمسلمون مكة', 'edited': 'أن يدخل رسوله والمسلمين مكة', 'reason': 'Correct coordinated object case after يدخل.'}, {'sourcePages': [258], 'source': 'فتكون مباركا', 'edited': 'فتكون مباركة', 'reason': 'Correct agreement with the feminine noun الكعبة.'}, {'sourcePages': [251], 'source': 'أراد يبعث بعثا', 'edited': 'أراد أن يبعث بعثا', 'reason': 'Restore the missing أن before the purpose verb.'}, {'sourcePages': [254], 'source': 'بضعة يسيرا', 'edited': 'بضعة يسيرة', 'reason': 'Correct adjective agreement with the feminine noun.'}, {'sourcePages': [174], 'source': 'وإن غطي رجلاه بدت رأسه', 'edited': 'وإن غطيت رجلاه بدا رأسه', 'reason': 'Agreement corrected for the dual legs and masculine head.'}, {'sourcePages': [174], 'source': 'حشيش ب الرائحة', 'edited': 'حشيش طيب الرائحة', 'reason': 'Restore the damaged printed adjective in the explanatory footnote.'}, {'sourcePages': [143], 'source': 'عريش يكون فيها', 'edited': 'عريش يكون فيه',
                                             'reason': 'Pronoun refers to the masculine noun عريش.'}, {'sourcePages': [41], 'source': 'أن رسول الله أميا', 'edited': 'أن رسول الله أمي',
                                             'reason': 'The predicate of أن is nominative: أُمِّيٌّ. Honorific remains in the text.'},
                                            {'sourcePages': [43], 'source': 'فيمكث فيها', 'edited': 'فيمكث فيه',
