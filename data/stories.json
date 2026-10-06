@@ -231,20 +231,20 @@
         "ur": "سیرتِ خاتم النبیین؛ نظرثانی شدہ ابواب مرحلہ وار شائع کیے جا رہے ہیں۔"
       },
       "counts": {
-        "sections": 32,
-        "lines": 908,
-        "wordOccurrences": 22389
+        "sections": 33,
+        "lines": 945,
+        "wordOccurrences": 23167
       },
       "wordLookup": "google",
       "publication": {
         "status": "partial",
         "reviewedPdfPages": [
           8,
-          272
+          282
         ],
-        "nextPdfPage": 273,
-        "nextHeading": "تَطْهِيرُ الْحَرَمِ مِنَ الْأَوْثَانِ",
-        "label": "Reviewed through the entry into Mecca · PDF pages 8–272 of 353. More chapters to follow."
+        "nextPdfPage": 283,
+        "nextHeading": "غَزْوَةُ حُنَيْنٍ",
+        "label": "Reviewed through the conquest of Mecca and its aftermath · PDF pages 8–282 of 353. More chapters to follow."
       },
       "title": "مُحَمَّدٌ رَسُولُ اللَّهِ",
       "file": "stories/12-muhammad.json"
