@@ -231,20 +231,20 @@
         "ur": "سیرتِ خاتم النبیین؛ نظرثانی شدہ ابواب مرحلہ وار شائع کیے جا رہے ہیں۔"
       },
       "counts": {
-        "sections": 27,
-        "lines": 815,
-        "wordOccurrences": 19570
+        "sections": 29,
+        "lines": 840,
+        "wordOccurrences": 20433
       },
       "wordLookup": "google",
       "publication": {
         "status": "partial",
         "reviewedPdfPages": [
           8,
-          239
+          249
         ],
-        "nextPdfPage": 240,
-        "nextHeading": "بَيْنَ أَسَدِ اللَّهِ وَبَطَلِ الْيَهُودِ",
-        "label": "Reviewed through the journey to Khaybar and the banner · PDF pages 8–239 of 353. More chapters to follow."
+        "nextPdfPage": 250,
+        "nextHeading": "غَزْوَةُ مُؤْتَةَ",
+        "label": "Reviewed through Khaybar and Umrat al-Qada · PDF pages 8–249 of 353. More chapters to follow."
       },
       "title": "مُحَمَّدٌ رَسُولُ اللَّهِ",
       "file": "stories/12-muhammad.json"
