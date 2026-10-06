@@ -231,20 +231,20 @@
         "ur": "سیرتِ خاتم النبیین؛ نظرثانی شدہ ابواب مرحلہ وار شائع کیے جا رہے ہیں۔"
       },
       "counts": {
-        "sections": 21,
-        "lines": 693,
-        "wordOccurrences": 16574
+        "sections": 22,
+        "lines": 707,
+        "wordOccurrences": 17078
       },
       "wordLookup": "google",
       "publication": {
         "status": "partial",
         "reviewedPdfPages": [
           8,
-          202
+          208
         ],
-        "nextPdfPage": 203,
-        "nextHeading": "غَزْوَةُ بَنِي قُرَيْظَةَ",
-        "label": "Reviewed through the siege and withdrawal at the Trench · PDF pages 8–202 of 353. More chapters to follow."
+        "nextPdfPage": 208,
+        "nextHeading": "الْعَفْوُ عَمَّنْ ظَلَمَ وَعَطَاءُ مَنْ حَرَمَ",
+        "label": "Reviewed through Banu Qurayzah · PDF pages 8–207 complete; page 208 partially reviewed. More chapters to follow."
       },
       "title": "مُحَمَّدٌ رَسُولُ اللَّهِ",
       "file": "stories/12-muhammad.json"
