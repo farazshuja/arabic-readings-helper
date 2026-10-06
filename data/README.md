@@ -192,3 +192,5 @@ Story 12 batches 28–29 complete Khaybar and Umrat al-Qada, including the settl
 Story 12 batch 30 completes Mu’tah, retaining its printed subheadings and two footnotes. Two grammatical printing issues are corrected and documented. Totals: thirty sections, 861 reading units, 161 footnotes. Pages 8–257 are complete. Resume at **فتح مكة** on page 258.
 
 Story 12 batch 31 begins the conquest of Mecca: the broken treaty, pleas for help, Abu Sufyan’s failed mission and preparations for the journey. Three footnotes and quotations from 12:91–92 are retained. Grammatical printing corrections on page 258 are documented. Totals: thirty-one sections, 883 reading units, 164 footnotes and 68 Quran references. Pages 8–264 are complete; page 265 is reviewed through **حياء منه**. Resume at **أبو سفيان بن حرب بين يدي رسول الله** on page 265.
+
+Story 12 batch 32 covers Abu Sufyan’s conversion, the offer of safety, the army’s entry and the limited fighting. Four footnotes and all original subheadings are retained. Totals: thirty-two sections, 908 reading units, 168 footnotes. Pages 8–272 are complete. Resume on page 273.

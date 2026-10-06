@@ -231,20 +231,20 @@
         "ur": "سیرتِ خاتم النبیین؛ نظرثانی شدہ ابواب مرحلہ وار شائع کیے جا رہے ہیں۔"
       },
       "counts": {
-        "sections": 31,
-        "lines": 883,
-        "wordOccurrences": 21656
+        "sections": 32,
+        "lines": 908,
+        "wordOccurrences": 22389
       },
       "wordLookup": "google",
       "publication": {
         "status": "partial",
         "reviewedPdfPages": [
           8,
-          265
+          272
         ],
-        "nextPdfPage": 265,
-        "nextHeading": "أَبُو سُفْيَانَ بْنُ حَرْبٍ بَيْنَ يَدَيْ رَسُولِ اللَّهِ",
-        "label": "Reviewed through preparations for the conquest of Mecca · PDF pages 8–264 complete; page 265 partially reviewed. More chapters to follow."
+        "nextPdfPage": 273,
+        "nextHeading": "تَطْهِيرُ الْحَرَمِ مِنَ الْأَوْثَانِ",
+        "label": "Reviewed through the entry into Mecca · PDF pages 8–272 of 353. More chapters to follow."
       },
       "title": "مُحَمَّدٌ رَسُولُ اللَّهِ",
       "file": "stories/12-muhammad.json"

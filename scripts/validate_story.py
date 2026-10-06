@@ -269,9 +269,9 @@ def check_text_only(story):
     assert story['counts']['wordOccurrences'] == sum(len(re.findall(r'[\u0621-\u064a][\u0621-\u064a\u064b-\u0652\u0670]*', l['vocalized'])) for l in lines)
     assert all(MARKS.search(l['vocalized']) and l['sourcePages'] for l in lines)
     assert all('text' not in l and 'tokens' not in l for l in lines)
-    assert sum(l['kind'] == 'footnote' for l in lines) == 164
+    assert sum(l['kind'] == 'footnote' for l in lines) == 168
     assert [(r['surah'], r['ayah']) for l in lines for r in l['references']] == [(30, 41), (3, 96), (2, 127), (2, 128), (2, 129)] + [(105, a) for a in range(1, 6)] + [(29, 48), (7, 157)] + [(96, a) for a in range(1, 6)] + [(15, 94), (26, 214), (26, 215), (15, 89), (40, 28), (74, 1), (74, 2), (40, 28), (53, 17), (53, 18), (36, 9), (48, 4), (48, 7), (9, 40), (2, 285), (4, 46), (5, 7), (3, 7), (2, 143), (4, 77), (22, 39), (2, 183), (2, 185), (8, 41), (5, 24), (8, 11), (3, 126), (8, 10), (22, 19), (3, 123), (3, 152), (33, 10), (33, 11), (33, 10), (48, 4), (48, 7), (33, 13), (33, 9), (33, 25), (33, 10), (48, 18), (48, 1), (48, 2), (48, 3), (2, 216), (2, 216), (48, 18), (48, 19), (48, 27), (12, 91), (12, 92)]
-    assert [s['id'] for s in story['sections']] == ['s01', 's02', 's03', 's04', 's05', 's06', 's07', 's08', 's09', 's10', 's11', 's12', 's13', 's14', 's15', 's16', 's17', 's18', 's19', 's20', 's21', 's22', 's23', 's24', 's25', 's26', 's27', 's28', 's29', 's30', 's31']
+    assert [s['id'] for s in story['sections']] == ['s01', 's02', 's03', 's04', 's05', 's06', 's07', 's08', 's09', 's10', 's11', 's12', 's13', 's14', 's15', 's16', 's17', 's18', 's19', 's20', 's21', 's22', 's23', 's24', 's25', 's26', 's27', 's28', 's29', 's30', 's31', 's32']
     assert any('وَقَدْ أَصَابَ لَهُ أَبْرَهَةُ مِائَتَيْ بَعِيرٍ' in l['vocalized'] for l in lines)
     childhood = story['sections'][2]['lines']
     assert any('وَكَانَ أَلِفًا وَدُودًا' in l['vocalized'] for l in childhood)
@@ -416,6 +416,11 @@ def check_text_only(story):
     assert mecca_preparation[-1]['sourcePages'] == [264, 265]
     assert sum(l['kind'] == 'footnote' for l in mecca_preparation) == 3
     assert mecca_preparation[-1]['vocalized'].endswith('حَيَاءً مِنْهُ.')
+    mecca_entry = story['sections'][31]['lines']
+    assert mecca_entry[0]['sourcePages'] == [265, 266]
+    assert mecca_entry[-1]['sourcePages'] == [272]
+    assert sum(l['kind'] == 'footnote' for l in mecca_entry) == 4
+    assert mecca_entry[-1]['vocalized'].endswith('إِلَّا مَنْ قَاتَلَهُمْ.')
     source = ROOT / story['source']['file']
     assert re.fullmatch('[0-9a-f]{64}', story['source']['sha256'])
     if source.exists(): assert hashlib.sha256(source.read_bytes()).hexdigest() == story['source']['sha256']
