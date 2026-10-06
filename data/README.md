@@ -206,3 +206,5 @@ Story 12 batch 37 covers Tabuk, the three companions and the first Hajj. Four fo
 Story 12 batch 38 covers the Year of Delegations and the prescription of zakat. Pages 8–313 are complete. Resume at **حجة الوداع** on page 314.
 
 Story 12 batch 39 completes the Farewell Hajj, retaining all fourteen footnote units and Quran 5:3. Pages 8–324 are complete. Resume at **الوفاة** on page 325.
+
+Story 12 batch 40 covers the final illness and counsel, retaining eleven footnotes and all Quran quotations. Page 337 is reviewed through the final words and their footnote. Resume at **كيف فارق رسول الله الدنيا** on page 337.

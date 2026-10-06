@@ -231,20 +231,20 @@
         "ur": "سیرتِ خاتم النبیین؛ نظرثانی شدہ ابواب مرحلہ وار شائع کیے جا رہے ہیں۔"
       },
       "counts": {
-        "sections": 39,
-        "lines": 1085,
-        "wordOccurrences": 26494
+        "sections": 40,
+        "lines": 1140,
+        "wordOccurrences": 27623
       },
       "wordLookup": "google",
       "publication": {
         "status": "partial",
         "reviewedPdfPages": [
           8,
-          324
+          337
         ],
-        "nextPdfPage": 325,
-        "nextHeading": "الْوَفَاةُ",
-        "label": "Reviewed through the Farewell Hajj · PDF pages 8–324 of 353. More chapters to follow."
+        "nextPdfPage": 337,
+        "nextHeading": "كَيْفَ فَارَقَ رَسُولُ اللَّهِ الدُّنْيَا",
+        "label": "Reviewed through the final illness and counsel · PDF pages 8–337 of 353. More chapters to follow."
       },
       "title": "مُحَمَّدٌ رَسُولُ اللَّهِ",
       "file": "stories/12-muhammad.json"
