@@ -231,20 +231,20 @@
         "ur": "سیرتِ خاتم النبیین؛ نظرثانی شدہ ابواب مرحلہ وار شائع کیے جا رہے ہیں۔"
       },
       "counts": {
-        "sections": 33,
-        "lines": 945,
-        "wordOccurrences": 23167
+        "sections": 34,
+        "lines": 967,
+        "wordOccurrences": 23626
       },
       "wordLookup": "google",
       "publication": {
         "status": "partial",
         "reviewedPdfPages": [
           8,
-          282
+          288
         ],
-        "nextPdfPage": 283,
-        "nextHeading": "غَزْوَةُ حُنَيْنٍ",
-        "label": "Reviewed through the conquest of Mecca and its aftermath · PDF pages 8–282 of 353. More chapters to follow."
+        "nextPdfPage": 289,
+        "nextHeading": "غَزْوَةُ الطَّائِفِ",
+        "label": "Reviewed through Hunayn · PDF pages 8–288 of 353. More chapters to follow."
       },
       "title": "مُحَمَّدٌ رَسُولُ اللَّهِ",
       "file": "stories/12-muhammad.json"
