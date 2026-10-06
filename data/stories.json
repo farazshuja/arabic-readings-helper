@@ -231,20 +231,20 @@
         "ur": "سیرتِ خاتم النبیین؛ نظرثانی شدہ ابواب مرحلہ وار شائع کیے جا رہے ہیں۔"
       },
       "counts": {
-        "sections": 14,
-        "lines": 506,
-        "wordOccurrences": 11709
+        "sections": 15,
+        "lines": 539,
+        "wordOccurrences": 12377
       },
       "wordLookup": "google",
       "publication": {
         "status": "partial",
         "reviewedPdfPages": [
           8,
-          145
+          153
         ],
-        "nextPdfPage": 145,
-        "nextHeading": "هَذَانِ خَصْمَانِ اخْتَصَمُوا فِي رَبِّهِمْ",
-        "label": "Reviewed through the preparations and supplication at Badr · PDF pages 8–145 of 353 (page 145 opening passage only). More chapters to follow."
+        "nextPdfPage": 154,
+        "nextHeading": "غَزْوَةُ أُحُدٍ",
+        "label": "Reviewed through Badr, the prisoners and its aftermath · PDF pages 8–153 of 353. More chapters to follow."
       },
       "title": "مُحَمَّدٌ رَسُولُ اللَّهِ",
       "file": "stories/12-muhammad.json"
