@@ -258,10 +258,10 @@ def check_text_only(story):
     assert story['source']['storyStartPage'] == 8
     lines = [line for section in story['sections'] for line in section['lines']]
     start, end = story['publication']['reviewedPdfPages']
-    assert start == 8 and end < story['source']['pdfPages']
-    assert story['publication']['nextPdfPage'] in (end, end + 1)
-    if story['publication']['nextPdfPage'] == end:
-        assert story['publication']['nextHeading']
+    assert start == 8 and end == story['source']['pdfPages'] == 353
+    assert story['publication']['status'] == 'complete'
+    assert story['publication']['nextPdfPage'] is None
+    assert story['publication']['nextHeading'] is None
     assert {p for line in lines for p in line['sourcePages']} == set(range(start, end + 1))
     assert len({l['id'] for l in lines}) == len(lines)
     assert story['counts']['sections'] == len(story['sections'])
@@ -269,9 +269,9 @@ def check_text_only(story):
     assert story['counts']['wordOccurrences'] == sum(len(re.findall(r'[\u0621-\u064a][\u0621-\u064a\u064b-\u0652\u0670]*', l['vocalized'])) for l in lines)
     assert all(MARKS.search(l['vocalized']) and l['sourcePages'] for l in lines)
     assert all('text' not in l and 'tokens' not in l for l in lines)
-    assert sum(l['kind'] == 'footnote' for l in lines) == 210
-    assert [(r['surah'], r['ayah']) for l in lines for r in l['references']] == [(30, 41), (3, 96), (2, 127), (2, 128), (2, 129)] + [(105, a) for a in range(1, 6)] + [(29, 48), (7, 157)] + [(96, a) for a in range(1, 6)] + [(15, 94), (26, 214), (26, 215), (15, 89), (40, 28), (74, 1), (74, 2), (40, 28), (53, 17), (53, 18), (36, 9), (48, 4), (48, 7), (9, 40), (2, 285), (4, 46), (5, 7), (3, 7), (2, 143), (4, 77), (22, 39), (2, 183), (2, 185), (8, 41), (5, 24), (8, 11), (3, 126), (8, 10), (22, 19), (3, 123), (3, 152), (33, 10), (33, 11), (33, 10), (48, 4), (48, 7), (33, 13), (33, 9), (33, 25), (33, 10), (48, 18), (48, 1), (48, 2), (48, 3), (2, 216), (2, 216), (48, 18), (48, 19), (48, 27), (12, 91), (12, 92), (17, 81), (34, 49), (49, 13), (12, 92), (110, 1), (110, 2), (9, 25), (9, 26), (9, 81), (9, 117), (9, 118), (5, 3), (5, 3), (110, 1), (110, 2), (110, 3), (28, 83), (39, 60)]
-    assert [s['id'] for s in story['sections']] == ['s01', 's02', 's03', 's04', 's05', 's06', 's07', 's08', 's09', 's10', 's11', 's12', 's13', 's14', 's15', 's16', 's17', 's18', 's19', 's20', 's21', 's22', 's23', 's24', 's25', 's26', 's27', 's28', 's29', 's30', 's31', 's32', 's33', 's34', 's35', 's36', 's37', 's38', 's39', 's40']
+    assert sum(l['kind'] == 'footnote' for l in lines) == 232
+    assert [(r['surah'], r['ayah']) for l in lines for r in l['references']] == [(30, 41), (3, 96), (2, 127), (2, 128), (2, 129)] + [(105, a) for a in range(1, 6)] + [(29, 48), (7, 157)] + [(96, a) for a in range(1, 6)] + [(15, 94), (26, 214), (26, 215), (15, 89), (40, 28), (74, 1), (74, 2), (40, 28), (53, 17), (53, 18), (36, 9), (48, 4), (48, 7), (9, 40), (2, 285), (4, 46), (5, 7), (3, 7), (2, 143), (4, 77), (22, 39), (2, 183), (2, 185), (8, 41), (5, 24), (8, 11), (3, 126), (8, 10), (22, 19), (3, 123), (3, 152), (33, 10), (33, 11), (33, 10), (48, 4), (48, 7), (33, 13), (33, 9), (33, 25), (33, 10), (48, 18), (48, 1), (48, 2), (48, 3), (2, 216), (2, 216), (48, 18), (48, 19), (48, 27), (12, 91), (12, 92), (17, 81), (34, 49), (49, 13), (12, 92), (110, 1), (110, 2), (9, 25), (9, 26), (9, 81), (9, 117), (9, 118), (5, 3), (5, 3), (110, 1), (110, 2), (110, 3), (28, 83), (39, 60), (9, 128), (3, 144)]
+    assert [s['id'] for s in story['sections']] == ['s01', 's02', 's03', 's04', 's05', 's06', 's07', 's08', 's09', 's10', 's11', 's12', 's13', 's14', 's15', 's16', 's17', 's18', 's19', 's20', 's21', 's22', 's23', 's24', 's25', 's26', 's27', 's28', 's29', 's30', 's31', 's32', 's33', 's34', 's35', 's36', 's37', 's38', 's39', 's40', 's41', 's42', 's43']
     assert any('وَقَدْ أَصَابَ لَهُ أَبْرَهَةُ مِائَتَيْ بَعِيرٍ' in l['vocalized'] for l in lines)
     childhood = story['sections'][2]['lines']
     assert any('وَكَانَ أَلِفًا وَدُودًا' in l['vocalized'] for l in childhood)
@@ -454,6 +454,18 @@ def check_text_only(story):
     assert illness[0]['sourcePages'] == [325]
     assert illness[-1]['sourcePages'] == [337]
     assert sum(l['kind'] == 'footnote' for l in illness) == 11
+    passing = story['sections'][40]['lines']
+    assert passing[0]['sourcePages'] == [337]
+    assert passing[-1]['sourcePages'] == [346]
+    assert sum(l['kind'] == 'footnote' for l in passing) == 10
+    family = story['sections'][41]['lines']
+    assert family[0]['sourcePages'] == [346]
+    assert family[-1]['sourcePages'] == [349]
+    assert not any(l['kind'] == 'footnote' for l in family)
+    character = story['sections'][42]['lines']
+    assert character[0]['sourcePages'] == [350]
+    assert character[-1]['sourcePages'] == [353]
+    assert sum(l['kind'] == 'footnote' for l in character) == 12
     source = ROOT / story['source']['file']
     assert re.fullmatch('[0-9a-f]{64}', story['source']['sha256'])
     if source.exists(): assert hashlib.sha256(source.read_bytes()).hexdigest() == story['source']['sha256']

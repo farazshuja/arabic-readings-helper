@@ -24,7 +24,7 @@ Story 11 is **عيسى ابن مريم — قصة سيدنا عيسى ابن م�
 
 ## Files
 
-Story 12 uses the text-only `schemaVersion: "2.0.0"` format in `stories/12-muhammad.json`, with `wordLookup: "google"`. The first reviewed batch covers PDF pages 8–15 (printed pages 7–14), ending before the next major chapter. It contains one chapter, five subheadings, six explanatory footnotes, two Quran quotations and 27 reading units. Each unit stores `vocalized`, `kind`, `sourcePages`, `references` and a stable ID; no dictionary, word mappings or duplicate unvocalized text is stored. The browser derives tokens and reading variants. `publication` explicitly identifies the partial release and next page 16. The editable transcription is `stories/12-muhammad.vocalized.txt`; regenerate with `python scripts/build_muhammad.py`.
+Story 12 uses the text-only `schemaVersion: "2.0.0"` format in `stories/12-muhammad.json`, with `wordLookup: "google"`. The complete reviewed text covers PDF pages 8–353 (printed pages 7–352), excluding the front matter. It contains 43 reader sections. Each unit stores `vocalized`, `kind`, `sourcePages`, `references` and a stable ID; no dictionary, word mappings or duplicate unvocalized text is stored. The browser derives tokens and reading variants. `publication.status` is `complete`; the next-page fields are null. The editable transcription is `stories/12-muhammad.vocalized.txt`; regenerate with `python scripts/build_muhammad.py`.
 
 - `stories.json`: lightweight home-screen catalog. Each record supplies the title, summary, counts, and story JSON path.
 - `stories/01-ibrahim.json` through `stories/11-isa.json`: self-contained story text and dictionaries. The catalog lists their exact filenames; the website loads only the selected story file.
@@ -208,3 +208,5 @@ Story 12 batch 38 covers the Year of Delegations and the prescription of zakat. 
 Story 12 batch 39 completes the Farewell Hajj, retaining all fourteen footnote units and Quran 5:3. Pages 8–324 are complete. Resume at **الوفاة** on page 325.
 
 Story 12 batch 40 covers the final illness and counsel, retaining eleven footnotes and all Quran quotations. Page 337 is reviewed through the final words and their footnote. Resume at **كيف فارق رسول الله الدنيا** on page 337.
+
+Story 12 batches 41–43 complete the passing, burial, family and character chapters. All narrative PDF pages 8–353 are complete. The final release retains 232 explanatory footnote units; the omitted أبي in the name علي بن أبي طالب on page 332 is restored and documented.

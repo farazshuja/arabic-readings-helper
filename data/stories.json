@@ -227,24 +227,24 @@
       "titleEnglish": "Muhammad, the Messenger of Allah",
       "titleUrdu": "حضرت محمد رسول اللہ",
       "description": {
-        "en": "The life of Muhammad; reviewed chapters are being published in batches.",
-        "ur": "سیرتِ خاتم النبیین؛ نظرثانی شدہ ابواب مرحلہ وار شائع کیے جا رہے ہیں۔"
+        "en": "The complete life of Muhammad, transcribed from the supplied book with full vocalization.",
+        "ur": "سیرتِ خاتم النبیین؛ مکمل کتاب کا نظرثانی شدہ عربی متن، مکمل اعراب کے ساتھ۔"
       },
       "counts": {
-        "sections": 40,
-        "lines": 1140,
-        "wordOccurrences": 27623
+        "sections": 43,
+        "lines": 1211,
+        "wordOccurrences": 29168
       },
       "wordLookup": "google",
       "publication": {
-        "status": "partial",
+        "status": "complete",
         "reviewedPdfPages": [
           8,
-          337
+          353
         ],
-        "nextPdfPage": 337,
-        "nextHeading": "كَيْفَ فَارَقَ رَسُولُ اللَّهِ الدُّنْيَا",
-        "label": "Reviewed through the final illness and counsel · PDF pages 8–337 of 353. More chapters to follow."
+        "nextPdfPage": null,
+        "nextHeading": null,
+        "label": "Complete reviewed text · PDF pages 8–353 of 353."
       },
       "title": "مُحَمَّدٌ رَسُولُ اللَّهِ",
       "file": "stories/12-muhammad.json"
