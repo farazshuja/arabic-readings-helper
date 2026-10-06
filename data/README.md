@@ -198,3 +198,5 @@ Story 12 batch 32 covers Abu Sufyan’s conversion, the offer of safety, the arm
 Story 12 batch 33 completes Mecca: the Kaaba, public forgiveness, pledge and aftermath. Six footnotes and all quotations are retained and checked; the omitted word الباطل in 34:49 is restored and documented. Totals: thirty-three sections, 945 reading units, 174 footnotes and 74 Quran references. Pages 8–282 are complete. Resume at **غزوة حنين** on page 283.
 
 Story 12 batch 34 covers Hunayn (PDF 283–288), retaining three footnotes and Quran 9:25–26. Resume at **غزوة الطائف** on page 289.
+
+Story 12 batches 35–36 cover Ta’if, the return of the captives and Thaqif’s conversion, retaining four explanatory footnotes. Pages 8–299 are complete. Resume at **غزوة تبوك** on page 300.
