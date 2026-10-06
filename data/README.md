@@ -184,3 +184,5 @@ Story 12 batch 24 begins Hudaybiyah: the dream, journey, Uthman’s mission, ple
 Story 12 batch 25 completes Hudaybiyah, retaining the treaty dialogue, Abu Jandal and Abu Basir, the companions’ response and the conversions of Khalid and Amr. Seven footnotes and all quotations are retained. Totals: twenty-five sections, 775 reading units, 147 footnotes and 63 Quran references. Pages 8–227 are complete. Resume at **دعوة الملوك والأمراء إلى الإسلام** on page 228.
 
 Story 12 batch 26 covers the letters to rulers and the accounts of Heraclius, the Negus, al-Muqawqis and Kisra. All original subheadings and two footnotes are retained. Totals: twenty-six sections, 789 reading units, 149 footnotes. Pages 8–233 are complete. Resume at **غزوة خيبر** on page 234.
+
+Story 12 batch 27 begins Khaybar: the promised reward, journey, army and banner given to Ali. Eight footnotes, the poetic lines and 48:18–19 are retained. Totals: twenty-seven sections, 815 reading units, 157 footnotes and 65 Quran references. Pages 8–239 are complete. Resume at **بين أسد الله وبطل اليهود** on page 240.
