@@ -38,7 +38,7 @@ def main():
                 'فَأَغْشَيْنَاهُمْ': (36, 9), 'ثَانِيَ اثْنَيْنِ': (9, 40),
                 'وَكَذَلِكَ جَعَلْنَاكُمْ': (2, 143), 'أُذِنَ لِلَّذِينَ': (22, 39),
                 'يَا أَيُّهَا الَّذِينَ آمَنُوا كُتِبَ': (2, 183), 'شَهْرُ رَمَضَانَ': (2, 185),
-                'إِنْ كُنْتُمْ آمَنْتُمْ': (8, 41), 'وَيُنَزِّلُ عَلَيْكُمْ': (8, 11), 'وَلَقَدْ نَصَرَكُمُ': (3, 123), 'وَلَقَدْ صَدَقَكُمُ': (3, 152), 'إِذْ جَاءُوكُمْ': (33, 10), 'هُنَالِكَ ابْتُلِيَ': (33, 11), 'يَا أَيُّهَا الَّذِينَ آمَنُوا اذْكُرُوا': (33, 9), 'وَرَدَّ اللَّهُ': (33, 25)}
+                'إِنْ كُنْتُمْ آمَنْتُمْ': (8, 41), 'وَيُنَزِّلُ عَلَيْكُمْ': (8, 11), 'وَلَقَدْ نَصَرَكُمُ': (3, 123), 'وَلَقَدْ صَدَقَكُمُ': (3, 152), 'إِذْ جَاءُوكُمْ': (33, 10), 'هُنَالِكَ ابْتُلِيَ': (33, 11), 'يَا أَيُّهَا الَّذِينَ آمَنُوا اذْكُرُوا': (33, 9), 'وَرَدَّ اللَّهُ': (33, 25), 'لَقَدْ رَضِيَ اللَّهُ': (48, 18)}
             for beginning, (surah, ayah) in quran.items():
                 if vocal.startswith('﴿' + beginning): references = [{'surah': surah, 'ayah': ayah}]
             if 'وَلِلَّهِ جُنُودُ السَّمَاوَاتِ وَالْأَرْضِ' in vocal:
@@ -68,10 +68,10 @@ def main():
              'wordLookup': 'google', 'titleVocalized': 'مُحَمَّدٌ رَسُولُ اللَّهِ', 'subtitleVocalized': 'سِيرَةُ خَاتَمِ النَّبِيِّينَ',
              'titleEnglish': 'Muhammad, the Messenger of Allah', 'titleUrdu': 'حضرت محمد رسول اللہ',
              'description': {'en': 'The life of Muhammad; reviewed chapters are being published in batches.', 'ur': 'سیرتِ خاتم النبیین؛ نظرثانی شدہ ابواب مرحلہ وار شائع کیے جا رہے ہیں۔'},
-             'publication': {'status': 'partial', 'reviewedPdfPages': [8, 211], 'nextPdfPage': 212,
-                             'nextHeading': 'صُلْحُ الْحُدَيْبِيَةِ',
-                             'label': 'Reviewed through Thumamah ibn Uthal · PDF pages 8–211 of 353. More chapters to follow.'},
-             'source': {'file': 'books/' + source.name, 'sha256': sha, 'pdfPages': 353, 'storyStartPage': 8, 'printedPageRange': [7, 210]},
+             'publication': {'status': 'partial', 'reviewedPdfPages': [8, 217], 'nextPdfPage': 217,
+                             'nextHeading': 'مُعَاهَدَةٌ وَصُلْحٌ، وَحِكْمَةٌ وَحِلْمٌ',
+                             'label': 'Reviewed through the journey to Hudaybiyah and the pledge · PDF pages 8–216 complete; page 217 partially reviewed. More chapters to follow.'},
+             'source': {'file': 'books/' + source.name, 'sha256': sha, 'pdfPages': 353, 'storyStartPage': 8, 'printedPageRange': [7, 216]},
              'editorial': {'method': 'Manual transcription reviewed against each rendered page; full editorial grammatical vocalization.',
                            'notes': ['Front matter on PDF pages 1–7 is excluded.', 'Original narrative, subheadings and all explanatory footnotes in the reviewed batches are retained.',
                                      'The Before the Prophethood chapter is split into two reader sections; the second navigation title adds Birth and Upbringing for clarity. Original printed subheadings are retained.',

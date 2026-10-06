@@ -269,9 +269,9 @@ def check_text_only(story):
     assert story['counts']['wordOccurrences'] == sum(len(re.findall(r'[\u0621-\u064a][\u0621-\u064a\u064b-\u0652\u0670]*', l['vocalized'])) for l in lines)
     assert all(MARKS.search(l['vocalized']) and l['sourcePages'] for l in lines)
     assert all('text' not in l and 'tokens' not in l for l in lines)
-    assert sum(l['kind'] == 'footnote' for l in lines) == 136
-    assert [(r['surah'], r['ayah']) for l in lines for r in l['references']] == [(30, 41), (3, 96), (2, 127), (2, 128), (2, 129)] + [(105, a) for a in range(1, 6)] + [(29, 48), (7, 157)] + [(96, a) for a in range(1, 6)] + [(15, 94), (26, 214), (26, 215), (15, 89), (40, 28), (74, 1), (74, 2), (40, 28), (53, 17), (53, 18), (36, 9), (48, 4), (48, 7), (9, 40), (2, 285), (4, 46), (5, 7), (3, 7), (2, 143), (4, 77), (22, 39), (2, 183), (2, 185), (8, 41), (5, 24), (8, 11), (3, 126), (8, 10), (22, 19), (3, 123), (3, 152), (33, 10), (33, 11), (33, 10), (48, 4), (48, 7), (33, 13), (33, 9), (33, 25), (33, 10)]
-    assert [s['id'] for s in story['sections']] == ['s01', 's02', 's03', 's04', 's05', 's06', 's07', 's08', 's09', 's10', 's11', 's12', 's13', 's14', 's15', 's16', 's17', 's18', 's19', 's20', 's21', 's22', 's23']
+    assert sum(l['kind'] == 'footnote' for l in lines) == 140
+    assert [(r['surah'], r['ayah']) for l in lines for r in l['references']] == [(30, 41), (3, 96), (2, 127), (2, 128), (2, 129)] + [(105, a) for a in range(1, 6)] + [(29, 48), (7, 157)] + [(96, a) for a in range(1, 6)] + [(15, 94), (26, 214), (26, 215), (15, 89), (40, 28), (74, 1), (74, 2), (40, 28), (53, 17), (53, 18), (36, 9), (48, 4), (48, 7), (9, 40), (2, 285), (4, 46), (5, 7), (3, 7), (2, 143), (4, 77), (22, 39), (2, 183), (2, 185), (8, 41), (5, 24), (8, 11), (3, 126), (8, 10), (22, 19), (3, 123), (3, 152), (33, 10), (33, 11), (33, 10), (48, 4), (48, 7), (33, 13), (33, 9), (33, 25), (33, 10), (48, 18)]
+    assert [s['id'] for s in story['sections']] == ['s01', 's02', 's03', 's04', 's05', 's06', 's07', 's08', 's09', 's10', 's11', 's12', 's13', 's14', 's15', 's16', 's17', 's18', 's19', 's20', 's21', 's22', 's23', 's24']
     assert any('وَقَدْ أَصَابَ لَهُ أَبْرَهَةُ مِائَتَيْ بَعِيرٍ' in l['vocalized'] for l in lines)
     childhood = story['sections'][2]['lines']
     assert any('وَكَانَ أَلِفًا وَدُودًا' in l['vocalized'] for l in childhood)
@@ -376,6 +376,11 @@ def check_text_only(story):
     assert thumamah[0]['sourcePages'] == [208, 209]
     assert any(l['sourcePages'] == [210, 211] and l['vocalized'].endswith('صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ.') for l in thumamah)
     assert sum(l['kind'] == 'footnote' for l in thumamah) == 3
+    pledge = story['sections'][23]['lines']
+    assert pledge[0]['sourcePages'] == [212, 213]
+    assert pledge[-1]['sourcePages'] == [217]
+    assert sum(l['kind'] == 'footnote' for l in pledge) == 4
+    assert pledge[-1]['vocalized'].endswith('وَوَصَفَ لَهُمْ مَا رَآهُ.')
     source = ROOT / story['source']['file']
     assert re.fullmatch('[0-9a-f]{64}', story['source']['sha256'])
     if source.exists(): assert hashlib.sha256(source.read_bytes()).hexdigest() == story['source']['sha256']

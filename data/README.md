@@ -178,3 +178,5 @@ Story 12 batch 21 completes the Trench chapter: the siege, Ali’s duel, Saad’
 Story 12 batch 22 covers Banu Qurayzah and its aftermath. The original subheadings, footnote and partial quotation from 33:10 are retained. Totals: twenty-two sections, 707 reading units, 133 footnotes and 57 Quran references. Pages 8–207 are complete; page 208 is reviewed through **واستراح المسلمون**. Resume at **العفو عمن ظلم وعطاء من حرم** on page 208.
 
 Story 12 batch 23 covers Thumamah ibn Uthal, his release, conversion and the request to resume food supplies. All three footnotes are retained. Totals: twenty-three sections, 717 reading units, 136 footnotes. Pages 8–211 are complete. Resume at **صلح الحديبية** on page 212.
+
+Story 12 batch 24 begins Hudaybiyah: the dream, journey, Uthman’s mission, pledge and envoys. Four footnotes and the partial quotation from 48:18 are retained. Totals: twenty-four sections, 735 reading units, 140 footnotes and 58 Quran references. Pages 8–216 are complete; page 217 is reviewed through **ووصف لهم ما رآه**. Resume at **معاهدة وصلح، وحكمة وحلم** on page 217.
