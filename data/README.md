@@ -188,3 +188,5 @@ Story 12 batch 26 covers the letters to rulers and the accounts of Heraclius, th
 Story 12 batch 27 begins Khaybar: the promised reward, journey, army and banner given to Ali. Eight footnotes, the poetic lines and 48:18–19 are retained. Totals: twenty-seven sections, 815 reading units, 157 footnotes and 65 Quran references. Pages 8–239 are complete. Resume at **بين أسد الله وبطل اليهود** on page 240.
 
 Story 12 batches 28–29 complete Khaybar and Umrat al-Qada, including the settlement, return to Medina and guardianship of Hamzah’s daughter. All original subheadings and two footnotes are retained; 48:27 is checked. Totals: twenty-nine sections, 840 reading units, 159 footnotes and 66 Quran references. Pages 8–249 are complete. Resume at **غزوة مؤتة** on page 250.
+
+Story 12 batch 30 completes Mu’tah, retaining its printed subheadings and two footnotes. Two grammatical printing issues are corrected and documented. Totals: thirty sections, 861 reading units, 161 footnotes. Pages 8–257 are complete. Resume at **فتح مكة** on page 258.
