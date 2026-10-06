@@ -231,20 +231,20 @@
         "ur": "سیرتِ خاتم النبیین؛ نظرثانی شدہ ابواب مرحلہ وار شائع کیے جا رہے ہیں۔"
       },
       "counts": {
-        "sections": 13,
-        "lines": 474,
-        "wordOccurrences": 10847
+        "sections": 14,
+        "lines": 506,
+        "wordOccurrences": 11709
       },
       "wordLookup": "google",
       "publication": {
         "status": "partial",
         "reviewedPdfPages": [
           8,
-          134
+          145
         ],
-        "nextPdfPage": 135,
-        "nextHeading": "مَعْرَكَةُ بَدْرٍ الْحَاسِمَةُ",
-        "label": "Reviewed through brotherhood in Medina, the qiblah and prescribed fasting · PDF pages 8–134 of 353. More chapters to follow."
+        "nextPdfPage": 145,
+        "nextHeading": "هَذَانِ خَصْمَانِ اخْتَصَمُوا فِي رَبِّهِمْ",
+        "label": "Reviewed through the preparations and supplication at Badr · PDF pages 8–145 of 353 (page 145 opening passage only). More chapters to follow."
       },
       "title": "مُحَمَّدٌ رَسُولُ اللَّهِ",
       "file": "stories/12-muhammad.json"

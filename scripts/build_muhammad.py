@@ -37,7 +37,8 @@ def main():
                 'مَا زَاغَ الْبَصَرُ': (53, 17), 'لَقَدْ رَأَى مِنْ': (53, 18),
                 'فَأَغْشَيْنَاهُمْ': (36, 9), 'ثَانِيَ اثْنَيْنِ': (9, 40),
                 'وَكَذَلِكَ جَعَلْنَاكُمْ': (2, 143), 'أُذِنَ لِلَّذِينَ': (22, 39),
-                'يَا أَيُّهَا الَّذِينَ آمَنُوا كُتِبَ': (2, 183), 'شَهْرُ رَمَضَانَ': (2, 185)}
+                'يَا أَيُّهَا الَّذِينَ آمَنُوا كُتِبَ': (2, 183), 'شَهْرُ رَمَضَانَ': (2, 185),
+                'إِنْ كُنْتُمْ آمَنْتُمْ': (8, 41), 'وَيُنَزِّلُ عَلَيْكُمْ': (8, 11)}
             for beginning, (surah, ayah) in quran.items():
                 if vocal.startswith('﴿' + beginning): references = [{'surah': surah, 'ayah': ayah}]
             if 'وَلِلَّهِ جُنُودُ السَّمَاوَاتِ وَالْأَرْضِ' in vocal:
@@ -46,6 +47,10 @@ def main():
                 references = [{'surah': 4, 'ayah': 77}]
             if '«سَمِعْنَا وَأَطَعْنَا»' in vocal:
                 references = [{'surah': 2, 'ayah': 285}, {'surah': 4, 'ayah': 46}, {'surah': 5, 'ayah': 7}, {'surah': 3, 'ayah': 7}]
+            if 'اذْهَبْ أَنْتَ وَرَبُّكَ فَقَاتِلَا' in vocal:
+                references = [{'surah': 5, 'ayah': 24}]
+            if 'وَمَا النَّصْرُ إِلَّا مِنْ عِنْدِ اللَّهِ' in vocal:
+                references = [{'surah': 3, 'ayah': 126}, {'surah': 8, 'ayah': 10}]
             section = sections[-1]
             # Subheadings precede their page marker in the editable source.
             if kind == 'heading':
@@ -59,10 +64,10 @@ def main():
              'wordLookup': 'google', 'titleVocalized': 'مُحَمَّدٌ رَسُولُ اللَّهِ', 'subtitleVocalized': 'سِيرَةُ خَاتَمِ النَّبِيِّينَ',
              'titleEnglish': 'Muhammad, the Messenger of Allah', 'titleUrdu': 'حضرت محمد رسول اللہ',
              'description': {'en': 'The life of Muhammad; reviewed chapters are being published in batches.', 'ur': 'سیرتِ خاتم النبیین؛ نظرثانی شدہ ابواب مرحلہ وار شائع کیے جا رہے ہیں۔'},
-             'publication': {'status': 'partial', 'reviewedPdfPages': [8, 134], 'nextPdfPage': 135,
-                             'nextHeading': 'مَعْرَكَةُ بَدْرٍ الْحَاسِمَةُ',
-                             'label': 'Reviewed through brotherhood in Medina, the qiblah and prescribed fasting · PDF pages 8–134 of 353. More chapters to follow.'},
-             'source': {'file': 'books/' + source.name, 'sha256': sha, 'pdfPages': 353, 'storyStartPage': 8, 'printedPageRange': [7, 133]},
+             'publication': {'status': 'partial', 'reviewedPdfPages': [8, 145], 'nextPdfPage': 145,
+                             'nextHeading': 'هَذَانِ خَصْمَانِ اخْتَصَمُوا فِي رَبِّهِمْ',
+                             'label': 'Reviewed through the preparations and supplication at Badr · PDF pages 8–145 of 353 (page 145 opening passage only). More chapters to follow.'},
+             'source': {'file': 'books/' + source.name, 'sha256': sha, 'pdfPages': 353, 'storyStartPage': 8, 'printedPageRange': [7, 144]},
              'editorial': {'method': 'Manual transcription reviewed against each rendered page; full editorial grammatical vocalization.',
                            'notes': ['Front matter on PDF pages 1–7 is excluded.', 'Original narrative, subheadings and all explanatory footnotes in the reviewed batches are retained.',
                                      'The Before the Prophethood chapter is split into two reader sections; the second navigation title adds Birth and Upbringing for clarity. Original printed subheadings are retained.',
@@ -76,10 +81,13 @@ def main():
                                      'Reader section 11 groups Quraysh’s conspiracy, the departure from Mecca and the Cave of Thawr under an editorial navigation title; printed subheadings and footnotes are retained. Its passages cover pages 109–115.',
                                      'The phrase ولله جنود السماوات والأرض occurs in both 48:4 and 48:7; both references are recorded because the source does not specify one.',
                                      'Reader section 12 groups Suraqah’s pursuit, Umm Ma‘bad, arrival in Medina, Quba, Abu Ayyub’s hospitality and mosque construction under an editorial navigation title. Original printed headings, the welcome verses and all footnotes are retained. Its passages cover pages 116–125.',
-                                     'Reader section 13 groups brotherhood, the agreement with the Jews, the adhan, the qiblah, early expeditions and prescribed fasting under an editorial navigation title. Printed subheadings and footnotes are retained. Pages 8–134 are complete; resume at معركة بدر الحاسمة on page 135.',
+                                     'Reader section 13 groups brotherhood, the agreement with the Jews, the adhan, the qiblah, early expeditions and prescribed fasting under an editorial navigation title. Printed subheadings and footnotes are retained. Its passages cover pages 126–134.',
                                      'The brief quotation سمعنا وأطعنا occurs in 2:285, 4:46 and 5:7; all three matches are recorded because the source does not specify one. The following آمنا به كل من عند ربنا is from 3:7.',
+                                     'The Badr chapter is split into reviewed reader sections. Section 14 adds الاستعداد والدعاء to the printed معركة بدر الحاسمة title for navigation. Page 145 is reviewed only through the opening supplication passage; resume at هذان خصمان اختصموا في ربهم on the same page.',
+                                     'The quotation وما النصر إلا من عند الله occurs in both 3:126 and 8:10; both matches are recorded because the source does not specify one.',
                                      'Historical and theological statements remain those of the supplied author.', 'Only vocalized text is stored; browser text variants and tokens are derived locally.'],
-                           'corrections': [{'sourcePages': [41], 'source': 'أن رسول الله أميا', 'edited': 'أن رسول الله أمي',
+                           'corrections': [{'sourcePages': [143], 'source': 'عريش يكون فيها', 'edited': 'عريش يكون فيه',
+                                            'reason': 'Pronoun refers to the masculine noun عريش.'}, {'sourcePages': [41], 'source': 'أن رسول الله أميا', 'edited': 'أن رسول الله أمي',
                                             'reason': 'The predicate of أن is nominative: أُمِّيٌّ. Honorific remains in the text.'},
                                            {'sourcePages': [43], 'source': 'فيمكث فيها', 'edited': 'فيمكث فيه',
                                             'reason': 'Pronoun refers to the masculine noun غار.'},
