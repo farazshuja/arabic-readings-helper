@@ -200,3 +200,5 @@ Story 12 batch 33 completes Mecca: the Kaaba, public forgiveness, pledge and aft
 Story 12 batch 34 covers Hunayn (PDF 283–288), retaining three footnotes and Quran 9:25–26. Resume at **غزوة الطائف** on page 289.
 
 Story 12 batches 35–36 cover Ta’if, the return of the captives and Thaqif’s conversion, retaining four explanatory footnotes. Pages 8–299 are complete. Resume at **غزوة تبوك** on page 300.
+
+Story 12 batch 37 covers Tabuk, the three companions and the first Hajj. Four footnotes and Quran 9:81, 117–118 are retained. Pages 8–309 are complete. Resume at **عام الوفود** on page 310.

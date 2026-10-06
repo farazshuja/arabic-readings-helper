@@ -231,20 +231,20 @@
         "ur": "سیرتِ خاتم النبیین؛ نظرثانی شدہ ابواب مرحلہ وار شائع کیے جا رہے ہیں۔"
       },
       "counts": {
-        "sections": 36,
-        "lines": 1003,
-        "wordOccurrences": 24521
+        "sections": 37,
+        "lines": 1038,
+        "wordOccurrences": 25303
       },
       "wordLookup": "google",
       "publication": {
         "status": "partial",
         "reviewedPdfPages": [
           8,
-          299
+          309
         ],
-        "nextPdfPage": 300,
-        "nextHeading": "غَزْوَةُ تَبُوكَ",
-        "label": "Reviewed through Ta’if, the captives and Thaqif’s conversion · PDF pages 8–299 of 353. More chapters to follow."
+        "nextPdfPage": 310,
+        "nextHeading": "عَامُ الْوُفُودِ",
+        "label": "Reviewed through Tabuk and the first Hajj · PDF pages 8–309 of 353. More chapters to follow."
       },
       "title": "مُحَمَّدٌ رَسُولُ اللَّهِ",
       "file": "stories/12-muhammad.json"
