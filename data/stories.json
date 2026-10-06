@@ -231,20 +231,20 @@
         "ur": "سیرتِ خاتم النبیین؛ نظرثانی شدہ ابواب مرحلہ وار شائع کیے جا رہے ہیں۔"
       },
       "counts": {
-        "sections": 18,
-        "lines": 609,
-        "wordOccurrences": 14503
+        "sections": 19,
+        "lines": 631,
+        "wordOccurrences": 15093
       },
       "wordLookup": "google",
       "publication": {
         "status": "partial",
         "reviewedPdfPages": [
           8,
-          177
+          184
         ],
-        "nextPdfPage": 177,
-        "nextHeading": "أَحَبُّ إِلَى النَّفْسِ مِنَ النَّفْسِ",
-        "label": "Reviewed through Uhud and Hamra al-Asad · PDF pages 8–176 complete; page 177 partially reviewed. More chapters to follow."
+        "nextPdfPage": 185,
+        "nextHeading": "غَزْوَةُ الْخَنْدَقِ",
+        "label": "Reviewed through al-Raji, Bir Maunah, Banu Nadir and Dhat al-Riqa · PDF pages 8–184 of 353. More chapters to follow."
       },
       "title": "مُحَمَّدٌ رَسُولُ اللَّهِ",
       "file": "stories/12-muhammad.json"

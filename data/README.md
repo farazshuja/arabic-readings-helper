@@ -168,3 +168,5 @@ Story 12 batch 16 covers Uhud preparations and the opening battle, including the
 Story 12 batch 17 covers the reversal at Uhud and the companions’ devotion. The full quotation from 3:152 and all seven footnotes are retained. Totals: seventeen sections, 585 reading units, 112 footnotes and 48 Quran references. Pages 8–169 are complete; page 170 is reviewed through **فأقول: فيك**. Resume at **عودة المسلمين إلى مركزهم** on page 170.
 
 Story 12 batch 18 completes Uhud and the pursuit to Hamra al-Asad. All printed subheadings and five footnotes are retained; damaged footnote text and grammatical agreement on page 174 are corrected and documented. Totals: eighteen sections, 609 reading units, 117 footnotes. Pages 8–176 are complete; page 177 is reviewed through **اثنان وعشرون رجلاً**. Resume at **أحب إلى النفس من النفس** on page 177.
+
+Story 12 batch 19 covers al-Raji, Bir Maunah, Banu Nadir and Dhat al-Riqa. All printed subheadings, the two poetic lines and three footnotes are retained. Totals: nineteen sections, 631 reading units, 120 footnotes. Pages 8–184 are complete. Resume on page 185.
