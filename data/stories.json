@@ -231,20 +231,20 @@
         "ur": "سیرتِ خاتم النبیین؛ نظرثانی شدہ ابواب مرحلہ وار شائع کیے جا رہے ہیں۔"
       },
       "counts": {
-        "sections": 22,
-        "lines": 707,
-        "wordOccurrences": 17078
+        "sections": 23,
+        "lines": 717,
+        "wordOccurrences": 17322
       },
       "wordLookup": "google",
       "publication": {
         "status": "partial",
         "reviewedPdfPages": [
           8,
-          208
+          211
         ],
-        "nextPdfPage": 208,
-        "nextHeading": "الْعَفْوُ عَمَّنْ ظَلَمَ وَعَطَاءُ مَنْ حَرَمَ",
-        "label": "Reviewed through Banu Qurayzah · PDF pages 8–207 complete; page 208 partially reviewed. More chapters to follow."
+        "nextPdfPage": 212,
+        "nextHeading": "صُلْحُ الْحُدَيْبِيَةِ",
+        "label": "Reviewed through Thumamah ibn Uthal · PDF pages 8–211 of 353. More chapters to follow."
       },
       "title": "مُحَمَّدٌ رَسُولُ اللَّهِ",
       "file": "stories/12-muhammad.json"

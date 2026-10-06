@@ -176,3 +176,5 @@ Story 12 batch 20 begins the Trench chapter, covering the coalition, Salman’s 
 Story 12 batch 21 completes the Trench chapter: the siege, Ali’s duel, Saad’s injury, Nuaym’s intervention and the coalition’s withdrawal. Six footnotes and the Quran references are retained and checked. Totals: twenty-one sections, 693 reading units, 132 footnotes and 56 Quran references. Pages 8–202 are complete. Resume at **غزوة بني قريظة** on page 203.
 
 Story 12 batch 22 covers Banu Qurayzah and its aftermath. The original subheadings, footnote and partial quotation from 33:10 are retained. Totals: twenty-two sections, 707 reading units, 133 footnotes and 57 Quran references. Pages 8–207 are complete; page 208 is reviewed through **واستراح المسلمون**. Resume at **العفو عمن ظلم وعطاء من حرم** on page 208.
+
+Story 12 batch 23 covers Thumamah ibn Uthal, his release, conversion and the request to resume food supplies. All three footnotes are retained. Totals: twenty-three sections, 717 reading units, 136 footnotes. Pages 8–211 are complete. Resume at **صلح الحديبية** on page 212.
