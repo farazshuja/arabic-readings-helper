@@ -202,3 +202,5 @@ Story 12 batch 34 covers Hunayn (PDF 283–288), retaining three footnotes and Q
 Story 12 batches 35–36 cover Ta’if, the return of the captives and Thaqif’s conversion, retaining four explanatory footnotes. Pages 8–299 are complete. Resume at **غزوة تبوك** on page 300.
 
 Story 12 batch 37 covers Tabuk, the three companions and the first Hajj. Four footnotes and Quran 9:81, 117–118 are retained. Pages 8–309 are complete. Resume at **عام الوفود** on page 310.
+
+Story 12 batch 38 covers the Year of Delegations and the prescription of zakat. Pages 8–313 are complete. Resume at **حجة الوداع** on page 314.
