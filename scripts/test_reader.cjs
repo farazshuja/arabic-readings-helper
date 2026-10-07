@@ -17,7 +17,12 @@ const document = {
   createElementNS(ns, tag) { return new Node(tag); },
   createTextNode(text) { const n = new Node(); n.textContent = text; return n; }
 };
-const context = vm.createContext({ document, console });
+const storage = new Map();
+const localStorage = {
+  getItem(key) { return storage.get(key) ?? null; },
+  setItem(key, value) { storage.set(key, value); }
+};
+const context = vm.createContext({ document, console, localStorage });
 const source = fs.readFileSync('website/dist/app.js', 'utf8');
 vm.runInContext(source.slice(0, source.indexOf('const closeButton =')), context);
 const catalog = JSON.parse(fs.readFileSync('data/stories.json', 'utf8'));
@@ -77,3 +82,28 @@ for (const record of catalog.stories) {
   }
 }
 console.log(`PASS reader: ${checked} lines in both modes; ${excluded} function-word occurrences cannot open cards.`);
+context.libraryCatalog = catalog;
+vm.runInContext('catalog = libraryCatalog', context);
+const lastStory = context.story;
+const lastSection = lastStory.sections.at(-1);
+context.requestedSection = lastSection.id;
+vm.runInContext('renderReader(story, requestedSection); renderLibrary()', context);
+function descendants(node) { return [node, ...node.children.flatMap(descendants)]; }
+const resumeLink = () => descendants(nodes.get('#main')).find(n => n.tag === 'a' && n.textContent.startsWith('Resume reading:'));
+assert.equal(resumeLink().href, `#story/${lastStory.id}/${lastSection.id}`);
+assert(resumeLink().textContent.includes(lastStory.titleEnglish));
+assert(nodes.get('#main').textContent.includes('Choose a story'));
+// A fresh page context reads the same persisted chapter.
+const revisit = vm.createContext({ document, console, localStorage, libraryCatalog: catalog });
+vm.runInContext(source.slice(0, source.indexOf('const closeButton =')), revisit);
+vm.runInContext('catalog = libraryCatalog; renderLibrary()', revisit);
+assert.equal(resumeLink().href, `#story/${lastStory.id}/${lastSection.id}`);
+for (const saved of [null, '{broken', JSON.stringify({ storyId: 'removed-story', sectionId: 'chapter' })]) {
+  storage.set('qiraah:last-reading', saved);
+  vm.runInContext('renderLibrary()', revisit);
+  assert.equal(resumeLink(), undefined);
+}
+localStorage.getItem = localStorage.setItem = () => { throw new Error('Storage disabled'); };
+vm.runInContext('renderReader(story, requestedSection); renderLibrary()', context);
+assert.equal(resumeLink(), undefined);
+console.log('PASS resume reading: persisted story/chapter, revisit, library access, stale data, and unavailable storage.');

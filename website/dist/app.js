@@ -8,6 +8,16 @@ const revealed = new Set();
 let catalog;
 let routeRequest = 0;
 let toastTimer;
+const readingStorageKey = 'qiraah:last-reading';
+
+function lastReading() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(readingStorageKey));
+    if (!saved || typeof saved.storyId !== 'string' || typeof saved.sectionId !== 'string') return null;
+    const story = catalog.stories.find(story => story.id === saved.storyId);
+    return story ? { story, sectionId: saved.sectionId } : null;
+  } catch { return null; } // Storage may be unavailable or contain invalid data.
+}
 
 const icons = {
   copy: '<rect x="8" y="8" width="12" height="13" rx="2"/><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"/>',
@@ -76,7 +86,16 @@ function renderLibrary() {
   }
   const tip = el('p', 'reading-tip');
   tip.append(icon('book'), document.createTextNode('Start with the lighter text. Each line has its own vowel and copy controls, so you can focus on just the sentence in front of you.'));
-  main.replaceChildren(eyebrow, heading, intro, label, grid, tip);
+  const resume = lastReading();
+  const resumeNodes = [];
+  if (resume) {
+    const banner = el('p', 'resume-reading');
+    const link = el('a', '', `Resume reading: ${resume.story.titleEnglish}`);
+    link.href = linkFor(resume.story.id, resume.sectionId);
+    banner.append(icon('book'), link);
+    resumeNodes.push(banner);
+  }
+  main.replaceChildren(eyebrow, heading, intro, ...resumeNodes, label, grid, tip);
 }
 
 function vocabularyCardEntry(token, story) {
@@ -290,6 +309,9 @@ function renderReader(story, requestedSection) {
   const footer = el('p', 'reader-footer', 'The lighter text keeps a few marks to clarify the reading. Full vowels include grammatical endings; you may drop the final short vowel when pausing.');
   column.append(mobile, tools, page, navigation, footer); layout.append(contents, column);
   main.replaceChildren(back, heading, layout);
+  try {
+    localStorage.setItem(readingStorageKey, JSON.stringify({ storyId: story.id, sectionId: section.id }));
+  } catch { /* Reading still works when browser storage is unavailable. */ }
 }
 
 function showError(message) {

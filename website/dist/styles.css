@@ -7,3 +7,4 @@
 .meaning-ur{font-size:1.8rem;line-height:2.2}.form-row dd{font-size:1.85rem}#word-heading{font-size:3rem}.root .arabic{font-size:1.65rem}.usage .meaning-ur,.part .urdu{font-size:1.35rem}.card-note.meaning-ur{font-size:1.3rem}
 
 a.word{text-decoration:none}.passage-heading .line-text{font-weight:700;color:var(--blue)}.passage-footnote .line-text{font-size:1.35rem;color:var(--muted)}
+.resume-reading{display:flex;align-items:center;gap:12px;padding:18px 22px;margin:0 0 30px;background:white;border:1px solid var(--border);border-radius:12px;color:var(--accent)}.resume-reading a{font-weight:600;text-underline-offset:3px}
