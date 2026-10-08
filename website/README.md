@@ -2,7 +2,7 @@
 
 A dependency-free static website that reads the prepared story JSON. The home screen lists every story in `dist/data/stories.json`. The reader provides chapter navigation, per-line harakat toggles, copying the displayed line, and keyboard-accessible word cards with English and Urdu meanings, noun/verb forms, roots, and attached-word notes.
 
-The complete story is loaded once and cached in browser memory. Vowel toggles and vocabulary cards require no subsequent requests. There is no database or backend. Quran reference links are optional external navigation. Fonts use local Arabic/Urdu system fonts, so the reader does not depend on a font service.
+The complete story is loaded once and cached in browser memory. Vowel toggles and vocabulary cards require no subsequent requests. There is no database or backend. Quran reference links are optional external navigation. Arabic text uses self-hosted Scheherazade New in regular and bold weights, with system font fallbacks. Urdu uses local system fonts. The reader does not depend on a font service. The bundled font license is in `dist/fonts/OFL.txt`.
 
 ## Local preview
 
